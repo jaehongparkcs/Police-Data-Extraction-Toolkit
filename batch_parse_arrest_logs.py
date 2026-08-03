@@ -73,7 +73,8 @@ BOILERPLATE_ANYWHERE = re.compile(
     r"PER\s+GOVT\s+CODE|"
     r"AND\s+MAY\s+NOT\s+BE\s+DUPLICATED|"
     r"REVEALED\s+TO\s+ANY\s+UNAUTHORIZED|"
-    r"PORTERVILLE\s+POLICE\s+DEPARTMENT",
+    r"PORTERVILLE\s+POLICE\s+DEPARTMENT|"
+    r"Time\s*/\s*Date\s+Offense\s+Area\s+Statute\s+Court\s+Crime\s+Class",
     re.IGNORECASE,
 )
 
@@ -82,6 +83,25 @@ BOILERPLATE_ANYWHERE = re.compile(
 # part of real data elsewhere.
 BOILERPLATE_DATE_ONLY = re.compile(
     r"^\s*(?:\d{2}-\d{2}-\d{4}|\d{2}/\d{2}/\d{2})\s*$"
+)
+
+# Report-summary footer (Porterville layout): "Total Arrests Reported: N",
+# the juvenile-naming "Note:", and the "Report Includes:" parameter dump
+# that follows it. This appears exactly once, at the very end of the
+# report -- so it's safe to cut everything from its start onward, rather
+# than matching line-by-line like the boilerplate above.
+#
+# This needs special handling because it isn't ordinary per-line
+# boilerplate: for the LAST arrest record in the file there's no next
+# "Arrest Time/Date:" to bound that record's block, so this footer text
+# otherwise gets swallowed whole into the final record's charges text.
+# Worse, the "Report Includes:" sentence itself contains two "time date"
+# pairs (the report's date-range filter, e.g. "00:00:00 01/01/25" ...
+# "23:59:59 02/28/25"), which split_charges_porterville mistakes for two
+# additional bogus charge rows on top of leaking the summary text into
+# the real charge's description.
+REPORT_FOOTER_RE = re.compile(
+    r"Total\s+Arrests\s+Reported\s*:.*", re.IGNORECASE | re.DOTALL
 )
 
 
@@ -95,6 +115,7 @@ def strip_boilerplate(text: str) -> str:
     requiring the *entire* line to be nothing but boilerplate text let
     those slip through and pollute the next charge description.
     """
+    text = REPORT_FOOTER_RE.sub("", text)
     lines = text.split("\n")
     return "\n".join(
         l for l in lines
@@ -373,6 +394,12 @@ def parse_charge_body(body: str, layout: str = "porterville"):
     class-letter patterns wherever they occur.
     """
     body = body.strip(" -\n")
+    body = re.sub(
+        r"Time\s*/\s*Date\s+Offense\s+Area\s+Statute\s+Court\s+Crime\s+Class",
+        " ",
+        body,
+        flags=re.IGNORECASE,
+    )
 
     # TORRANCE column order is:
     #   Time/Date | Offense | Location | Statute | Court | CC
