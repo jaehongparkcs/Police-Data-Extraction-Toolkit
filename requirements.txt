@@ -1,0 +1,3 @@
+# Core dependencies for PDF extraction and data manipulation
+pdfplumber>=0.10.0
+pandas>=2.0.0
