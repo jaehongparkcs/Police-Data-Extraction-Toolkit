@@ -1,0 +1,53 @@
+Dispatch Call ID Number,Dispatch Code,Call Description,Priority Level of Call,Call Disposition,Crime Incident Report Written,Crime Incident ID,Address Street,Address City,Address Zip,Geographic Coordinates,Police Division,Police Beat,Time of Call,Time of Dispatch,Time of Arrival,Date of Call,Source PDF File,Source Page
+,,DISTURBANCE,,Report,Yes,,50 BRIARWOOD LN Apt. #10,Marlborough,,,Marlborough PD,,07:21,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,911 Hangup/Call,,Unfounded,No,,298 LINCOLN ST,Marlborough,,,Marlborough PD,,08:07,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,B&E into M/V,,Report,Yes,,14 EAGER CT,Marlborough,,,Marlborough PD,,08:44,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,444 HOSMER ST,Marlborough,,,Marlborough PD,,08:44,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,B&E into M/V,,Report,Yes,,4 GATELY DR,Marlborough,,,Marlborough PD,,09:26,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,"ALARM, BURGLAR",,"False Alarm, Accidental",No,,199 MAIN ST,Marlborough,,,Marlborough PD,,09:29,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,Fraud / Forgery,,Report,Yes,,5 GATELY DR,Marlborough,,,Marlborough PD,,10:16,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,B&E into M/V,,Report,Yes,,174 ANDERSON RD,Marlborough,,,Marlborough PD,,10:46,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,Police Assist,,Services Rendered- PD,No,,141B BROADMEADOW RD Apt. #12,Marlborough,,,Marlborough PD,,11:10,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,Ambulance Assist,,Services Rendered- PD,No,,81 COOK LN,Marlborough,,,Marlborough PD,,11:25,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,22 MECHANIC ST,Marlborough,,,Marlborough PD,,11:25,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,Eratic Operator,,Unfounded,No,,BOSTON POST ROAD WEST @ FARM RD,Marlborough,,,Marlborough PD,,11:33,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,Parking Violation,,Services Rendered- PD,No,,29 WARREN AVE,Marlborough,,,Marlborough PD,,11:42,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,74 MAIN ST,Marlborough,,,Marlborough PD,,11:56,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,Police Assist,,Report,Yes,,[MAR 8284] 413 LAKESIDE AVE,Marlborough,,,Marlborough PD,,12:03,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,Police Assist,,Unfounded,No,,133 WEST MAIN ST,Marlborough,,,Marlborough PD,,13:06,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,Suspicious M/V,,Services Rendered- PD,No,,135 WILSON ST,Marlborough,,,Marlborough PD,,13:31,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,Ambulance Assist,,Services Rendered- PD,No,,240 MAIN ST Apt. #420,Marlborough,,,Marlborough PD,,13:50,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,Parking Violation,,Unfounded,No,,59 GIBBONS ST,Marlborough,,,Marlborough PD,,14:01,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,1
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,400 HEMENWAY ST,Marlborough,,,Marlborough PD,,14:20,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,Fraud / Forgery,,Report,Yes,,75 HOWE ST,Marlborough,,,Marlborough PD,,14:22,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,Private Tow,,Services Rendered- PD,No,,273 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,14:28,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,38 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,14:36,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,215 FITCHBURG ST,Marlborough,,,Marlborough PD,,14:57,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,Police Assist,,Report,Yes,,276 MAIN ST Apt. #3,Marlborough,,,Marlborough PD,,14:59,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,ASSIST OTHER AGENCY,,Services Rendered- PD,No,,157 UNION ST,Marlborough,,,Marlborough PD,,15:12,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,444 HOSMER ST,Marlborough,,,Marlborough PD,,15:25,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,LARCENY,,Report,Yes,,400 BOLTON ST Apt. #217A,Marlborough,,,Marlborough PD,,15:44,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,Ambulance Assist,,Report,Yes,,276 MAIN ST Apt. #8,Marlborough,,,Marlborough PD,,16:19,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,Well being check,,No Action Required,No,,17 SPENSER CIR,Marlborough,,,Marlborough PD,,16:47,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,90 APEX DR Apt. #D,Marlborough,,,Marlborough PD,,17:01,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,FOUND/LOST PROPERTY,,Services Rendered- PD,No,,447 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,17:06,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,8 NEWTON ST,Marlborough,,,Marlborough PD,,17:10,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,B&E into M/V,,Report,Yes,,93 CRESTWOOD LN,Marlborough,,,Marlborough PD,,17:32,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,FOUND/LOST PROPERTY,,Report,Yes,,141A BROADMEADOW RD Apt. #2,Marlborough,,,Marlborough PD,,18:00,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,73 WAGON HILL RD,Marlborough,,,Marlborough PD,,18:06,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,ESCORT/TRANSPORT,,Services Rendered- PD,No,,157 UNION ST,Marlborough,,,Marlborough PD,,19:10,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,412 SOUTH ST,Marlborough,,,Marlborough PD,,19:23,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,B&E into M/V,,Services Rendered- PD,No,,44 LODI RD,Marlborough,,,Marlborough PD,,19:29,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,10 JOSEPH NORTH RD,Marlborough,,,Marlborough PD,,20:01,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,3
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,PARMENTER ST,Marlborough,,,Marlborough PD,,20:28,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,3
+,,COMPLAINT,,Services Rendered- PD,No,,80 HIGHLAND ST,Marlborough,,,Marlborough PD,,21:02,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,3
+,,Well being check,,Services Rendered- PD,No,,32 MECHANIC ST @ 17 WITHERBEE ST,Marlborough,,,Marlborough PD,,21:21,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,3
+,,Well being check,,Services Rendered- PD,No,,44 PARK ST Apt. #401,Marlborough,,,Marlborough PD,,21:26,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,3
+,,Well being check,,Services Rendered- PD,No,,8 FARMHOUSE LN Apt. #4,Marlborough,,,Marlborough PD,,21:38,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,3
+,,DISTURBANCE,,Services Rendered- PD,No,,165B BROADMEADOW RD Apt. #10,Marlborough,,,Marlborough PD,,21:46,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,3
+,,SUSPICIOUS ACTIVITY,,Services Rendered- PD,No,,20 NEWTON ST,Marlborough,,,Marlborough PD,,22:14,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,3
+,,Well being check,,Services Rendered- PD,No,,FAMILY RESIDENTIAL - 48 VALLEY ST,Marlborough,,,Marlborough PD,,22:30,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,3
+,,COMPLAINT,,No Action Required,No,,89 KELLEHER ST,Marlborough,,,Marlborough PD,,23:07,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,3
+,,SUSPICIOUS ACTIVITY,,Services Rendered- PD,No,,300 NICKERSON RD,Marlborough,,,Marlborough PD,,23:51,,,03/25/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,3
+,,DISTURBANCE,,Report,Yes,,71 CHRISTIE WAY Apt. #41G,Marlborough,,,Marlborough PD,,00:39,,,03/26/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,3
+,,DISABLED MV,,Services Rendered- PD,No,,269 EAST MAIN ST Apt. #A,Marlborough,,,Marlborough PD,,04:05,,,03/26/2024,Call_Log_March_25_2024_to_March_26_2024.pdf,3

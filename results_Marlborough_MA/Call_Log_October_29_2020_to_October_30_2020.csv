@@ -1,0 +1,61 @@
+Dispatch Call ID Number,Dispatch Code,Call Description,Priority Level of Call,Call Disposition,Crime Incident Report Written,Crime Incident ID,Address Street,Address City,Address Zip,Geographic Coordinates,Police Division,Police Beat,Time of Call,Time of Dispatch,Time of Arrival,Date of Call,Source PDF File,Source Page
+,,Police Assist,,Services Rendered- PD,No,,114 EAST MAIN ST,Marlborough,,,Marlborough PD,,07:21,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,Ambulance Assist,,Services Rendered- PD,No,,400 HEMENWAY ST Apt. #220,Marlborough,,,Marlborough PD,,08:15,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,Medical,,Transported to Hospital,No,,400 HEMENWAY ST Apt. #220,Marlborough,,,Marlborough PD,,08:15,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,Medical,,Transported to Hospital,No,,41 RED SPRING RD,Marlborough,,,Marlborough PD,,08:46,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,Ambulance Assist,,Services Rendered- PD,No,,41 RED SPRING RD,Marlborough,,,Marlborough PD,,08:47,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,ASSIST OTHER AGENCY,,Services,No,,135 NEIL ST,Marlborough,,,Marlborough PD,,08:54,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,Ambulance Assist,,Report,Yes,,135 MAPLE ST,Marlborough,,,Marlborough PD,,09:12,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,Medical,,Transported to Hospital,No,,135 MAPLE ST,Marlborough,,,Marlborough PD,,09:13,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,Trespassing,,Services Rendered- PD,No,,205 EAST MAIN ST,Marlborough,,,Marlborough PD,,09:18,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,Well being check,,Services Rendered- PD,No,,52 SANDINI RD,Marlborough,,,Marlborough PD,,09:34,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,SUSPICIOUS ACTIVITY,,Report,Yes,,153 MAIN ST Apt. #1,Marlborough,,,Marlborough PD,,09:55,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,Fraud / Forgery,,Report,Yes,,219 PHELPS ST,Marlborough,,,Marlborough PD,,10:01,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,Ambulance Assist,,Services Rendered- PD,No,,105 LINCOLN ST,Marlborough,,,Marlborough PD,,10:15,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,Medical,,Transported to Hospital,No,,105 LINCOLN ST,Marlborough,,,Marlborough PD,,10:15,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,ASSIST OTHER AGENCY,,Services,No,,23 BELMONT ST Apt. #1,Marlborough,,,Marlborough PD,,10:20,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,ESCORT/TRANSPORT,,Services Rendered- PD,No,,45 WILLIAMS ST,Marlborough,,,Marlborough PD,,10:28,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,Fraud / Forgery,,Report,Yes,,408 STEARNS RD,Marlborough,,,Marlborough PD,,10:59,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,1
+,,Medical,,Services Rendered- FD,No,,3 HEATHERWOOD DR,Marlborough,,,Marlborough PD,,13:41,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,ASSIST OTHER AGENCY,,Services,No,,103 HOWE ST,Marlborough,,,Marlborough PD,,13:56,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,"Fire, Structure",,Services Rendered- FD,No,,103 HOWE ST,Marlborough,,,Marlborough PD,,13:56,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,Fraud / Forgery,,Report,Yes,,140 MAIN ST,Marlborough,,,Marlborough PD,,14:33,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,Fraud / Forgery,,Report,Yes,,58 CONCORD RD,Marlborough,,,Marlborough PD,,15:02,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,VANDALISM,,Report,Yes,,47 WORSTER DR,Marlborough,,,Marlborough PD,,16:10,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,ASSAULT,,Report,Yes,,33 DICKENSON WAY,Marlborough,,,Marlborough PD,,16:34,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,MVA PROPERTY DAMAGE ONLY,,Services,No,,493 BOSTON POST ROAD WEST @ 25 BOUNDARY ST,Marlborough,,,Marlborough PD,,17:07,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,56 FRYE ST,Marlborough,,,Marlborough PD,,17:30,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,ASSIST CITIZEN,,Report,Yes,,126 WINTER ST,Marlborough,,,Marlborough PD,,17:36,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,LARCENY,,Report,Yes,,509 LINCOLN ST,Marlborough,,,Marlborough PD,,18:29,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,Medical,,Medical Assistance Rendered,No,,50 HIGHGATE RD,Marlborough,,,Marlborough PD,,18:31,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,50 HIGHGATE RD,Marlborough,,,Marlborough PD,,18:33,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,Fraud / Forgery,,Report,Yes,,124 PLEASANT ST,Marlborough,,,Marlborough PD,,18:59,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,LARCENY,,Report,Yes,,17 CROSS ST Apt. #6,Marlborough,,,Marlborough PD,,19:23,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,DISABLED MV,,Services Rendered- PD,No,,215 MAPLE ST,Marlborough,,,Marlborough PD,,20:47,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,72 PRENDEVILLE WAY,Marlborough,,,Marlborough PD,,22:04,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,2
+,,Medical,,Medical Assistance Rendered,No,,72 PRENDEVILLE WAY,Marlborough,,,Marlborough PD,,22:04,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,"ALARM, BURGLAR",,"False Alarm, Accidental",No,,FIL-A - 36 APEX DR,Marlborough,,,Marlborough PD,,22:12,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,417 SOUTH ST Apt. #6,Marlborough,,,Marlborough PD,,22:50,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,197 BOSTON POST ROAD WEST Apt. #K1,Marlborough,,,Marlborough PD,,23:17,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,Well being check,,Report,Yes,,512 SUDBURY ST,Marlborough,,,Marlborough PD,,23:47,,,10/29/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,Ambulance Only,,Services Rendered- FD,No,,512 SUDBURY ST,Marlborough,,,Marlborough PD,,00:04,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,Ambulance Assist,,Services Rendered- PD,No,,509 LINCOLN ST Apt. #10,Marlborough,,,Marlborough PD,,00:12,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,Medical,,Services Rendered- FD,No,,509 LINCOLN ST Apt. #10,Marlborough,,,Marlborough PD,,00:13,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,417 SOUTH ST Apt. #6,Marlborough,,,Marlborough PD,,00:39,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,Ambulance Assist,,Services Rendered- PD,No,,99 PLEASANT ST Apt. #142,Marlborough,,,Marlborough PD,,01:01,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,Medical,,Services Rendered- FD,No,,99 PLEASANT ST Apt. #102,Marlborough,,,Marlborough PD,,01:02,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,"ALARM, BURGLAR",,Services Rendered- PD,No,,928 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,01:13,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,SUSPICIOUS ACTIVITY,,Report,Yes,,93 BROADMEADOW RD Apt. #2,Marlborough,,,Marlborough PD,,01:32,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,Ambulance Assist,,Services Rendered- PD,No,,240 MAIN ST Apt. #420,Marlborough,,,Marlborough PD,,01:54,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,Medical,,Services Rendered- FD,No,,240 MAIN ST Apt. #420,Marlborough,,,Marlborough PD,,01:55,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,601 DONALD J. LYNCH BLVD Apt. #S258,Marlborough,,,Marlborough PD,,02:25,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,911 Hangup/Call,,Services Rendered- PD,No,,6 BROWN ST,Marlborough,,,Marlborough PD,,02:38,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,3
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,138 BARTLETT ST,Marlborough,,,Marlborough PD,,02:44,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,4
+,,MOTOR VEHICLE STOP,,Arrest(s) Made,Yes,20-386-AR,200 BEACH ST @ 169 SOUTH ST,Marlborough,,,Marlborough PD,,05:17,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,4
+,,Ambulance Assist,,Services Rendered- PD,No,,116 CHESTNUT ST,Marlborough,,,Marlborough PD,,06:07,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,4
+,,Medical,,Services Rendered- FD,No,,116 CHURCH ST,Marlborough,,,Marlborough PD,,06:08,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,4
+,,MVA PROPERTY DAMAGE ONLY,,Services,No,,199 LAKESIDE AVE,Marlborough,,,Marlborough PD,,06:19,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,4
+,,Ambulance Assist,,Services Rendered- PD,No,,209A HILDRETH ST,Marlborough,,,Marlborough PD,,06:43,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,4
+,,Medical,,Services Rendered- FD,No,,209 HILDRETH ST,Marlborough,,,Marlborough PD,,06:44,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,4
+,,"ALARM, BURGLAR",,"False Alarm, Accidental",No,,197 BOSTON POST ROAD WEST Apt. #K1,Marlborough,,,Marlborough PD,,06:49,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,4
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,255 MAIN ST,Marlborough,,,Marlborough PD,,06:57,,,10/30/2020,Call_Log_October_29_2020_to_October_30_2020.pdf,4

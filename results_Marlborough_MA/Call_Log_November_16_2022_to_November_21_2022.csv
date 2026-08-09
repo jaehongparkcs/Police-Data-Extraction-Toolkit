@@ -1,0 +1,755 @@
+Dispatch Call ID Number,Dispatch Code,Call Description,Priority Level of Call,Call Disposition,Crime Incident Report Written,Crime Incident ID,Address Street,Address City,Address Zip,Geographic Coordinates,Police Division,Police Beat,Time of Call,Time of Dispatch,Time of Arrival,Date of Call,Source PDF File,Source Page
+,,Directed Patrol,,Report,Yes,,520 FARM RD,Marlborough,,,Marlborough PD,,07:00,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,Medical,,Transported to Hospital,No,,27 SONIA DR,Marlborough,,,Marlborough PD,,07:59,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,Ambulance Assist,,Services Rendered- PD,No,,27 SONIA DR,Marlborough,,,Marlborough PD,,08:00,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,Medical,,Transported to Hospital,No,,421 BOLTON ST Apt. #120A,Marlborough,,,Marlborough PD,,08:07,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,DISABLED MV,,Services Rendered- PD,No,,431 BOLTON ST,Marlborough,,,Marlborough PD,,08:10,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,444 HOSMER ST,Marlborough,,,Marlborough PD,,08:47,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,"ALARM, HOLD-UP",,Building Checked/Secured,No,,601 DONALD J. LYNCH BLVD Apt. #S258,Marlborough,,,Marlborough PD,,08:48,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,Ambulance Only,,Transported to Hospital,No,,349 BIGELOW ST,Marlborough,,,Marlborough PD,,09:39,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,"ALARM, HOLD-UP",,Building Checked/Secured,No,,38 O'MALLEY RD,Marlborough,,,Marlborough PD,,10:04,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,Police Assist,,Services Rendered- PD,No,,94 KOSMAS ST,Marlborough,,,Marlborough PD,,10:11,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,Medical,,Services Rendered- FD,No,,6 FARMHOUSE LN Apt. #3,Marlborough,,,Marlborough PD,,10:13,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,Directed Patrol,,Report,Yes,,STOW RD,Marlborough,,,Marlborough PD,,10:50,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,Medical,,Transported to Hospital,No,,45 LAKESIDE AVE Apt. #29,Marlborough,,,Marlborough PD,,10:53,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,Ambulance Only,,Transported to Hospital,No,,57 ORCHARD ST,Marlborough,,,Marlborough PD,,11:09,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,399 MILLHAM ST,Marlborough,,,Marlborough PD,,11:32,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,Well being check,,Services Rendered- PD,No,,91 MAIN ST @ 1 BOLTON ST,Marlborough,,,Marlborough PD,,12:52,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,Medical,,Transported to Hospital,No,,400 HEMENWAY ST,Marlborough,,,Marlborough PD,,13:08,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,1
+,,LARCENY,,Report,Yes,,601 DONALD J. LYNCH BLVD Apt. #N117A,Marlborough,,,Marlborough PD,,13:14,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,Private Tow,,Private tow,No,,7209 TIMBERVIEW WAY,Marlborough,,,Marlborough PD,,13:44,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,Well being check,,Services Rendered- PD,No,,16 REDBUD WAY Apt. #4,Marlborough,,,Marlborough PD,,14:52,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,VANDALISM,,Report,Yes,,215 FITCHBURG ST,Marlborough,,,Marlborough PD,,14:59,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,199 FOREST ST,Marlborough,,,Marlborough PD,,15:04,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,444 HOSMER ST,Marlborough,,,Marlborough PD,,15:14,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,Medical,,Services Rendered- FD,No,,55A PLEASANT ST Apt. #1,Marlborough,,,Marlborough PD,,15:24,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,55A PLEASANT ST Apt. #1,Marlborough,,,Marlborough PD,,15:25,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,SERVE SUMMONS,,Services Rendered- PD,No,,133 EAST MAIN ST,Marlborough,,,Marlborough PD,,15:56,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,Fraud / Forgery,,Report,Yes,,359 BRIGHAM ST,Marlborough,,,Marlborough PD,,16:20,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,5302 TIMBERVIEW WAY,Marlborough,,,Marlborough PD,,16:23,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,Medical,,Services Rendered- FD,No,,5302 TIMBERVIEW WAY,Marlborough,,,Marlborough PD,,16:23,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,68 ELM ST Apt. #C,Marlborough,,,Marlborough PD,,16:25,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,Medical,,Services Rendered- FD,No,,68 ELM ST Apt. #C,Marlborough,,,Marlborough PD,,16:26,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,145 AMES ST,Marlborough,,,Marlborough PD,,16:38,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,Medical,,Services Rendered- FD,No,,145 AMES ST Apt. #2406,Marlborough,,,Marlborough PD,,16:38,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,21 WESTMINSTER DR,Marlborough,,,Marlborough PD,,17:21,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,Medical,,Services Rendered- FD,No,,21 WESTMINSTER DR,Marlborough,,,Marlborough PD,,17:21,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,Well being check,,Services Rendered- PD,No,,17 EAST MAIN ST,Marlborough,,,Marlborough PD,,17:26,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,2
+,,Medical,,Services Rendered- FD,No,,17 EAST MAIN ST,Marlborough,,,Marlborough PD,,17:32,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,AUTO THEFT,,No Action Required,No,,139B BROADMEADOW RD,Marlborough,,,Marlborough PD,,17:47,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,"BURGLARY, B & E PAST",,Report,Yes,,175 AMES ST Apt. #4005,Marlborough,,,Marlborough PD,,18:14,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,338 BOLTON ST,Marlborough,,,Marlborough PD,,18:18,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,Motor vehicle accident I,,Services Rendered- FD,No,,355 BOLTON ST,Marlborough,,,Marlborough PD,,18:18,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,Well being check,,Report,Yes,,27 BRIARWOOD LN Apt. #8,Marlborough,,,Marlborough PD,,18:27,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,DPW Called Out,,Services Rendered- PD,No,,46 CRESCENT ST,Marlborough,,,Marlborough PD,,18:53,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,77 HUDSON ST @ 81 FREMONT ST,Marlborough,,,Marlborough PD,,19:10,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,Ambulance Only,,Services Rendered- FD,No,,27 BRIARWOOD LN Apt. #8,Marlborough,,,Marlborough PD,,19:29,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,DISTURBANCE,,Unfounded,No,,701 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,21:12,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,DISTURBANCE,,Services Rendered- PD,No,,121 NORTHBORO ROAD EAST,Marlborough,,,Marlborough PD,,21:14,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,Well being check,,Services Rendered- PD,No,,21 FAY CT,Marlborough,,,Marlborough PD,,21:24,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,Medical,,Services Rendered- FD,No,,121 NORTHBORO ROAD EAST Apt. #127A,Marlborough,,,Marlborough PD,,21:28,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,MISSING PERSON,,Report,Yes,,30 MUSTANG AVE,Marlborough,,,Marlborough PD,,21:37,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,Suspicious M/V,,Unfounded,No,,49 WARREN AVE,Marlborough,,,Marlborough PD,,23:12,,,11/10/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,ESCORT/TRANSPORT,,Services Rendered- PD,No,,355 BOLTON ST,Marlborough,,,Marlborough PD,,00:39,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,Medical,,Transported to Hospital,No,,139 BROADMEADOW RD Apt. #A12,Marlborough,,,Marlborough PD,,01:35,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,Ambulance Assist,,Services Rendered- PD,No,,139A BROADMEADOW RD Apt. #12,Marlborough,,,Marlborough PD,,01:36,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,BUILDING CHECK,,Services Rendered- PD,No,,WEED ST,Marlborough,,,Marlborough PD,,01:55,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,3
+,,BUILDING CHECK,,No Action Required,No,,70 NEWTON ST,Marlborough,,,Marlborough PD,,01:57,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,SUSPICIOUS ACTIVITY,,Services Rendered- PD,No,,40 NEW ST,Marlborough,,,Marlborough PD,,02:24,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,Medical,,Services Rendered- PD,No,,121 NORTHBORO ROAD EAST Apt. #130,Marlborough,,,Marlborough PD,,03:00,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,Medical,,Transported to Hospital,No,,277 WILSON ST,Marlborough,,,Marlborough PD,,03:25,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,Ambulance Assist,,Services Rendered- PD,No,,277 WILSON ST,Marlborough,,,Marlborough PD,,03:27,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,Medical,,Transported to Hospital,No,,121 NORTHBORO ROAD EAST Apt. #127,Marlborough,,,Marlborough PD,,06:33,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,Directed Patrol,,Report,Yes,,84 BERLIN RD @ 17 DALTON RD,Marlborough,,,Marlborough PD,,06:57,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,Private Tow,,Services Rendered- PD,No,,37 HOSMER ST,Marlborough,,,Marlborough PD,,07:11,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,773 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,08:00,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,630 FOREST ST,Marlborough,,,Marlborough PD,,08:02,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,MOTOR VEHICLE STOP,,Report,Yes,,161 BOLTON ST,Marlborough,,,Marlborough PD,,08:24,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,Medical,,Transported to Hospital,No,,121 NORTHBORO ROAD EAST Apt. #218B,Marlborough,,,Marlborough PD,,08:31,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,Ambulance Assist,,Services Rendered- PD,No,,121 NORTHBORO ROAD EAST Apt. #218,Marlborough,,,Marlborough PD,,08:32,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,SUSPICIOUS ACTIVITY,,Unfounded,No,,377 SIMARANO DR,Marlborough,,,Marlborough PD,,08:36,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,Well being check,,Unfounded,No,,740 FARM RD,Marlborough,,,Marlborough PD,,08:51,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,DPW Called Out,,Services Rendered- PD,No,,255 MAIN ST,Marlborough,,,Marlborough PD,,09:03,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,Police Assist,,Services Rendered- PD,No,,120 CHURCH ST,Marlborough,,,Marlborough PD,,09:32,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,VANDALISM,,Report,Yes,,215 PROSPECT ST,Marlborough,,,Marlborough PD,,09:34,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,Medical,,Transported to Hospital,No,,121 NORTHBORO ROAD EAST Apt. #205A,Marlborough,,,Marlborough PD,,09:41,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,4
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,28 LORD RD Apt. #130,Marlborough,,,Marlborough PD,,09:48,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,911 Hangup/Call,,Services Rendered- PD,No,,157 APEX DR,Marlborough,,,Marlborough PD,,10:11,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,Medical,,Services Rendered- FD,No,,255 MAIN ST @ 11 PROSPECT ST,Marlborough,,,Marlborough PD,,10:54,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,FOUND/LOST PROPERTY,,Services Rendered- PD,No,,48 WESTERN VIEW DR,Marlborough,,,Marlborough PD,,11:17,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,DISABLED MV,,Unfounded,No,,451 BOLTON ST,Marlborough,,,Marlborough PD,,11:23,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,771 DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,11:39,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,720 STEVENS ST,Marlborough,,,Marlborough PD,,11:53,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,Well being check,,Report,Yes,,48 BRIARWOOD LN Apt. #7,Marlborough,,,Marlborough PD,,12:31,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,Medical,,Transported to Hospital,No,,400 BOLTON ST Apt. #106,Marlborough,,,Marlborough PD,,12:52,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,Medical,,Transported to Hospital,No,,605 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,13:02,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,Ambulance Assist,,Services Rendered- PD,No,,605 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,13:03,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,Medical,,Transported to Hospital,No,,400 HEMENWAY ST Apt. #6228,Marlborough,,,Marlborough PD,,13:12,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,Police Assist,,Arrest(s) Made,Yes,,479 LINCOLN ST Apt. #6,Marlborough,,,Marlborough PD,,14:20,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,176 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,14:28,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,Trespassing,,Report,Yes,,100 VICTORIA LN,Marlborough,,,Marlborough PD,,14:32,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,Medical,,Services Rendered- FD,No,,100 PHELPS ST Apt. #30,Marlborough,,,Marlborough PD,,14:38,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,Medical,,Transported to Hospital,No,,413 LAKESIDE AVE,Marlborough,,,Marlborough PD,,14:44,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,Ambulance Assist,,Arrest(s) Made,Yes,22-384-AR,413 LAKESIDE AVE,Marlborough,,,Marlborough PD,,14:45,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,5
+,,Medical,,Services Rendered- FD,No,,421 BOLTON ST Apt. #105,Marlborough,,,Marlborough PD,,15:37,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,AUTO THEFT,,No Action Required,No,,A- CAR - 364 MAPLE ST,Marlborough,,,Marlborough PD,,16:24,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,222 EAST MAIN ST Apt. #A,Marlborough,,,Marlborough PD,,16:28,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,Motor vehicle accident I,,Services Rendered- FD,No,,500 WILLIAMS ST,Marlborough,,,Marlborough PD,,17:17,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,500 WILLIAMS ST,Marlborough,,,Marlborough PD,,17:17,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,Medical,,Services Rendered- FD,No,,21 APEX DR,Marlborough,,,Marlborough PD,,17:19,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,Ambulance Assist,,Services Rendered- PD,No,,21 APEX DR,Marlborough,,,Marlborough PD,,17:20,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,DPW Called Out,,Services Rendered- PD,No,,500 WILLIAMS ST,Marlborough,,,Marlborough PD,,17:34,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,Medical,,Services Rendered- FD,No,,91 CULLINANE DR,Marlborough,,,Marlborough PD,,17:49,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,182 CHESTNUT ST,Marlborough,,,Marlborough PD,,18:27,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,Medical,,Services Rendered- FD,No,,512 SUDBURY ST,Marlborough,,,Marlborough PD,,18:53,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,Ambulance Assist,,Services Rendered- PD,No,,512 SUDBURY ST,Marlborough,,,Marlborough PD,,18:54,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,Medical,,Services Rendered- FD,No,,601 DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,19:19,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,DPW Called Out,,Services Rendered- PD,No,,32 WEST MAIN ST @ 286 MAIN ST,Marlborough,,,Marlborough PD,,19:21,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,410 LAKESIDE AVE,Marlborough,,,Marlborough PD,,19:34,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,Medical,,Services Rendered- FD,No,,87 LINCOLN ST Apt. #2,Marlborough,,,Marlborough PD,,20:20,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,DPW Called Out,,Services Rendered- PD,No,,500 WILLIAMS ST,Marlborough,,,Marlborough PD,,20:25,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,Medical,,Services Rendered- FD,No,,849 BOSTON POST ROAD EAST Apt. #6I,Marlborough,,,Marlborough PD,,20:38,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,6
+,,Ambulance Assist,,Services Rendered- PD,No,,849 BOSTON POST ROAD EAST Apt. #6      I,Marlborough,,,Marlborough PD,,20:43,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,Medical,,Services Rendered- FD,No,,421 BOLTON ST Apt. #130B,Marlborough,,,Marlborough PD,,20:57,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,Medical,,Services Rendered- FD,No,,99 PLEASANT ST Apt. #318,Marlborough,,,Marlborough PD,,21:20,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,SUSPICIOUS ACTIVITY,,Report,Yes,,175 MAPLE ST @ 48 VALLEY ST,Marlborough,,,Marlborough PD,,23:18,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,SUSPICIOUS ACTIVITY,,Building Checked/Secured,No,,48 MOUNT PLEASANT ST,Marlborough,,,Marlborough PD,,23:49,,,11/11/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,Medical,,Services Rendered- FD,No,,29 WOODCOCK LN,Marlborough,,,Marlborough PD,,00:06,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,Ambulance Assist,,Services Rendered- PD,No,,29 WOODCOCK LN,Marlborough,,,Marlborough PD,,00:06,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,Suspicious M/V,,Services Rendered- PD,No,,277 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,00:19,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,SUSPICIOUS ACTIVITY,,Services Rendered- PD,No,,74 SAWIN ST @ 1 GATES AVE,Marlborough,,,Marlborough PD,,00:56,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,Suspicious M/V,,Services Rendered- PD,No,,CHANDLER ST,Marlborough,,,Marlborough PD,,01:09,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,911 Hangup/Call,,Unfounded,No,,175 MAPLE ST,Marlborough,,,Marlborough PD,,02:20,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,Medical,,Transported to Hospital,No,,25 WESTMINSTER DR,Marlborough,,,Marlborough PD,,03:02,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,Medical,,Transported to Hospital,No,,262 ELM ST,Marlborough,,,Marlborough PD,,05:03,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,Courtesy Booking,,Arrest(s) Made,Yes,,178 EAST MAIN ST Apt. #1A,Marlborough,,,Marlborough PD,,06:53,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,"ALARM, BURGLAR",,No Action Required,No,,350 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,06:56,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,Medical,,Medical Assistance Rendered,No,,46 BRIARWOOD LN Apt. #7,Marlborough,,,Marlborough PD,,07:55,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,90 MAPLE ST,Marlborough,,,Marlborough PD,,08:10,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,Medical,,Medical Assistance Rendered,No,,29 BRIARWOOD LN Apt. #6,Marlborough,,,Marlborough PD,,09:01,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,7
+,,Ambulance Assist,,Services Rendered- PD,No,,29 BRIARWOOD LN Apt. #6,Marlborough,,,Marlborough PD,,09:02,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,Medical,,Medical Assistance Rendered,No,,121 NORTHBORO ROAD EAST,Marlborough,,,Marlborough PD,,09:19,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,Medical,,Medical Assistance Rendered,No,,121 NORTHBORO ROAD EAST Apt. #217,Marlborough,,,Marlborough PD,,09:35,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,Ambulance Assist,,Services Rendered- PD,No,,121 NORTHBORO ROAD EAST,Marlborough,,,Marlborough PD,,09:45,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,Ambulance Only,,Transported to Hospital,No,,121 NORTHBORO ROAD EAST,Marlborough,,,Marlborough PD,,09:57,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,Medical,,Medical Assistance Rendered,No,,276 MAIN ST,Marlborough,,,Marlborough PD,,10:02,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,Ambulance Assist,,Report,Yes,,276 MAIN ST,Marlborough,,,Marlborough PD,,10:04,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,159 WEST MAIN ST,Marlborough,,,Marlborough PD,,10:42,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,Ambulance Only,,Transported to Hospital,No,,28 MILL STREET CENTRAL,Marlborough,,,Marlborough PD,,10:50,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,MVA WITH INJURIES,,Report,Yes,,329 STEVENS ST,Marlborough,,,Marlborough PD,,12:08,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,Motor Vehicle Accident I I,,Medical Assistance Rendered,No,,329 STEVENS ST,Marlborough,,,Marlborough PD,,12:09,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,Medical,,Medical Assistance Rendered,No,,400 HEMENWAY ST,Marlborough,,,Marlborough PD,,12:25,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,Well being check,,Services Rendered- PD,No,,306 BERLIN RD,Marlborough,,,Marlborough PD,,12:27,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,Medical,,Medical Assistance Rendered,No,,195 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,12:35,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,DPW Called Out,,Services Rendered- PD,No,,24 BARNARD RD,Marlborough,,,Marlborough PD,,12:36,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,LARCENY,,Report,Yes,,578 BIGELOW ST,Marlborough,,,Marlborough PD,,12:41,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,Well being check,,Unfounded,No,,5 LINCOLN ST @ 6 STEVENS ST,Marlborough,,,Marlborough PD,,12:54,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,Medical,,Medical Assistance Rendered,No,,121 NORTHBORO ROAD EAST Apt. #126,Marlborough,,,Marlborough PD,,13:24,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,LARCENY,,Report,Yes,,611 STEVENS ST,Marlborough,,,Marlborough PD,,13:47,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,8
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,753 FOREST ST Apt. #100,Marlborough,,,Marlborough PD,,13:48,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,Well being check,,Report,Yes,,85 MAPLE ST Apt. #2,Marlborough,,,Marlborough PD,,14:08,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,DISTURBANCE,,Report,Yes,,769 STEVENS ST,Marlborough,,,Marlborough PD,,14:21,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,Medical,,Medical Assistance Rendered,No,,33 BRIARWOOD LN Apt. #4,Marlborough,,,Marlborough PD,,14:45,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,Ambulance Only,,Medical Assistance Rendered,No,,[HUD] 17 SAINT JAMES CIR,Marlborough,,,Marlborough PD,,14:54,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,133 SOUTH BOLTON ST,Marlborough,,,Marlborough PD,,15:05,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,Threats,,Report,Yes,,38 MAPLE ST,Marlborough,,,Marlborough PD,,15:10,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,Medical,,Medical Assistance Rendered,No,,451 LINCOLN ST Apt. #2,Marlborough,,,Marlborough PD,,15:16,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,Ambulance Assist,,Report,Yes,,451 LINCOLN ST,Marlborough,,,Marlborough PD,,15:18,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,Medical,,Medical Assistance Rendered,No,,8 WESTMINSTER DR,Marlborough,,,Marlborough PD,,15:35,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,MVA PROPERTY DAMAGE ONLY,,Unfounded,No,,13 LAKESIDE AVE @ 26 WILLIAMS ST,Marlborough,,,Marlborough PD,,15:36,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,MVA PROPERTY DAMAGE ONLY,,CRIMINAL COMPLAINT,Yes,,250 MAPLE ST,Marlborough,,,Marlborough PD,,15:39,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,DISTURBANCE,,Report,Yes,,155 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,15:51,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,SUSPICIOUS ACTIVITY,,Services Rendered- PD,No,,487 LINCOLN ST,Marlborough,,,Marlborough PD,,16:18,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,DISTURBANCE,,Report,Yes,,276 MAIN ST Apt. #40,Marlborough,,,Marlborough PD,,16:26,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,DISTURBANCE,,Services Rendered- PD,No,,41 MUSTANG AVE,Marlborough,,,Marlborough PD,,16:43,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,DISTURBANCE,,Services Rendered- PD,No,,FAMILY RESIDENTIAL - 38 WEST MAIN ST,Marlborough,,,Marlborough PD,,17:14,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,Animal Complaint,,Services Rendered- PD,No,,232 PHELPS ST,Marlborough,,,Marlborough PD,,17:16,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,Medical,,Medical Assistance Rendered,No,,509 LINCOLN ST Apt. #5,Marlborough,,,Marlborough PD,,17:17,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,Ambulance Assist,,Services Rendered- PD,No,,509 LINCOLN ST Apt. #5,Marlborough,,,Marlborough PD,,17:19,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,9
+,,DISTURBANCE,,Report,Yes,,601 DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,17:29,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,910 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,17:49,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,SUSPICIOUS ACTIVITY,,Services Rendered- PD,No,,11 CONVENIENCE STORE - 92 BROAD ST,Marlborough,,,Marlborough PD,,18:03,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,Well being check,,Services Rendered- PD,No,,121 NORTHBORO ROAD EAST Apt. #104,Marlborough,,,Marlborough PD,,18:17,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,Ambulance Only,,Medical Assistance Rendered,No,,121 NORTHBORO ROAD EAST Apt. #104,Marlborough,,,Marlborough PD,,18:37,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,MOTOR VEHICLE STOP,,CRIMINAL COMPLAINT,Yes,,37 EAST MAIN ST @ 6 SAWIN ST,Marlborough,,,Marlborough PD,,18:48,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,Medical,,Medical Assistance Rendered,No,,152 CHURCH ST,Marlborough,,,Marlborough PD,,18:59,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,DISTURBANCE,,Report,Yes,,51 BRIARWOOD LN Apt. #7,Marlborough,,,Marlborough PD,,19:25,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,DISTURBANCE,,Report,Yes,,51 BRIARWOOD LN Apt. #7,Marlborough,,,Marlborough PD,,19:35,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,300 BOLTON ST,Marlborough,,,Marlborough PD,,20:07,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,Medical,,Medical Assistance Rendered,No,,121 DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,20:15,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,Ambulance Assist,,Services Rendered- PD,No,,121 DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,20:16,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,Fraud / Forgery,,Report,Yes,,26 PIONEER TRL,Marlborough,,,Marlborough PD,,20:21,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,911 Hangup/Call,,Services Rendered- PD,No,,173 BARNARD RD,Marlborough,,,Marlborough PD,,20:44,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,SUSPICIOUS ACTIVITY,,Report,Yes,,168 PLEASANT ST,Marlborough,,,Marlborough PD,,21:09,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,Medical,,Medical Assistance Rendered,No,,240 EAST MAIN ST,Marlborough,,,Marlborough PD,,21:33,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,Ambulance Assist,,Services Rendered- PD,No,,240 EAST MAIN ST,Marlborough,,,Marlborough PD,,21:34,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,Medical,,Services Rendered- PD,No,,750 FARM RD Apt. #103,Marlborough,,,Marlborough PD,,21:51,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,Ambulance Assist,,Services Rendered- PD,No,,750 FARM RD,Marlborough,,,Marlborough PD,,21:51,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,10
+,,Ambulance Assist,,Services Rendered- PD,No,,121 NORTHBORO ROAD EAST Apt. #312B,Marlborough,,,Marlborough PD,,22:00,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,Medical,,Medical Assistance Rendered,No,,121 NORTHBORO ROAD EAST Apt. #312,Marlborough,,,Marlborough PD,,22:01,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,Ambulance Only,,Medical Assistance Rendered,No,,[HUD] FITCHBURG ST,Marlborough,,,Marlborough PD,,22:15,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,SUSPICIOUS ACTIVITY,,Could Not Locate,No,,135 MAPLE ST,Marlborough,,,Marlborough PD,,22:17,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,DISTURBANCE,,Arrest(s) Made,Yes,,460 LINCOLN ST,Marlborough,,,Marlborough PD,,23:40,,,11/12/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,"ALARM, HOLD-UP",,Building Checked/Secured,No,,728 DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,00:05,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,DISTURBANCE,,Report,Yes,,9 FARMHOUSE LN Apt. #13,Marlborough,,,Marlborough PD,,00:18,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,5 ALLIS RD,Marlborough,,,Marlborough PD,,00:30,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,Threats,,Report,Yes,,52 NEIL ST Apt. #1,Marlborough,,,Marlborough PD,,01:28,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,911 Hangup/Call,,Report,Yes,,564 STOW RD,Marlborough,,,Marlborough PD,,02:53,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,Medical,,Medical Assistance Rendered,No,,564 STOW RD,Marlborough,,,Marlborough PD,,03:02,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,DISTURBANCE,,Report,Yes,,19 NORTHBORO ROAD EAST,Marlborough,,,Marlborough PD,,03:52,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,DISABLED MV,,Services Rendered- PD,No,,495 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,06:52,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,Medical,,Services Rendered- FD,No,,494 LINCOLN ST,Marlborough,,,Marlborough PD,,09:03,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,Ambulance Assist,,Services Rendered- PD,No,,489 LINCOLN ST,Marlborough,,,Marlborough PD,,09:04,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,911 Hangup/Call,,Unfounded,No,,50 MAIN ST @ 8 COTTING AVE,Marlborough,,,Marlborough PD,,09:50,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,264 BIGELOW ST,Marlborough,,,Marlborough PD,,09:54,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,Medical,,Services Rendered- FD,No,,757 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,11:23,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,11
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,29 SOUTH BOLTON ST @ 80 GRANGER BLVD,Marlborough,,,Marlborough PD,,12:49,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,FIL-A - 36 APEX DR,Marlborough,,,Marlborough PD,,12:55,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,Police Assist,,Report,Yes,,222 EAST MAIN ST Apt. #A,Marlborough,,,Marlborough PD,,14:02,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,Well being check,,Unfounded,No,,17 ELM ST,Marlborough,,,Marlborough PD,,15:34,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,DISTURBANCE,,Report,Yes,,275 WEST MAIN ST Apt. #41,Marlborough,,,Marlborough PD,,15:43,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,Well being check,,Services Rendered- PD,No,,51 WATER ST,Marlborough,,,Marlborough PD,,16:33,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,VANDALISM,,Report,Yes,,FAMILY RESIDENTIAL - 164 LINCOLN ST Apt. #1,Marlborough,,,Marlborough PD,,16:50,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,Well being check,,Services Rendered- PD,No,,51 WATER ST,Marlborough,,,Marlborough PD,,17:21,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,Medical,,Medical Assistance Rendered,No,,81 DEERFIELD RUN,Marlborough,,,Marlborough PD,,17:35,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,Ambulance Assist,,Services Rendered- PD,No,,81 DEERFIELD RUN,Marlborough,,,Marlborough PD,,17:37,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,911 Hangup/Call,,Services Rendered- PD,No,,135 BROADMEADOW RD Apt. #10,Marlborough,,,Marlborough PD,,17:45,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,206 BOLTON ST,Marlborough,,,Marlborough PD,,18:02,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,Well being check,,Report,Yes,,15 TURNER RIDGE RD,Marlborough,,,Marlborough PD,,18:05,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,DISABLED MV,,Services Rendered- PD,No,,135 BROAD ST,Marlborough,,,Marlborough PD,,18:12,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,PLEASANT ST,Marlborough,,,Marlborough PD,,18:16,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,DISTURBANCE,,Unfounded,No,,37 HOSMER ST Apt. #4,Marlborough,,,Marlborough PD,,18:20,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,DPW Called Out,,Services Rendered- PD,No,,355 BOLTON ST,Marlborough,,,Marlborough PD,,18:26,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,75 SOUTH BOLTON ST @ 55 HOWE ST,Marlborough,,,Marlborough PD,,18:44,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,Ambulance Assist,,Services Rendered- PD,No,,135 AMES ST Apt. #2406,Marlborough,,,Marlborough PD,,19:37,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,Medical,,Medical Assistance Rendered,No,,135 AMES ST,Marlborough,,,Marlborough PD,,19:37,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,12
+,,Well being check,,Arrest(s) Made,Yes,22-388-AR,531 LINCOLN ST,Marlborough,,,Marlborough PD,,19:40,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,Medical,,Medical Assistance Rendered,No,,1019 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,19:59,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,Ambulance Assist,,Services Rendered- PD,No,,1019 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,20:00,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,911 Hangup/Call,,Services Rendered- PD,No,,7A VERSAILLES ST,Marlborough,,,Marlborough PD,,20:38,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,Medical,,Medical Assistance Rendered,No,,7A VERSAILLES ST,Marlborough,,,Marlborough PD,,20:50,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,Well being check,,Report,Yes,,32 BOND ST,Marlborough,,,Marlborough PD,,21:01,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,Medical,,Medical Assistance Rendered,No,,26 SIDNEY ST,Marlborough,,,Marlborough PD,,21:09,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,Ambulance Assist,,Services Rendered- PD,No,,26 SIDNEY ST,Marlborough,,,Marlborough PD,,21:11,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,Harassment,,Report,Yes,,212 MAPLE ST,Marlborough,,,Marlborough PD,,21:32,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,75 SOUTH BOLTON ST,Marlborough,,,Marlborough PD,,21:43,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,Medical,,Medical Assistance Rendered,No,,71 FLORENCE ST,Marlborough,,,Marlborough PD,,21:49,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,Ambulance Assist,,Services Rendered- PD,No,,71 FLORENCE ST,Marlborough,,,Marlborough PD,,21:51,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,Well being check,,Unfounded,No,,237 CONCORD RD,Marlborough,,,Marlborough PD,,22:33,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,MOTOR VEHICLE STOP,,Report,Yes,,237 CONCORD RD,Marlborough,,,Marlborough PD,,22:54,,,11/13/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,DISTURBANCE,,Services Rendered- PD,No,,8 ROYAL CREST DR Apt. #7,Marlborough,,,Marlborough PD,,00:46,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,Well being check,,Services Rendered- PD,No,,15 CHANDLER ST,Marlborough,,,Marlborough PD,,00:59,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,BUILDING CHECK,,Services Rendered- PD,No,,COURT ST,Marlborough,,,Marlborough PD,,01:38,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,13
+,,BUILDING CHECK,,Services Rendered- PD,No,,WEED ST,Marlborough,,,Marlborough PD,,01:39,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,Suspicious M/V,,Services Rendered- PD,No,,350 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,02:21,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,Suspicious M/V,,Services Rendered- PD,No,,133 WEST MAIN ST,Marlborough,,,Marlborough PD,,03:03,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,DISTURBANCE,,Report,Yes,,20 ELDORADO DR,Marlborough,,,Marlborough PD,,05:03,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,201 BOSTON POST ROAD WEST Apt. #202,Marlborough,,,Marlborough PD,,06:05,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,149 LINCOLN ST,Marlborough,,,Marlborough PD,,06:38,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,STEVENS ST,Marlborough,,,Marlborough PD,,06:47,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,Medical,,Medical Assistance Rendered,No,,121 NORTHBORO ROAD EAST Apt. #133,Marlborough,,,Marlborough PD,,06:48,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,Medical,,Medical Assistance Rendered,No,,240 MAIN ST Apt. #426,Marlborough,,,Marlborough PD,,06:51,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,Ambulance Assist,,Services Rendered- PD,No,,240 MAIN ST Apt. #426,Marlborough,,,Marlborough PD,,06:51,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,35 WEST MAIN ST @ 1 BATES AVE,Marlborough,,,Marlborough PD,,07:05,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,Medical,,Medical Assistance Rendered,No,,99 PLEASANT ST Apt. #202,Marlborough,,,Marlborough PD,,07:15,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,DISTURBANCE,,Report,Yes,,121 NORTHBORO ROAD EAST,Marlborough,,,Marlborough PD,,07:52,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,505 BOSTON POST ROAD WEST Apt. #F,Marlborough,,,Marlborough PD,,08:04,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,Ambulance Only,,Medical Assistance Rendered,No,,121 NORTHBORO ROAD EAST,Marlborough,,,Marlborough PD,,08:06,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,Medical,,Medical Assistance Rendered,No,,190 ASH ST,Marlborough,,,Marlborough PD,,08:25,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,Medical,,Medical Assistance Rendered,No,,121 NORTHBORO ROAD EAST Apt. #130,Marlborough,,,Marlborough PD,,08:44,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,444 HOSMER ST,Marlborough,,,Marlborough PD,,08:45,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,14
+,,Suspicious M/V,,Services Rendered- PD,No,,105 APEX DR,Marlborough,,,Marlborough PD,,09:17,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,Medical,,Medical Assistance Rendered,No,,400 HEMENWAY ST,Marlborough,,,Marlborough PD,,09:34,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,"ALARM, HOLD-UP",,Building Checked/Secured,No,,910 BOSTON POST ROAD EAST Apt. #1,Marlborough,,,Marlborough PD,,09:44,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,410 LAKESIDE AVE,Marlborough,,,Marlborough PD,,09:50,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,911 Hangup/Call,,Services Rendered- PD,No,,340 MAPLE ST Apt. #125A,Marlborough,,,Marlborough PD,,10:00,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,ASSAULT,,Report,Yes,,215 FITCHBURG ST,Marlborough,,,Marlborough PD,,11:19,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,Public Assist,,Medical Assistance Rendered,No,,400 HEMENWAY ST,Marlborough,,,Marlborough PD,,11:23,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,DISTURBANCE,,Report,Yes,,400 BOLTON ST,Marlborough,,,Marlborough PD,,11:33,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,293 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,11:37,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,Suspicious M/V,,Services Rendered- PD,No,,276 MAIN ST,Marlborough,,,Marlborough PD,,11:52,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,Ambulance Assist,,Services Rendered- PD,No,,7 WESTERN VIEW DR,Marlborough,,,Marlborough PD,,12:08,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,Medical,,Medical Assistance Rendered,No,,7 WESTERN VIEW DR,Marlborough,,,Marlborough PD,,12:09,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,Suspicious M/V,,Services Rendered- PD,No,,277 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,12:18,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,STOW RD,Marlborough,,,Marlborough PD,,12:30,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,ESCORT/TRANSPORT,,Services Rendered- PD,No,,45 WILLIAMS ST,Marlborough,,,Marlborough PD,,12:46,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,Police Assist,,Services Rendered- PD,No,,209 UNION ST,Marlborough,,,Marlborough PD,,12:55,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,Fraud / Forgery,,Services Rendered- PD,No,,FAMILY RESIDENTIAL - 18 SPRING ST Apt. #1,Marlborough,,,Marlborough PD,,13:09,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,BERLIN RD,Marlborough,,,Marlborough PD,,13:21,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,15
+,,Medical,,No Action Required,No,,8 SPRINGHILL AVE,Marlborough,,,Marlborough PD,,13:30,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,Medical,,Medical Assistance Rendered,No,,22 BROAD ST Apt. #101,Marlborough,,,Marlborough PD,,13:32,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,Ambulance Assist,,Services Rendered- PD,No,,319 EAST MAIN ST Apt. #N4,Marlborough,,,Marlborough PD,,13:44,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,Medical,,Medical Assistance Rendered,No,,319 EAST MAIN ST Apt. #N4,Marlborough,,,Marlborough PD,,13:44,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,Ambulance Assist,,Services Rendered- PD,No,,15 BEAMAN LN,Marlborough,,,Marlborough PD,,13:56,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,Medical,,Medical Assistance Rendered,No,,15 BEAMAN LN,Marlborough,,,Marlborough PD,,13:57,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,157 UNION ST,Marlborough,,,Marlborough PD,,14:06,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,Medical,,Medical Assistance Rendered,No,,121 NORTHBORO ROAD EAST Apt. #219,Marlborough,,,Marlborough PD,,14:41,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,DISTURBANCE,,Report,Yes,,199 PROSPECT ST,Marlborough,,,Marlborough PD,,14:42,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,444 HOSMER ST,Marlborough,,,Marlborough PD,,15:18,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,133 SOUTH BOLTON ST,Marlborough,,,Marlborough PD,,15:20,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,911 Hangup/Call,,Services Rendered- PD,No,,530 ELM ST,Marlborough,,,Marlborough PD,,15:22,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,Medical,,Medical Assistance Rendered,No,,61 WASHINGTON ST,Marlborough,,,Marlborough PD,,15:43,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,339 LINCOLN ST @ 66 MECHANIC ST,Marlborough,,,Marlborough PD,,16:00,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,413 LAKESIDE AVE,Marlborough,,,Marlborough PD,,16:09,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,206 BOLTON ST Apt. #2,Marlborough,,,Marlborough PD,,16:11,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,479 LINCOLN ST Apt. #7,Marlborough,,,Marlborough PD,,16:13,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,377 SIMARANO DR,Marlborough,,,Marlborough PD,,16:37,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,Well being check,,Unfounded,No,,495 SUDBURY ST,Marlborough,,,Marlborough PD,,16:40,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,16
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,28 BROAD ST,Marlborough,,,Marlborough PD,,18:00,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,Motor vehicle accident I,,Medical Assistance Rendered,No,,28 BROAD ST,Marlborough,,,Marlborough PD,,18:01,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,911 Hangup/Call,,Services Rendered- PD,No,,130 BROAD ST Apt. #4,Marlborough,,,Marlborough PD,,18:05,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,ASSIST OTHER AGENCY,,Services Rendered- PD,No,,96 BOLTON ST Apt. #1,Marlborough,,,Marlborough PD,,18:14,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,LARCENY,,Services Rendered- PD,No,,6 WINTER AVE Apt. #2,Marlborough,,,Marlborough PD,,18:41,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,Police Assist,,Services Rendered- PD,No,,355 BOLTON ST,Marlborough,,,Marlborough PD,,19:19,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,Public Assist,,Services Rendered- PD,No,,214 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,19:24,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,78 GRANGER BLVD @ 16 COTTING AVE,Marlborough,,,Marlborough PD,,19:41,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,Parking Violation,,Citation/Warning Issued,No,,45 BRIARWOOD LN Apt. #5,Marlborough,,,Marlborough PD,,19:50,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,Well being check,,Services Rendered- PD,No,,193 BOSTON POST ROAD WEST Apt. #C,Marlborough,,,Marlborough PD,,20:01,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,Police Assist,,Services Rendered- PD,No,,264 EAST MAIN ST Apt. #A,Marlborough,,,Marlborough PD,,20:20,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,20 PETERS AVE,Marlborough,,,Marlborough PD,,20:29,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,Well being check,,Services Rendered- PD,No,,601 DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,20:36,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,Medical,,Medical Assistance Rendered,No,,601 DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,20:37,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,28 AIRPORT BLVD Apt. #LOT 2,Marlborough,,,Marlborough PD,,20:50,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,799 FARM RD,Marlborough,,,Marlborough PD,,20:58,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,Medical,,Medical Assistance Rendered,No,,73 RAYMOND RD,Marlborough,,,Marlborough PD,,21:07,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,Ambulance Assist,,Services Rendered- PD,No,,73 RAYMOND RD,Marlborough,,,Marlborough PD,,21:08,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,17
+,,Medical,,Medical Assistance Rendered,No,,17 FITCHBURG ST,Marlborough,,,Marlborough PD,,22:28,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,Ambulance Assist,,Services Rendered- PD,No,,17 FITCHBURG ST,Marlborough,,,Marlborough PD,,22:29,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,Private Tow,,Private tow,No,,39 BRIARWOOD LN,Marlborough,,,Marlborough PD,,22:42,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,Suspicious M/V,,Unfounded,No,,11 CONVENIENCE STORE - 92 BROAD ST,Marlborough,,,Marlborough PD,,23:24,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,Eratic Operator,,Unfounded,No,,200 FOREST ST,Marlborough,,,Marlborough PD,,23:33,,,11/14/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,Medical,,Transported to Hospital,No,,54 SHEA DR,Marlborough,,,Marlborough PD,,00:30,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,Ambulance Assist,,Services Rendered- PD,No,,54 SHEA DR,Marlborough,,,Marlborough PD,,00:32,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,DISABLED MV,,Services Rendered- PD,No,,235 WEST MAIN ST @ 16 BEACH ST,Marlborough,,,Marlborough PD,,00:33,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,BUILDING CHECK,,Building Checked/Secured,No,,70 NEWTON ST,Marlborough,,,Marlborough PD,,00:35,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,46 BARNARD RD,Marlborough,,,Marlborough PD,,00:41,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,Medical,,Transported to Hospital,No,,116 BOSTON POST ROAD EAST Apt. #203,Marlborough,,,Marlborough PD,,05:18,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,Ambulance Assist,,Services Rendered- PD,No,,116 BOSTON POST ROAD EAST Apt. #203,Marlborough,,,Marlborough PD,,05:19,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,SUSPICIOUS ACTIVITY,,Report,Yes,,282 EAST MAIN ST Apt. #4,Marlborough,,,Marlborough PD,,06:24,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,Medical,,Transported to Hospital,No,,13 WESTMINSTER DR,Marlborough,,,Marlborough PD,,06:31,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,Ambulance Assist,,Services Rendered- PD,No,,13 WESTMINSTER DR,Marlborough,,,Marlborough PD,,06:34,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,SERVE WARRANT,,Services Rendered- PD,No,,587 LINCOLN ST,Marlborough,,,Marlborough PD,,06:51,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,DISTURBANCE,,Report,Yes,,494 LINCOLN ST Apt. #1,Marlborough,,,Marlborough PD,,06:53,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,Medical,,Services Rendered- PD,No,,69 COLLINS DR,Marlborough,,,Marlborough PD,,07:05,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,Medical,,Medical Assistance Rendered,No,,240 MAIN ST Apt. #305,Marlborough,,,Marlborough PD,,07:18,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,18
+,,Directed Patrol,,Report,Yes,,520 FARM RD,Marlborough,,,Marlborough PD,,07:21,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,110 WEST MAIN ST,Marlborough,,,Marlborough PD,,07:53,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,"ALARM, BURGLAR",,Services Rendered- PD,No,,154 HIGHLAND ST,Marlborough,,,Marlborough PD,,08:19,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,444 HOSMER ST,Marlborough,,,Marlborough PD,,08:42,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,Directed Patrol,,Report,Yes,,520 FARM RD,Marlborough,,,Marlborough PD,,09:05,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,Medical,,Medical Assistance Rendered,No,,400 BOLTON ST,Marlborough,,,Marlborough PD,,09:06,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,Ambulance Assist,,Services Rendered- PD,No,,45 WILLIAMS ST,Marlborough,,,Marlborough PD,,09:18,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,Medical,,Medical Assistance Rendered,No,,45 WILLIAMS ST,Marlborough,,,Marlborough PD,,09:19,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,911 Hangup/Call,,Services Rendered- PD,No,,336 HOSMER ST,Marlborough,,,Marlborough PD,,09:26,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,Medical,,Medical Assistance Rendered,No,,650 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,09:30,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,Medical,,Medical Assistance Rendered,No,,25 MAIN ST,Marlborough,,,Marlborough PD,,10:35,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,DISTURBANCE,,Report,Yes,,55 HUNTINGTON AVE,Marlborough,,,Marlborough PD,,11:23,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,Medical,,Medical Assistance Rendered,No,,37 MAPLE ST Apt. #1,Marlborough,,,Marlborough PD,,11:26,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,Ambulance Assist,,Services Rendered- PD,No,,37 MAPLE ST Apt. #1,Marlborough,,,Marlborough PD,,11:27,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,LARCENY,,Report,Yes,,199 MAIN ST,Marlborough,,,Marlborough PD,,11:38,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,Medical,,Medical Assistance Rendered,No,,121 NORTHBORO ROAD EAST Apt. #133,Marlborough,,,Marlborough PD,,12:24,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,SUDDEN DEATH,,Report,Yes,,564 STOW RD,Marlborough,,,Marlborough PD,,12:35,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,Medical,,Medical Assistance Rendered,No,,564 STOW RD,Marlborough,,,Marlborough PD,,12:35,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,DISTURBANCE,,Report,Yes,,65 FREMONT ST,Marlborough,,,Marlborough PD,,12:59,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,19
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,6 MARIEN LN,Marlborough,,,Marlborough PD,,13:49,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,VANDALISM,,Services Rendered- PD,No,,29 PLEASANT ST Apt. #A14,Marlborough,,,Marlborough PD,,13:50,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,Suspicious M/V,,Services Rendered- PD,No,,D'AMICO DR,Marlborough,,,Marlborough PD,,14:13,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,525 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,15:02,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,Suspicious M/V,,Services Rendered- PD,No,,RT85 CONNECTOR,Marlborough,,,Marlborough PD,,15:07,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,"Gas Leak, Inside",,Services Rendered- FD,No,,230 EAST MAIN ST Apt. #A,Marlborough,,,Marlborough PD,,15:08,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,444 HOSMER ST,Marlborough,,,Marlborough PD,,15:18,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,Fraud / Forgery,,Services Rendered- PD,No,,849 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,15:39,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,Medical,,Medical Assistance Rendered,No,,530 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,15:50,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,Animal Complaint,,Services Rendered- PD,No,,222 EAST MAIN ST Apt. #A,Marlborough,,,Marlborough PD,,16:19,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,911 Hangup/Call,,Services Rendered- PD,No,,206 BOLTON ST Apt. #5,Marlborough,,,Marlborough PD,,16:22,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,DISTURBANCE,,Report,Yes,,771 BOSTON POST ROAD EAST Apt. #12,Marlborough,,,Marlborough PD,,16:40,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,MISSING PERSON,,Services Rendered- PD,No,,157 UNION ST,Marlborough,,,Marlborough PD,,16:43,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,Fraud / Forgery,,Report,Yes,,24 MCENELLY ST,Marlborough,,,Marlborough PD,,17:00,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,413 LAKESIDE AVE @ 75 FELTON ST,Marlborough,,,Marlborough PD,,17:13,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,410 LAKESIDE AVE,Marlborough,,,Marlborough PD,,17:37,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,SUSPICIOUS ACTIVITY,,Unfounded,No,,494 LINCOLN ST,Marlborough,,,Marlborough PD,,18:38,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,SUSPICIOUS ACTIVITY,,Services Rendered- PD,No,,32 WATER ST,Marlborough,,,Marlborough PD,,18:39,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,DISTURBANCE,,Services Rendered- PD,No,,32 WATER ST,Marlborough,,,Marlborough PD,,19:12,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,20
+,,"Fire, Structure",,Services Rendered- FD,No,,165B BROADMEADOW RD Apt. #12,Marlborough,,,Marlborough PD,,19:29,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,ASSIST OTHER AGENCY,,Services Rendered- PD,No,,165B BROADMEADOW RD,Marlborough,,,Marlborough PD,,19:30,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,DISTURBANCE,,Report,Yes,,19 NORTHBORO ROAD EAST,Marlborough,,,Marlborough PD,,20:32,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,Private Tow,,Private tow,No,,280 MAIN ST,Marlborough,,,Marlborough PD,,21:03,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,DISABLED MV,,Services Rendered- PD,No,,356 ROBIN HILL ST @ 2 POND VIEW DR,Marlborough,,,Marlborough PD,,21:22,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,DISTURBANCE,,Services Rendered- PD,No,,85 SILVER LEAF WAY,Marlborough,,,Marlborough PD,,21:42,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,176 BOSTON POST ROAD WEST @ 23 APEX DR,Marlborough,,,Marlborough PD,,21:55,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,DPW Called Out,,Services Rendered- PD,No,,355 BOLTON ST,Marlborough,,,Marlborough PD,,22:13,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,Parking Violation,,Services Rendered- PD,No,,67 DEVENS ST,Marlborough,,,Marlborough PD,,22:25,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,Trespassing,,Services Rendered- PD,No,,48 BRIARWOOD LN,Marlborough,,,Marlborough PD,,23:10,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,605 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,23:27,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,ASSIST CITIZEN,,Report,Yes,,19 NORTHBORO ROAD EAST,Marlborough,,,Marlborough PD,,23:56,,,11/15/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,Well being check,,Unfounded,No,,DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,01:21,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,681 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,01:59,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,216 MAPLE ST,Marlborough,,,Marlborough PD,,02:20,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,ASSIST CITIZEN,,Services Rendered- FD,No,,328 EAST MAIN ST,Marlborough,,,Marlborough PD,,05:04,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,FIL-A - 36 APEX DR,Marlborough,,,Marlborough PD,,06:06,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,"ALARM, BURGLAR",,Services Rendered- PD,No,,201 BOSTON POST ROAD WEST Apt. #102,Marlborough,,,Marlborough PD,,07:00,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,21
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,RT85 CONNECTOR,Marlborough,,,Marlborough PD,,07:03,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,Motor vehicle accident I,,Services Rendered- FD,No,,41 HUDSON ST @ 72 JEFFERSON ST,Marlborough,,,Marlborough PD,,07:32,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,41 HUDSON ST @ 72 JEFFERSON ST,Marlborough,,,Marlborough PD,,07:32,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,BUILDING CHECK,,No Action Required,No,,355 BOLTON ST,Marlborough,,,Marlborough PD,,08:13,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,Medical,,Transported to Hospital,No,,62A NEIL ST,Marlborough,,,Marlborough PD,,08:27,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,Ambulance Assist,,Services Rendered- PD,No,,62 NEIL ST Apt. #A,Marlborough,,,Marlborough PD,,08:28,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,444 HOSMER ST,Marlborough,,,Marlborough PD,,08:45,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,Medical,,Services Rendered- FD,No,,14 PLEASANT CT Apt. #1,Marlborough,,,Marlborough PD,,08:45,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,Ambulance Assist,,No Action Required,No,,14 PLEASANT CT Apt. #1,Marlborough,,,Marlborough PD,,08:47,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,Medical,,Transported to Hospital,No,,121 NORTHBORO ROAD EAST Apt. #205,Marlborough,,,Marlborough PD,,09:19,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,ABANDONED MV,,Services Rendered- PD,No,,40 NEW ST,Marlborough,,,Marlborough PD,,10:15,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,Ambulance Only,,Transported to Hospital,No,,56 FRAMINGHAM RD,Marlborough,,,Marlborough PD,,10:23,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,Medical,,Transported to Hospital,No,,95 CONRAD RD,Marlborough,,,Marlborough PD,,10:24,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,Medical,,Transported to Hospital,No,,45 ROYCE RD,Marlborough,,,Marlborough PD,,10:31,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,Ambulance Assist,,Services Rendered- PD,No,,45 ROYCE RD,Marlborough,,,Marlborough PD,,10:34,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,Medical,,Transported to Hospital,No,,121 NORTHBORO ROAD EAST Apt. #119C,Marlborough,,,Marlborough PD,,10:35,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,ABANDONED MV,,Report,Yes,,95 OLD CHARTER RD,Marlborough,,,Marlborough PD,,11:34,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,Parking Violation,,Report,Yes,,21 FAY CT,Marlborough,,,Marlborough PD,,11:39,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,22
+,,ASSIST OTHER AGENCY,,Services Rendered- PD,No,,157 UNION ST,Marlborough,,,Marlborough PD,,11:57,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,911 Hangup/Call,,Unfounded,No,,58 STEVENS ST,Marlborough,,,Marlborough PD,,12:22,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,123 WEST MAIN ST @ 5 PLEASANT ST,Marlborough,,,Marlborough PD,,12:50,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,DISTURBANCE,,Report,Yes,,206 APPLEBRIAR LN,Marlborough,,,Marlborough PD,,13:31,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,Medical,,Services Rendered- FD,No,,647 PLEASANT ST,Marlborough,,,Marlborough PD,,13:34,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,410 LAKESIDE AVE,Marlborough,,,Marlborough PD,,14:10,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,416 BOSTON POST ROAD EAST Apt. #12,Marlborough,,,Marlborough PD,,14:10,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,SUSPICIOUS ACTIVITY,,Services Rendered- PD,No,,42 ASHLEY LN,Marlborough,,,Marlborough PD,,14:32,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,Private Tow,,Private tow,No,,39 BRIARWOOD LN,Marlborough,,,Marlborough PD,,14:40,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,444 HOSMER ST,Marlborough,,,Marlborough PD,,15:08,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,DISTURBANCE,,Report,Yes,,8 COTTING AVE Apt. #31,Marlborough,,,Marlborough PD,,16:29,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,Ambulance Only,,Services Rendered- FD,No,,8 COTTING AVE Apt. #32,Marlborough,,,Marlborough PD,,16:50,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,ASSIST OTHER AGENCY,,No Action Required,No,,157 UNION ST,Marlborough,,,Marlborough PD,,17:08,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,Medical,,Services Rendered- FD,No,,400 HEMENWAY ST,Marlborough,,,Marlborough PD,,17:12,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,ASSIST CITIZEN,,Report,Yes,,105 APPLEBRIAR LN,Marlborough,,,Marlborough PD,,17:17,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,42 BOSTON POST ROAD EAST Apt. #7,Marlborough,,,Marlborough PD,,17:19,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,Well being check,,Services Rendered- PD,No,,222 EAST MAIN ST Apt. #J,Marlborough,,,Marlborough PD,,17:36,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,385 PARMENTER ST @ 169 BROADMEADOW RD,Marlborough,,,Marlborough PD,,17:48,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,Parking Violation,,Unfounded,No,,587 LINCOLN ST @ 1 WINTER ST,Marlborough,,,Marlborough PD,,17:49,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,Medical,,Services Rendered- FD,No,,720 BOSTON POST ROAD EAST Apt.,Marlborough,,,Marlborough PD,,18:04,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,23
+,,Ambulance Assist,,Services Rendered- PD,No,,720 BOSTON POST ROAD EAST Apt.,Marlborough,,,Marlborough PD,,18:06,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,Well being check,,Services Rendered- PD,No,,240 MAIN ST Apt. #315,Marlborough,,,Marlborough PD,,18:07,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,521 DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,18:14,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,LANDRY DR,Marlborough,,,Marlborough PD,,18:34,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,Motor vehicle accident I,,Services Rendered- FD,No,,1 NORTHBORO ROAD EAST,Marlborough,,,Marlborough PD,,18:36,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,"BURGLARY, B & E PAST",,Report,Yes,,530 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,18:38,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,20 FLORENCE ST @ 2 WEED ST,Marlborough,,,Marlborough PD,,19:08,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,911 Hangup/Call,,Building Checked/Secured,No,,153 VEGA RD,Marlborough,,,Marlborough PD,,20:52,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,Private Tow,,Private tow,No,,45 MAPLE ST Apt. #4,Marlborough,,,Marlborough PD,,21:26,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,DISTURBANCE,,Report,Yes,,19 NORTHBORO ROAD EAST,Marlborough,,,Marlborough PD,,21:39,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,Well being check,,Report,Yes,,15 PARIS ST Apt. #1,Marlborough,,,Marlborough PD,,21:55,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,350 EAST MAIN ST,Marlborough,,,Marlborough PD,,22:25,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,Medical,,Services Rendered- FD,No,,13 TURNER RIDGE RD,Marlborough,,,Marlborough PD,,22:26,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,DISTURBANCE,,Services Rendered- PD,No,,19 NORTHBORO ROAD EAST,Marlborough,,,Marlborough PD,,22:27,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,Ambulance Assist,,Services Rendered- PD,No,,13 TURNER RIDGE RD,Marlborough,,,Marlborough PD,,22:28,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,Well being check,,Services Rendered- PD,No,,19 WHITELOCK DR,Marlborough,,,Marlborough PD,,23:16,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,Medical,,Services Rendered- PD,No,,19 WHITELOCK DR,Marlborough,,,Marlborough PD,,23:26,,,11/16/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,DISTURBANCE,,Unfounded,No,,19 NORTHBORO ROAD EAST Apt. #241,Marlborough,,,Marlborough PD,,00:10,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,24
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,413 LAKESIDE AVE,Marlborough,,,Marlborough PD,,02:19,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,Medical,,Transported to Hospital,No,,121 NORTHBORO ROAD EAST Apt. #121,Marlborough,,,Marlborough PD,,03:17,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,911 Hangup/Call,,Report,Yes,,69A PHELPS ST,Marlborough,,,Marlborough PD,,03:30,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,Medical,,Transported to Hospital,No,,421 BOLTON ST Apt. #112,Marlborough,,,Marlborough PD,,04:44,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,Trespassing,,Services Rendered- PD,No,,123 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,05:16,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,"ALARM, BURGLAR",,No Action Required,No,,216 MAPLE ST,Marlborough,,,Marlborough PD,,06:15,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,415 MAPLE ST @ 109 MILL STREET SOUTH,Marlborough,,,Marlborough PD,,06:24,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,199 LAKESIDE AVE,Marlborough,,,Marlborough PD,,06:58,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,17 EAST MAIN ST,Marlborough,,,Marlborough PD,,07:04,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,244 BROAD ST @ 262 ELM ST,Marlborough,,,Marlborough PD,,07:21,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,Medical,,Transported to Hospital,No,,116 BOSTON POST ROAD EAST Apt. #203,Marlborough,,,Marlborough PD,,07:34,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,Ambulance Assist,,Services Rendered- PD,No,,116 BOSTON POST ROAD EAST Apt. #203,Marlborough,,,Marlborough PD,,07:35,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,49 BRIARWOOD LN Apt. #3,Marlborough,,,Marlborough PD,,08:24,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,444 HOSMER ST,Marlborough,,,Marlborough PD,,08:31,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,Harassment,,Services Rendered- PD,No,,100 GRANGER BLVD Apt. #23,Marlborough,,,Marlborough PD,,08:42,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,Harassment,,Report,Yes,,215 FITCHBURG ST,Marlborough,,,Marlborough PD,,09:18,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,911 Hangup/Call,,Services Rendered- PD,No,,15 HIGHGATE RD,Marlborough,,,Marlborough PD,,09:39,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,Medical,,Transported to Hospital,No,,169B BROADMEADOW RD Apt. #8,Marlborough,,,Marlborough PD,,09:45,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,25
+,,ABANDONED MV,,Services Rendered- PD,No,,494 LINCOLN ST,Marlborough,,,Marlborough PD,,09:47,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,Motor Vehicle Accident I I,,Services Rendered- FD,No,,320 BOLTON ST,Marlborough,,,Marlborough PD,,10:09,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,320 BOLTON ST,Marlborough,,,Marlborough PD,,10:09,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,ASSAULT,,Report,Yes,,39 BRIARWOOD LN,Marlborough,,,Marlborough PD,,10:11,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,Well being check,,Services Rendered- PD,No,,215 FITCHBURG ST,Marlborough,,,Marlborough PD,,10:19,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,60 GIBBONS ST,Marlborough,,,Marlborough PD,,10:24,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,DISTURBANCE,,Report,Yes,,65 FREMONT ST,Marlborough,,,Marlborough PD,,10:53,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,Medical,,Transported to Hospital,No,,421 BOLTON ST Apt. #118A,Marlborough,,,Marlborough PD,,11:00,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,Medical,,Services Rendered- FD,No,,80 GRANGER BLVD @ 29 SOUTH BOLTON ST,Marlborough,,,Marlborough PD,,11:40,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,Ambulance Assist,,Services Rendered- PD,No,,80 GRANGER BLVD @ 29 SOUTH BOLTON ST,Marlborough,,,Marlborough PD,,11:40,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,Cell Check,,Services Rendered- PD,No,,355 BOLTON ST,Marlborough,,,Marlborough PD,,11:42,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,Medical,,Transported to Hospital,No,,400 HEMENWAY ST Apt. #941,Marlborough,,,Marlborough PD,,13:58,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,Ambulance Assist,,Report,Yes,,400 HEMENWAY ST Apt. #941,Marlborough,,,Marlborough PD,,13:58,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,FOUND/LOST PROPERTY,,Report,Yes,,355 BOLTON ST,Marlborough,,,Marlborough PD,,14:04,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,FOUND/LOST PROPERTY,,Report,Yes,,355 BOLTON ST,Marlborough,,,Marlborough PD,,14:37,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,90 APEX DR Apt. #D,Marlborough,,,Marlborough PD,,14:39,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,Eratic Operator,,Services Rendered- PD,No,,176 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,15:04,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,444 HOSMER ST,Marlborough,,,Marlborough PD,,15:16,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,Parking Violation,,Services Rendered- PD,No,,61 WATER ST Apt. #2,Marlborough,,,Marlborough PD,,15:18,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,197 UNION ST,Marlborough,,,Marlborough PD,,15:38,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,26
+,,Medical,,Services Rendered- FD,No,,520 LINCOLN ST,Marlborough,,,Marlborough PD,,15:41,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,Medical,,Services Rendered- FD,No,,84 PORTER RD,Marlborough,,,Marlborough PD,,15:47,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,Ambulance Assist,,Services Rendered- PD,No,,84 PORTER RD,Marlborough,,,Marlborough PD,,15:48,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,Medical,,Services Rendered- FD,No,,421 BOLTON ST Apt. #129,Marlborough,,,Marlborough PD,,16:15,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,Ambulance Assist,,Services Rendered- PD,No,,421 BOLTON ST Apt. #129,Marlborough,,,Marlborough PD,,16:17,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,Medical,,Services Rendered- FD,No,,52 CLEARVIEW DR,Marlborough,,,Marlborough PD,,17:12,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,Ambulance Assist,,Services Rendered- PD,No,,52 CLEARVIEW DR,Marlborough,,,Marlborough PD,,17:13,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,121 BOLTON ST @ 111 STATE ST,Marlborough,,,Marlborough PD,,17:24,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,DISABLED MV,,Unfounded,No,,5 PLEASANT ST @ 123 WEST MAIN ST,Marlborough,,,Marlborough PD,,17:24,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,56 FELTON ST,Marlborough,,,Marlborough PD,,17:51,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,WALKER ST,Marlborough,,,Marlborough PD,,17:52,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,FOUND/LOST PROPERTY,,Report,Yes,,66 ANDREWS RD,Marlborough,,,Marlborough PD,,17:55,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,169 APEX DR,Marlborough,,,Marlborough PD,,18:07,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,201 CEDAR HILL ST,Marlborough,,,Marlborough PD,,18:53,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,BUILDING CHECK,,Services Rendered- PD,No,,2 WATER ST Apt. #1,Marlborough,,,Marlborough PD,,19:05,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,Medical,,No Action Required,No,,121 NORTHBORO ROAD EAST Apt. #304,Marlborough,,,Marlborough PD,,19:26,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,Medical,,Services Rendered- FD,No,,43 WHISPERING BROOK RD,Marlborough,,,Marlborough PD,,20:20,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,Well being check,,Arrest(s) Made,Yes,,350 EAST MAIN ST,Marlborough,,,Marlborough PD,,20:26,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,27
+,,Medical,,Services Rendered- FD,No,,121 NORTHBORO ROAD EAST Apt. #130,Marlborough,,,Marlborough PD,,20:44,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,Private Tow,,Private tow,No,,25 ROYAL CREST DR Apt. #8,Marlborough,,,Marlborough PD,,21:09,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,601 DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,21:38,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,747 DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,21:42,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,146 MAPLE ST,Marlborough,,,Marlborough PD,,22:23,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,Suspicious M/V,,Services Rendered- PD,No,,701 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,23:26,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,ASSIST OTHER AGENCY,,Services Rendered- PD,No,,4 BARNES CIR,Marlborough,,,Marlborough PD,,23:34,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,Medical,,Services Rendered- FD,No,,71 FLORENCE ST,Marlborough,,,Marlborough PD,,23:43,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,Ambulance Assist,,Services Rendered- PD,No,,71 FLORENCE ST,Marlborough,,,Marlborough PD,,23:44,,,11/17/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,ASSIST OTHER AGENCY,,Services Rendered- PD,No,,175 AMES ST Apt. #4405,Marlborough,,,Marlborough PD,,00:37,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,SUSPICIOUS ACTIVITY,,Services Rendered- PD,No,,11 CONVENIENCE STORE - 92 BROAD ST,Marlborough,,,Marlborough PD,,01:02,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,Medical,,Services Rendered- FD,No,,79 SILVER LEAF WAY Apt. #14,Marlborough,,,Marlborough PD,,01:34,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,Ambulance Assist,,Services Rendered- PD,No,,79 SILVER LEAF WAY Apt. #14,Marlborough,,,Marlborough PD,,01:35,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,581 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,01:38,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,Private Tow,,Private tow,No,,40 ROYAL CREST DR,Marlborough,,,Marlborough PD,,01:50,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,BUILDING CHECK,,Services Rendered- PD,No,,70 NEWTON ST,Marlborough,,,Marlborough PD,,02:16,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,BUILDING CHECK,,Services Rendered- PD,No,,PARKING GARAGE - COURT ST,Marlborough,,,Marlborough PD,,02:18,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,232 WILSON ST @ 16 LINDA CIR,Marlborough,,,Marlborough PD,,02:34,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,28
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,438 HEMENWAY ST @ 257 RAYMOND RD,Marlborough,,,Marlborough PD,,04:07,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,Private Tow,,Services Rendered- PD,No,,608 BOSTON POST ROAD EAST Apt. #17,Marlborough,,,Marlborough PD,,04:56,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,Medical,,Services Rendered- FD,No,,121 NORTHBORO ROAD EAST Apt. #126A,Marlborough,,,Marlborough PD,,05:20,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,Ambulance Assist,,Services Rendered- PD,No,,121 NORTHBORO ROAD EAST Apt. #126A,Marlborough,,,Marlborough PD,,05:20,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,ESCORT/TRANSPORT,,Services Rendered- PD,No,,355 BOLTON ST,Marlborough,,,Marlborough PD,,05:40,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,27 SPOONHILL AVE @ 191 HOSMER ST,Marlborough,,,Marlborough PD,,06:22,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,Ambulance Assist,,Services Rendered- PD,No,,99 PLEASANT ST Apt. #202,Marlborough,,,Marlborough PD,,06:30,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,Medical,,Services Rendered- FD,No,,99 PLEASANT ST Apt. #209,Marlborough,,,Marlborough PD,,06:30,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,679 CONCORD RD,Marlborough,,,Marlborough PD,,06:44,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,Medical,,Medical Assistance Rendered,No,,400 HEMENWAY ST Apt. #162,Marlborough,,,Marlborough PD,,06:48,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,Ambulance Assist,,Services Rendered- PD,No,,400 HEMENWAY ST Apt. #162,Marlborough,,,Marlborough PD,,06:48,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,515 LINCOLN ST,Marlborough,,,Marlborough PD,,06:50,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,Directed Patrol,,Report,Yes,,329 STEVENS ST @ 11 OAKCREST AVE,Marlborough,,,Marlborough PD,,07:24,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,Medical,,Services Rendered- FD,No,,121 NORTHBORO ROAD EAST Apt. #138,Marlborough,,,Marlborough PD,,07:45,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,Medical,,Medical Assistance Rendered,No,,121 NORTHBORO ROAD EAST Apt. #107,Marlborough,,,Marlborough PD,,08:04,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,51 UNION ST @ 236 BOLTON ST,Marlborough,,,Marlborough PD,,08:16,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,DISABLED MV,,Services Rendered- PD,No,,377 SIMARANO DR,Marlborough,,,Marlborough PD,,08:17,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,Medical,,Services Rendered- FD,No,,377 SIMARANO DR,Marlborough,,,Marlborough PD,,08:21,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,29
+,,Motor vehicle accident I,,Services Rendered- FD,No,,28 HOSMER ST,Marlborough,,,Marlborough PD,,09:04,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,28 HOSMER ST,Marlborough,,,Marlborough PD,,09:08,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,SERVE SUMMONS,,No Action Required,No,,21 BEAUREGARD CIR,Marlborough,,,Marlborough PD,,09:10,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,MVA WITH INJURIES,,Report,Yes,,175 MAPLE ST,Marlborough,,,Marlborough PD,,09:11,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,Motor vehicle accident I,,Medical Assistance Rendered,No,,175 MAPLE ST,Marlborough,,,Marlborough PD,,09:11,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,Medical,,Services Rendered- FD,No,,420 MAPLE ST Apt. #25,Marlborough,,,Marlborough PD,,09:56,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,420 MAPLE ST Apt. #15,Marlborough,,,Marlborough PD,,10:02,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,45 WILLIAMS ST,Marlborough,,,Marlborough PD,,10:21,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,Well being check,,Services Rendered- PD,No,,19 ASHLEY LN,Marlborough,,,Marlborough PD,,10:24,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,B&E into M/V,,Report,Yes,,25 ROYAL CREST DR Apt. #11,Marlborough,,,Marlborough PD,,10:33,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,DISABLED MV,,No Action Required,No,,29 SOUTH BOLTON ST @ 80 GRANGER BLVD,Marlborough,,,Marlborough PD,,10:54,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,Medical,,Medical Assistance Rendered,No,,25 WATER ST,Marlborough,,,Marlborough PD,,11:10,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,Medical,,Medical Assistance Rendered,No,,421 BOLTON ST Apt. #101,Marlborough,,,Marlborough PD,,11:13,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,890 BOSTON POST ROAD EAST Apt. #1,Marlborough,,,Marlborough PD,,11:16,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,290 BOLTON ST @ 400 HUDSON ST,Marlborough,,,Marlborough PD,,11:38,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,Medical,,Medical Assistance Rendered,No,,169A BROADMEADOW RD Apt. #3,Marlborough,,,Marlborough PD,,11:40,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,SHOPLIFTING,,Report,Yes,,431 LINCOLN ST,Marlborough,,,Marlborough PD,,11:54,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,Medical,,Medical Assistance Rendered,No,,21 SUNSHINE DR,Marlborough,,,Marlborough PD,,11:56,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,91 MAIN ST,Marlborough,,,Marlborough PD,,12:06,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,30
+,,ASSIST OTHER AGENCY,,Services Rendered- PD,No,,135 NEIL ST,Marlborough,,,Marlborough PD,,12:24,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,Well being check,,Report,Yes,,355 BOLTON ST,Marlborough,,,Marlborough PD,,12:33,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,DISABLED MV,,Unfounded,No,,377 SIMARANO DR,Marlborough,,,Marlborough PD,,13:37,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,ASSAULT,,Report,Yes,,25 UNION ST,Marlborough,,,Marlborough PD,,13:58,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,911 Hangup/Call,,Services Rendered- PD,No,,234 EAST MAIN ST,Marlborough,,,Marlborough PD,,14:41,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,Police Assist,,Services Rendered- PD,No,,FAMILY RESIDENTIAL - 102 WARREN AVE,Marlborough,,,Marlborough PD,,14:58,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,Medical,,Medical Assistance Rendered,No,,38 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,14:59,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,SUSPICIOUS ACTIVITY,,Services Rendered- PD,No,,45 PIONEER TRL,Marlborough,,,Marlborough PD,,15:00,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,Medical,,Services Rendered- FD,No,,23 HOUDE ST,Marlborough,,,Marlborough PD,,15:03,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,444 HOSMER ST,Marlborough,,,Marlborough PD,,15:08,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,Police Assist,,Services Rendered- PD,No,,165 FOREST ST,Marlborough,,,Marlborough PD,,15:20,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,Medical,,Medical Assistance Rendered,No,,83A PLEASANT ST Apt. #2,Marlborough,,,Marlborough PD,,15:44,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,Medical,,Medical Assistance Rendered,No,,400 HEMENWAY ST Apt. #205,Marlborough,,,Marlborough PD,,15:48,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,417 MAPLE ST,Marlborough,,,Marlborough PD,,15:49,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,Fire Alarm Still,,Services Rendered- FD,No,,477 NORTHBORO ROAD WEST,Marlborough,,,Marlborough PD,,15:50,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,Medical,,No Action Required,No,,400 HEMENWAY ST Apt. #163,Marlborough,,,Marlborough PD,,16:02,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,LARCENY,,Report,Yes,,197 BOSTON POST ROAD WEST Apt. #E,Marlborough,,,Marlborough PD,,16:09,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,Medical,,Medical Assistance Rendered,No,,80 FOLEY RD,Marlborough,,,Marlborough PD,,16:16,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,Ambulance Assist,,Services Rendered- PD,No,,80 FOLEY RD,Marlborough,,,Marlborough PD,,16:16,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,31
+,,FOUND/LOST PROPERTY,,Report,Yes,,21 APEX DR,Marlborough,,,Marlborough PD,,16:30,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,Ambulance Assist,,Services Rendered- PD,No,,121 NORTHBORO ROAD EAST Apt. #313,Marlborough,,,Marlborough PD,,16:32,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,Medical,,Medical Assistance Rendered,No,,121 NORTHBORO ROAD EAST Apt. #313,Marlborough,,,Marlborough PD,,16:32,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,SHOPLIFTING,,Report,Yes,,605 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,16:35,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,Animal Complaint,,Services Rendered- PD,No,,140 CHURCH ST,Marlborough,,,Marlborough PD,,16:50,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,pedestrian accident,,Medical Assistance Rendered,No,,500 LINCOLN ST,Marlborough,,,Marlborough PD,,16:55,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,MVA WITH INJURIES,,Report,Yes,,500 LINCOLN ST,Marlborough,,,Marlborough PD,,16:55,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,Medical,,Medical Assistance Rendered,No,,355 BOLTON ST,Marlborough,,,Marlborough PD,,17:00,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,269 ASH ST @ 494 PLEASANT ST,Marlborough,,,Marlborough PD,,17:00,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,Medical,,Medical Assistance Rendered,No,,169 PLEASANT ST,Marlborough,,,Marlborough PD,,17:10,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,DPW Called Out,,Services Rendered- PD,No,,500 LINCOLN ST,Marlborough,,,Marlborough PD,,17:25,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,MVA PROPERTY DAMAGE ONLY,,CRIMINAL COMPLAINT,Yes,,1015 BOSTON POST ROAD EAST @ 24 HAGER ST,Marlborough,,,Marlborough PD,,17:34,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,Motor vehicle accident I,,No Action Required,No,,24 HAGER ST @ 1015 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,17:37,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,Ambulance Only,,Medical Assistance Rendered,No,,11 FARMHOUSE LN Apt. #2,Marlborough,,,Marlborough PD,,18:05,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,Ambulance Only,,Medical Assistance Rendered,No,,56 FRAMINGHAM RD,Marlborough,,,Marlborough PD,,18:13,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,Ambulance Assist,,Report,Yes,,56 FRAMINGHAM RD,Marlborough,,,Marlborough PD,,18:13,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,Ambulance Assist,,Services Rendered- PD,No,,11 FARMHOUSE LN Apt. #2,Marlborough,,,Marlborough PD,,18:16,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,110 PLEASANT ST @ 93 CHESTNUT ST,Marlborough,,,Marlborough PD,,18:50,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,Medical,,Medical Assistance Rendered,No,,116 BOSTON POST ROAD EAST Apt. #203,Marlborough,,,Marlborough PD,,19:17,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,32
+,,Ambulance Assist,,Services Rendered- PD,No,,116 BOSTON POST ROAD EAST Apt. #203,Marlborough,,,Marlborough PD,,19:18,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,Parking Violation,,Citation/Warning Issued,No,,55 CENTRAL ST,Marlborough,,,Marlborough PD,,20:12,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,ASSIST CITIZEN,,Report,Yes,,117 CHESTNUT ST,Marlborough,,,Marlborough PD,,21:20,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,78 GRANGER BLVD @ 16 COTTING AVE,Marlborough,,,Marlborough PD,,21:22,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,Suspicious M/V,,Unfounded,No,,29 GOODWIN ST,Marlborough,,,Marlborough PD,,22:26,,,11/18/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,911 Hangup/Call,,Building Checked/Secured,No,,52 PHELPS ST,Marlborough,,,Marlborough PD,,00:06,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,DISTURBANCE,,Services Rendered- PD,No,,259 BOSTON POST ROAD EAST Apt. #10,Marlborough,,,Marlborough PD,,00:21,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,547 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,00:31,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,Medical,,Services Rendered- FD,No,,265 LAKESIDE AVE,Marlborough,,,Marlborough PD,,00:47,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,Ambulance Assist,,Services Rendered- PD,No,,265 LAKESIDE AVE,Marlborough,,,Marlborough PD,,00:48,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,701 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,01:07,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,Suspicious M/V,,Services Rendered- PD,No,,LIZOTTE DR,Marlborough,,,Marlborough PD,,01:21,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,Medical,,Transported to Hospital,No,,8 SPRINGHILL AVE,Marlborough,,,Marlborough PD,,02:01,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,Ambulance Assist,,Report,Yes,,8 SPRINGHILL AVE,Marlborough,,,Marlborough PD,,02:03,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,DISTURBANCE,,Arrest(s) Made,Yes,,19 NORTHBORO ROAD EAST Apt. #154,Marlborough,,,Marlborough PD,,02:18,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,495 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,06:24,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,Medical,,Transported to Hospital,No,,421 BOLTON ST,Marlborough,,,Marlborough PD,,06:56,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,Ambulance Assist,,Services Rendered- PD,No,,421 BOLTON ST Apt. #129A,Marlborough,,,Marlborough PD,,07:00,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,33
+,,Medical,,Transported to Hospital,No,,69 ASHLEY LN,Marlborough,,,Marlborough PD,,09:27,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,Ambulance Assist,,Services Rendered- PD,No,,69 ASHLEY LN,Marlborough,,,Marlborough PD,,09:27,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,Medical,,Transported to Hospital,No,,400 BOLTON ST Apt. #114,Marlborough,,,Marlborough PD,,09:37,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,Ambulance Assist,,Services Rendered- PD,No,,400 BOLTON ST Apt. #114,Marlborough,,,Marlborough PD,,09:39,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,911 Hangup/Call,,Services Rendered- PD,No,,280 ELM ST Apt. #31,Marlborough,,,Marlborough PD,,09:43,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,Medical,,Services Rendered- FD,No,,215 MAPLE ST,Marlborough,,,Marlborough PD,,09:46,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,DISTURBANCE,,Services Rendered- PD,No,,109 BROADMEADOW RD Apt. #1,Marlborough,,,Marlborough PD,,11:02,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,ASSIST CITIZEN,,Report,Yes,,29 PLEASANT ST Apt. #A9,Marlborough,,,Marlborough PD,,12:03,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,[MAR 1436] 351 LINCOLN ST,Marlborough,,,Marlborough PD,,12:39,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,ASSIST CITIZEN,,Unfounded,No,,44 CENTRAL ST,Marlborough,,,Marlborough PD,,12:43,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,Medical,,Transported to Hospital,No,,7 FARMHOUSE LN Apt. #5,Marlborough,,,Marlborough PD,,12:46,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,Ambulance Assist,,Services Rendered- PD,No,,7 FARMHOUSE LN Apt. #5,Marlborough,,,Marlborough PD,,12:47,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,Suspicious M/V,,Services Rendered- PD,No,,190 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,13:21,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,Parking Violation,,Services Rendered- PD,No,,22 BRIDGE ST,Marlborough,,,Marlborough PD,,13:23,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,Parking Violation,,Services Rendered- PD,No,,6 MAPLEWOOD AVE @ 35 ELM ST,Marlborough,,,Marlborough PD,,14:03,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,Medical,,Medical Assistance Rendered,No,,355 BOLTON ST,Marlborough,,,Marlborough PD,,15:18,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,Public Assist,,Services Rendered- FD,No,,255 MAIN ST,Marlborough,,,Marlborough PD,,15:51,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,Ambulance Assist,,Report,Yes,,39 RINGOLD ST,Marlborough,,,Marlborough PD,,15:56,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,34
+,,Ambulance Only,,Medical Assistance Rendered,No,,39 RINGOLD ST,Marlborough,,,Marlborough PD,,16:21,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,16 DALEY CIR,Marlborough,,,Marlborough PD,,16:55,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,Ambulance Assist,,Services Rendered- PD,No,,121 NORTHBORO ROAD EAST Apt. #124,Marlborough,,,Marlborough PD,,17:02,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,Medical,,Medical Assistance Rendered,No,,121 NORTHBORO ROAD EAST Apt. #124C,Marlborough,,,Marlborough PD,,17:02,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,Ambulance Only,,Medical Assistance Rendered,No,,[HUD] 191 WASHINGTON ST,Marlborough,,,Marlborough PD,,17:51,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,SUSPICIOUS ACTIVITY,,Unfounded,No,,166 PLEASANT ST,Marlborough,,,Marlborough PD,,18:31,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,Medical,,Medical Assistance Rendered,No,,512 SUDBURY ST,Marlborough,,,Marlborough PD,,19:39,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,Ambulance Assist,,Services Rendered- PD,No,,512 SUDBURY ST,Marlborough,,,Marlborough PD,,19:41,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,ASSIST OTHER AGENCY,,Services Rendered- PD,No,,21 APEX DR,Marlborough,,,Marlborough PD,,20:49,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,Well being check,,Report,Yes,,15 CHANDLER ST,Marlborough,,,Marlborough PD,,20:56,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,DISTURBANCE,,Report,Yes,,18 COTTING AVE,Marlborough,,,Marlborough PD,,21:04,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,Animal Complaint,,Services Rendered- PD,No,,17 ELIZABETH RD,Marlborough,,,Marlborough PD,,21:06,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,SUSPICIOUS ACTIVITY,,Report,Yes,,ASH ST,Marlborough,,,Marlborough PD,,21:15,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,MOTOR VEHICLE STOP,,Services Rendered- PD,No,,96 SOUTH BOLTON ST @ 28 BRIDGE ST,Marlborough,,,Marlborough PD,,21:30,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,DISTURBANCE,,Report,Yes,,121 DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,21:35,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,DISTURBANCE,,Unfounded,No,,100 GRANGER BLVD Apt. #303,Marlborough,,,Marlborough PD,,22:00,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,DISTURBANCE,,Report,Yes,,72 CHESTNUT ST,Marlborough,,,Marlborough PD,,22:10,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,413 LAKESIDE AVE,Marlborough,,,Marlborough PD,,22:31,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,510 LINCOLN ST @ 60 GIBBONS ST,Marlborough,,,Marlborough PD,,22:37,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,197 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,22:39,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,35
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,43 WINTHROP ST @ 57 GAY ST,Marlborough,,,Marlborough PD,,22:57,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,6 MARIEN LN,Marlborough,,,Marlborough PD,,23:01,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,216 MAPLE ST,Marlborough,,,Marlborough PD,,23:16,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,65 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,23:40,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,Medical,,Medical Assistance Rendered,No,,273A WEST MAIN ST Apt. #6,Marlborough,,,Marlborough PD,,23:41,,,11/19/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,Medical,,Medical Assistance Rendered,No,,40 MADISON ST,Marlborough,,,Marlborough PD,,00:56,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,Ambulance Assist,,Services Rendered- PD,No,,40 MADISON ST,Marlborough,,,Marlborough PD,,00:56,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,Medical,,Medical Assistance Rendered,No,,22 BROAD ST Apt. #401,Marlborough,,,Marlborough PD,,02:51,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,Ambulance Assist,,Services Rendered- PD,No,,22 BROAD ST Apt. #401,Marlborough,,,Marlborough PD,,02:52,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,Medical,,Medical Assistance Rendered,No,,37 MAPLE ST Apt. #1,Marlborough,,,Marlborough PD,,03:33,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,Well being check,,Services Rendered- PD,No,,37 MAPLE ST Apt. #1,Marlborough,,,Marlborough PD,,03:33,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,25 UNION ST,Marlborough,,,Marlborough PD,,04:06,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,Medical,,Services Rendered- FD,No,,22 BROAD ST Apt. #214,Marlborough,,,Marlborough PD,,04:37,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,DISTURBANCE,,Report,Yes,,85 SILVER LEAF WAY Apt. #31,Marlborough,,,Marlborough PD,,04:59,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,Medical,,Transported to Hospital,No,,240 MAIN ST Apt. #305,Marlborough,,,Marlborough PD,,06:09,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,Ambulance Assist,,Services Rendered- PD,No,,240 MAIN ST Apt. #305,Marlborough,,,Marlborough PD,,06:10,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,Medical,,Transported to Hospital,No,,3 ELM ST,Marlborough,,,Marlborough PD,,07:12,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,36
+,,Ambulance Assist,,Services Rendered- PD,No,,3 ELM ST,Marlborough,,,Marlborough PD,,07:12,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,Ambulance Assist,,Services Rendered- PD,No,,720 BOSTON POST ROAD EAST Apt.,Marlborough,,,Marlborough PD,,07:26,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,Medical,,Transported to Hospital,No,,720 BOSTON POST ROAD EAST Apt.,Marlborough,,,Marlborough PD,,07:27,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,853 DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,09:34,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,Police Assist,,Report,Yes,,51 BRIARWOOD LN Apt. #7,Marlborough,,,Marlborough PD,,09:36,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,41 HUDSON ST @ 72 JEFFERSON ST,Marlborough,,,Marlborough PD,,09:38,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,605 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,09:54,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,35 WEST MAIN ST,Marlborough,,,Marlborough PD,,09:56,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,DISTURBANCE,,Report,Yes,,357 STEARNS RD,Marlborough,,,Marlborough PD,,09:58,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,Cell Check,,Services Rendered- PD,No,,355 BOLTON ST Apt. #7,Marlborough,,,Marlborough PD,,10:11,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,58 APEX DR,Marlborough,,,Marlborough PD,,10:24,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,Medical,,Services Rendered- FD,No,,191 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,10:26,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,Police Assist,,Services Rendered- PD,No,,50 WILLIAMS ST,Marlborough,,,Marlborough PD,,10:31,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,176 BOSTON POST ROAD WEST @ 23 APEX DR,Marlborough,,,Marlborough PD,,10:34,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,Police Assist,,Services Rendered- PD,No,,51 BRIARWOOD LN Apt. #3,Marlborough,,,Marlborough PD,,10:35,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,Medical,,Transported to Hospital,No,,30 MAIN ST,Marlborough,,,Marlborough PD,,10:54,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,911 Hangup/Call,,Services Rendered- PD,No,,30 MAIN ST,Marlborough,,,Marlborough PD,,10:54,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,Ambulance Assist,,Services Rendered- PD,No,,6 FULLER DR,Marlborough,,,Marlborough PD,,11:03,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,37
+,,Medical,,Transported to Hospital,No,,6 FULLER DR,Marlborough,,,Marlborough PD,,11:04,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,56 FRAMINGHAM RD,Marlborough,,,Marlborough PD,,11:14,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,319 EAST MAIN ST Apt. #L1,Marlborough,,,Marlborough PD,,11:29,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,65 WEST MAIN ST,Marlborough,,,Marlborough PD,,11:33,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,Ambulance Assist,,No Action Required,No,,240 MAIN ST,Marlborough,,,Marlborough PD,,11:38,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,Medical,,Services Rendered- FD,No,,240 MAIN ST,Marlborough,,,Marlborough PD,,11:39,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,MOTOR VEHICLE STOP,,CRIMINAL COMPLAINT,Yes,,35 WEST MAIN ST,Marlborough,,,Marlborough PD,,11:42,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,734 FOREST ST Apt. #400,Marlborough,,,Marlborough PD,,11:46,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,DPW Called Out,,Services Rendered- PD,No,,378 BOLTON ST,Marlborough,,,Marlborough PD,,11:48,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,58 APEX DR Apt. #D,Marlborough,,,Marlborough PD,,12:03,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,Medical,,Transported to Hospital,No,,42 NEIL ST,Marlborough,,,Marlborough PD,,12:08,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,Ambulance Assist,,Services Rendered- PD,No,,42 NEIL ST,Marlborough,,,Marlborough PD,,12:09,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,Well being check,,Services Rendered- PD,No,,240 MAIN ST,Marlborough,,,Marlborough PD,,12:42,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,Parking Violation,,Services Rendered- PD,No,,79 HIGHLAND ST,Marlborough,,,Marlborough PD,,12:53,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,2 WEED ST @ 20 FLORENCE ST,Marlborough,,,Marlborough PD,,12:55,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,Fraud / Forgery,,Report,Yes,,342 LINCOLN ST Apt. #320,Marlborough,,,Marlborough PD,,12:56,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,25 UNION ST,Marlborough,,,Marlborough PD,,13:04,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,ASSAULT,,Report,Yes,,199 FOREST ST,Marlborough,,,Marlborough PD,,13:53,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,38
+,,Medical,,Transported to Hospital,No,,421 BOLTON ST,Marlborough,,,Marlborough PD,,14:02,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,MOTOR VEHICLE STOP,,CRIMINAL COMPLAINT,Yes,,378 LINCOLN ST,Marlborough,,,Marlborough PD,,14:20,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,Private Tow,,Private tow,No,,780 NORTH BIGELOW ST,Marlborough,,,Marlborough PD,,14:50,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,Medical,,Medical Assistance Rendered,No,,193 BOSTON POST ROAD WEST Apt. #C,Marlborough,,,Marlborough PD,,14:55,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,911 Hangup/Call,,Services Rendered- PD,No,,5 ONAMOG ST Apt. #C,Marlborough,,,Marlborough PD,,15:36,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,Eratic Operator,,Services Rendered- PD,No,,769 DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,15:40,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,Motor vehicle accident I,,Medical Assistance Rendered,No,,424 LINCOLN ST @ 64 PLEASANT ST,Marlborough,,,Marlborough PD,,15:45,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,MVA WITH INJURIES,,Report,Yes,,424 LINCOLN ST @ 64 PLEASANT ST,Marlborough,,,Marlborough PD,,15:45,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,453 SUDBURY ST,Marlborough,,,Marlborough PD,,15:46,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,9 BROAD ST @ 214 WEST MAIN ST,Marlborough,,,Marlborough PD,,15:54,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,Motor vehicle accident I,,No Action Required,No,,9 BROAD ST @ 214 WEST MAIN ST,Marlborough,,,Marlborough PD,,16:01,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,DPW Called Out,,Taken/Referred to Other Agency,No,,424 LINCOLN ST @ 64 PLEASANT ST,Marlborough,,,Marlborough PD,,16:18,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,Ambulance Only,,Medical Assistance Rendered,No,,[HUD] 4 GLEN RD Apt. #1,Marlborough,,,Marlborough PD,,16:23,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,911 Hangup/Call,,Services Rendered- PD,No,,FAMILY RESIDENTIAL - 59 HARVARD ST Apt. #1,Marlborough,,,Marlborough PD,,16:24,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,911 Hangup/Call,,Services Rendered- PD,No,,728 DONALD J. LYNCH BLVD,Marlborough,,,Marlborough PD,,16:26,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,ASSIST CITIZEN,,Report,Yes,,198 WEST MAIN ST Apt. #1,Marlborough,,,Marlborough PD,,16:38,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,350 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,16:53,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,DISABLED MV,,Services Rendered- PD,No,,9 DUDLEY ST @ 89 NORTHBORO ROAD EAST,Marlborough,,,Marlborough PD,,17:19,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,DPW Called Out,,Services Rendered- PD,No,,BERLIN RD,Marlborough,,,Marlborough PD,,17:21,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,39
+,,Medical,,Medical Assistance Rendered,No,,420 HEMENWAY ST Apt. #266,Marlborough,,,Marlborough PD,,17:29,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,8 HUDSON ST @ 159 MECHANIC ST,Marlborough,,,Marlborough PD,,17:35,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,Well being check,,Services Rendered- PD,No,,194 CHESTNUT ST Apt. #2,Marlborough,,,Marlborough PD,,17:46,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,Fraud / Forgery,,Report,Yes,,100 HOWE ST Apt. #2,Marlborough,,,Marlborough PD,,18:09,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,Well being check,,Services Rendered- PD,No,,165 AMES ST Apt. #3203,Marlborough,,,Marlborough PD,,18:30,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,"ALARM, BURGLAR",,Services Rendered- PD,No,,247 MAPLE ST,Marlborough,,,Marlborough PD,,18:46,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,Medical,,Medical Assistance Rendered,No,,60 HUTCHINSON DR,Marlborough,,,Marlborough PD,,19:29,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,Ambulance Assist,,Services Rendered- PD,No,,60 HUTCHINSON DR,Marlborough,,,Marlborough PD,,19:29,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,DISTURBANCE,,Report,Yes,,31 MAIN ST,Marlborough,,,Marlborough PD,,19:54,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,556 PLEASANT ST @ 10 WEST HILL RD,Marlborough,,,Marlborough PD,,20:25,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,Medical,,Services Rendered- FD,No,,240 MAIN ST Apt. #206,Marlborough,,,Marlborough PD,,20:41,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,Suspicious M/V,,Services Rendered- PD,No,,64 CRESTWOOD LN,Marlborough,,,Marlborough PD,,20:42,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,MOTOR VEHICLE STOP,,Report,Yes,,110 PLEASANT ST @ 93 CHESTNUT ST,Marlborough,,,Marlborough PD,,20:48,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,Police Assist,,Services Rendered- PD,No,,141 BROADMEADOW RD Apt. #A/B,Marlborough,,,Marlborough PD,,20:52,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,Ambulance Only,,Medical Assistance Rendered,No,,[HUD] 45 PLEASANT ST,Marlborough,,,Marlborough PD,,20:54,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,DPW Called Out,,Services Rendered- PD,No,,141B BROADMEADOW RD,Marlborough,,,Marlborough PD,,21:04,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,Eratic Operator,,Services Rendered- PD,No,,27 ARNOLD ST,Marlborough,,,Marlborough PD,,21:15,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,DISTURBANCE,,Services Rendered- PD,No,,51 GIBBONS ST Apt. #2,Marlborough,,,Marlborough PD,,21:20,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,Medical,,Medical Assistance Rendered,No,,51 GIBBONS ST Apt. #2,Marlborough,,,Marlborough PD,,21:24,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,40
+,,DISTURBANCE,,Report,Yes,,7 ROYAL CREST DR Apt. #2,Marlborough,,,Marlborough PD,,21:43,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,41
+,,DISTURBANCE,,Services Rendered- PD,No,,7 ROYAL CREST DR Apt. #2,Marlborough,,,Marlborough PD,,22:10,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,41
+,,Well being check,,Services Rendered- PD,No,,165 AMES ST Apt. #3203,Marlborough,,,Marlborough PD,,22:50,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,41
+,,Parking Violation,,Services Rendered- PD,No,,2 SILVER ST Apt. #APT4,Marlborough,,,Marlborough PD,,23:18,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,41
+,,DISTURBANCE,,Services Rendered- PD,No,,735 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,23:25,,,11/20/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,41
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,168 FARM RD,Marlborough,,,Marlborough PD,,00:40,,,11/21/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,41
+,,DISTURBANCE,,Services Rendered- PD,No,,169B BROADMEADOW RD Apt. #8,Marlborough,,,Marlborough PD,,00:44,,,11/21/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,41
+,,ASSIST OTHER AGENCY,,Services Rendered- PD,No,,55 MECHANIC ST,Marlborough,,,Marlborough PD,,01:01,,,11/21/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,41
+,,MOTOR VEHICLE STOP,,Report,Yes,22-395-AR,RT495 SOUTH/NORTH OF 290,Marlborough,,,Marlborough PD,,01:18,,,11/21/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,41
+,,SUSPICIOUS ACTIVITY,,Building Checked/Secured,No,,57 MAIN ST,Marlborough,,,Marlborough PD,,02:24,,,11/21/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,41
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,MAPLE ST,Marlborough,,,Marlborough PD,,02:38,,,11/21/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,41
+,,Parking Violation,,Citation/Warning Issued,No,,NEWTON ST,Marlborough,,,Marlborough PD,,02:39,,,11/21/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,41
+,,"ALARM, BURGLAR",,Services Rendered- PD,No,,720 STEVENS ST,Marlborough,,,Marlborough PD,,04:18,,,11/21/2022,Call_Log_November_16_2022_to_November_21_2022.pdf,41

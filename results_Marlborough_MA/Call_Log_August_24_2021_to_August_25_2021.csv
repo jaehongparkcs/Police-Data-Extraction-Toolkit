@@ -1,0 +1,67 @@
+Dispatch Call ID Number,Dispatch Code,Call Description,Priority Level of Call,Call Disposition,Crime Incident Report Written,Crime Incident ID,Address Street,Address City,Address Zip,Geographic Coordinates,Police Division,Police Beat,Time of Call,Time of Dispatch,Time of Arrival,Date of Call,Source PDF File,Source Page
+,,Threats,,Report,Yes,,115 APEX DR Apt. #I,Marlborough,,,Marlborough PD,,07:36,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,911 Hangup/Call,,Unfounded,No,,99 PLEASANT ST,Marlborough,,,Marlborough PD,,08:52,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,ESCORT/TRANSPORT,,Services Rendered- PD,No,,45 WILLIAMS ST,Marlborough,,,Marlborough PD,,09:09,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,ABANDONED MV,,Services Rendered- PD,No,,43 GIBBON ST,Marlborough,,,Marlborough PD,,09:20,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,VANDALISM,,Report,Yes,,740 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,09:50,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,Medical,,Services Rendered- FD,No,,33 DICKENSON WAY,Marlborough,,,Marlborough PD,,09:59,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,Medical,,Transported to Hospital,No,,400 BOLTON ST,Marlborough,,,Marlborough PD,,10:00,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,Well being check,,Unfounded,No,,DICKENSON WAY,Marlborough,,,Marlborough PD,,10:01,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,Medical,,Transported to Hospital,No,,400 HEMENWAY ST,Marlborough,,,Marlborough PD,,10:22,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,911 Hangup/Call,,Services Rendered- PD,No,,165 COLLINS DR,Marlborough,,,Marlborough PD,,10:53,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,Ambulance Assist,,Services Rendered- PD,No,,400 BOLTON ST Apt. #119,Marlborough,,,Marlborough PD,,11:39,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,Medical,,Transported to Hospital,No,,400 BOLTON ST Apt. #119,Marlborough,,,Marlborough PD,,11:40,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,Well being check,,Services Rendered- PD,No,,13 CROSS ST,Marlborough,,,Marlborough PD,,12:13,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,Animal Complaint,,Report,Yes,,8 JOHANSEN DR,Marlborough,,,Marlborough PD,,12:15,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,ASSIST CITIZEN,,Report,Yes,,108 VICTORIA LN,Marlborough,,,Marlborough PD,,12:21,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,155 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,12:27,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,Parking Violation,,Unfounded,No,,510 FOREST ST,Marlborough,,,Marlborough PD,,12:29,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,DISABLED MV,,Unfounded,No,,280 WEST MAIN ST @ 11 GRANGER BLVD,Marlborough,,,Marlborough PD,,12:36,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,1
+,,Directed Patrol,,Services Rendered- PD,No,,694 FARM RD,Marlborough,,,Marlborough PD,,12:40,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,Trespassing,,Report,Yes,,515 LINCOLN ST,Marlborough,,,Marlborough PD,,13:13,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,Medical,,Transported to Hospital,No,,515 LINCOLN ST,Marlborough,,,Marlborough PD,,13:20,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,ASSIST OTHER AGENCY,,Services Rendered- PD,No,,ROUTE 290 EASTBOUND,Marlborough,,,Marlborough PD,,13:23,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,Motor Vehicle Accident I I,,Services Rendered- FD,No,,ROUTE 290 EASTBOUND,Marlborough,,,Marlborough PD,,13:23,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,SERVE SUMMONS,,Services Rendered- PD,No,,412 SOUTH ST,Marlborough,,,Marlborough PD,,14:40,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,256 MAPLE ST,Marlborough,,,Marlborough PD,,15:02,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,3 CHURCH ST @ 151 EAST MAIN ST,Marlborough,,,Marlborough PD,,15:37,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,Well being check,,Services Rendered- PD,No,,26 SONIA DR,Marlborough,,,Marlborough PD,,16:00,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,412 SOUTH ST,Marlborough,,,Marlborough PD,,16:37,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,Well being check,,Services Rendered- PD,No,,133 BROADMEADOW RD Apt. #10,Marlborough,,,Marlborough PD,,16:38,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,Parking Violation,,Services Rendered- PD,No,,151 MAIN ST,Marlborough,,,Marlborough PD,,16:38,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,Medical,,Transported to Hospital,No,,574 LINCOLN ST Apt. #2,Marlborough,,,Marlborough PD,,17:13,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,574 LINCOLN ST Apt. #2,Marlborough,,,Marlborough PD,,17:14,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,Threats,,Report,Yes,,FAMILY RESIDENTIAL - 40 NEIL ST Apt. #2,Marlborough,,,Marlborough PD,,17:15,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,1015 BOSTON POST ROAD EAST @ 24 HAGER ST,Marlborough,,,Marlborough PD,,17:31,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,DISABLED MV,,Services Rendered- PD,No,,7 GATES AVE,Marlborough,,,Marlborough PD,,17:59,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,175 CHURCH ST,Marlborough,,,Marlborough PD,,18:10,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,2
+,,Medical,,Transported to Hospital,No,,175 CHURCH ST,Marlborough,,,Marlborough PD,,18:10,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,Medical,,Transported to Hospital,No,,400 HEMENWAY ST,Marlborough,,,Marlborough PD,,18:25,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,Ambulance Assist,,Services Rendered- PD,No,,400 HEMENWAY ST,Marlborough,,,Marlborough PD,,18:26,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,13 FARMHOUSE LN Apt. #11,Marlborough,,,Marlborough PD,,18:39,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,DISTURBANCE,,Services Rendered- PD,No,,153 EDINBORO ST,Marlborough,,,Marlborough PD,,18:50,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,145 PLEASANT ST,Marlborough,,,Marlborough PD,,19:05,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,Ambulance Assist,,Services Rendered- PD,No,,99 PLEASANT ST Apt. #202,Marlborough,,,Marlborough PD,,19:15,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,Medical,,Transported to Hospital,No,,99 PLEASANT ST Apt. #202,Marlborough,,,Marlborough PD,,19:16,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,DPW Called Out,,Services Rendered- PD,No,,493 BOSTON POST ROAD WEST @ 25 BOUNDARY ST,Marlborough,,,Marlborough PD,,19:48,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,276 BOSTON POST ROAD WEST,Marlborough,,,Marlborough PD,,20:04,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,91 MAIN ST,Marlborough,,,Marlborough PD,,20:13,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,DISABLED MV,,CRIMINAL COMPLAINT,Yes,,91 MAIN ST @ 1 BOLTON ST,Marlborough,,,Marlborough PD,,20:43,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,Directed Patrol,,Services Rendered- PD,No,,355 BOLTON ST,Marlborough,,,Marlborough PD,,20:50,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,Medical,,Transported to Hospital,No,,12 FARMHOUSE LN Apt. #5,Marlborough,,,Marlborough PD,,20:58,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,Ambulance Assist,,Services Rendered- PD,No,,12 FARMHOUSE LN Apt. #5,Marlborough,,,Marlborough PD,,20:58,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,MVA PROPERTY DAMAGE ONLY,,Services Rendered- PD,No,,256 MAPLE ST,Marlborough,,,Marlborough PD,,20:59,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,MOTOR VEHICLE STOP,,Citation/Warning Issued,No,,175 MAPLE ST,Marlborough,,,Marlborough PD,,21:21,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,ASSIST CITIZEN,,Report,Yes,,198 WEST MAIN ST,Marlborough,,,Marlborough PD,,22:04,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,3
+,,Parking Violation,,Unfounded,No,,6 SAWIN ST @ 37 EAST MAIN ST,Marlborough,,,Marlborough PD,,22:08,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,4
+,,Ambulance Assist,,Services Rendered- PD,No,,5367 TIMBERVIEW WAY,Marlborough,,,Marlborough PD,,22:20,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,4
+,,Medical,,Transported to Hospital,No,,5367 TIMBERVIEW WAY,Marlborough,,,Marlborough PD,,22:21,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,4
+,,SERVED HARASSMENT ORDER,,Services Rendered- PD,No,,2 SILVER ST Apt. #6,Marlborough,,,Marlborough PD,,22:31,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,4
+,,Private Tow,,Services Rendered- PD,No,,141 BROADMEADOW RD Apt. #A/B,Marlborough,,,Marlborough PD,,23:03,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,4
+,,DISTURBANCE,,Report,Yes,,11 CONVENIENCE STORE - 92 BROAD ST,Marlborough,,,Marlborough PD,,23:13,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,4
+,,Private Tow,,Private tow,No,,141 BROADMEADOW RD Apt. #A/B,Marlborough,,,Marlborough PD,,23:32,,,08/24/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,4
+,,DISTURBANCE,,Report,Yes,,56 DEVENS ST Apt. #2,Marlborough,,,Marlborough PD,,00:20,,,08/25/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,4
+,,Ambulance Assist,,Services Rendered- PD,No,,22 BROAD ST,Marlborough,,,Marlborough PD,,00:30,,,08/25/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,4
+,,Medical,,Medical Assistance Rendered,No,,22 BROAD ST Apt. #106,Marlborough,,,Marlborough PD,,00:32,,,08/25/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,4
+,,Ambulance Assist,,Services Rendered- PD,No,,421 BOLTON ST Apt. #113,Marlborough,,,Marlborough PD,,06:39,,,08/25/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,4
+,,Medical,,Medical Assistance Rendered,No,,421 BOLTON ST Apt. #113,Marlborough,,,Marlborough PD,,06:39,,,08/25/2021,Call_Log_August_24_2021_to_August_25_2021.pdf,4

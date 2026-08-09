@@ -1,0 +1,55 @@
+Dispatch Call ID Number,Dispatch Code,Call Description,Priority Level of Call,Call Disposition,Crime Incident Report Written,Crime Incident ID,Address Street,Address City,Address Zip,Geographic Coordinates,Police Division,Police Beat,Time of Call,Time of Dispatch,Time of Arrival,Date of Call,Source PDF File,Source Page
+,,Medical,,Transported to Hospital,No,,265 LAKESIDE AVE,Marlborough,,,Marlborough PD,,08:19,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,Ambulance Assist,,Services Rendered- PD,No,,757 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,09:01,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,Medical,,Services Rendered- FD,No,,757 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,09:01,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,Ambulance Assist,,Services Rendered- PD,No,,400 HEMENWAY ST Apt. #232,Marlborough,,,Marlborough PD,,09:20,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,Medical,,Transported to Hospital,No,,400 HEMENWAY ST Apt. #232,Marlborough,,,Marlborough PD,,09:20,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,Directed Patrol,,Services Rendered- PD,No,,STEVENS ST,Marlborough,,,Marlborough PD,,09:28,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,Sex Offender Registration,,Report,Yes,,355 BOLTON ST,Marlborough,,,Marlborough PD,,09:34,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,Sex Offender Registration,,Report,Yes,,355 BOLTON ST,Marlborough,,,Marlborough PD,,09:35,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,ASSIST OTHER AGENCY,,Services,No,,[MAR 8712] 328 EAST MAIN ST,Marlborough,,,Marlborough PD,,10:10,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,Ambulance Assist,,Services Rendered- PD,No,,[MAR 8815] 26 LINCOLN ST Apt. #1,Marlborough,,,Marlborough PD,,12:34,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,Medical,,Transported to Hospital,No,,26 LINCOLN ST Apt. #1,Marlborough,,,Marlborough PD,,12:35,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,Medical,,Services Rendered- FD,No,,240 MAIN ST Apt. #218,Marlborough,,,Marlborough PD,,12:42,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,DISTURBANCE,,No Action Required,No,,157 UNION ST,Marlborough,,,Marlborough PD,,12:46,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,TRAFFIC CONTROL,,Services Rendered- PD,No,,11 GRANGER BLVD @ 280 WEST MAIN ST,Marlborough,,,Marlborough PD,,13:00,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,FOUND/LOST PROPERTY,,Report,Yes,,11 PROSPECT ST,Marlborough,,,Marlborough PD,,13:02,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,Parking Violation,,Services Rendered- PD,No,,7 PRESTON ST @ 59 ELM ST,Marlborough,,,Marlborough PD,,13:06,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,ASSIST OTHER AGENCY,,Services,No,,45 BRONTE WAY Apt. #23A,Marlborough,,,Marlborough PD,,14:03,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,1
+,,Ambulance Only,,Transported to Hospital,No,,[HUD] 11 ERIE DR,Marlborough,,,Marlborough PD,,14:15,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,Medical,,Services Rendered- FD,No,,489 LINCOLN ST Apt. #1,Marlborough,,,Marlborough PD,,14:48,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,DISTURBANCE,,Services Rendered- PD,No,,265 LAKESIDE AVE Apt. #1,Marlborough,,,Marlborough PD,,14:49,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,489 LINCOLN ST Apt. #1,Marlborough,,,Marlborough PD,,14:50,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,Ambulance Only,,Transported to Hospital,No,,265 LAKESIDE AVE,Marlborough,,,Marlborough PD,,15:08,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,SUSPICIOUS ACTIVITY,,CRIMINAL,No,,478 CONCORD RD,Marlborough,,,Marlborough PD,,15:42,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,27 MAIN ST,Marlborough,,,Marlborough PD,,16:16,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,Medical,,Transported to Hospital,No,,51 CHRISTIE WAY,Marlborough,,,Marlborough PD,,16:25,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,"ALARM, BURGLAR",,No Action Required,No,,200 CONCORD RD,Marlborough,,,Marlborough PD,,16:27,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,51 CHRISTIE WAY Apt. #53E,Marlborough,,,Marlborough PD,,16:28,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,Medical,,Transported to Hospital,No,,400 BOLTON ST,Marlborough,,,Marlborough PD,,16:43,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,400 BOLTON ST,Marlborough,,,Marlborough PD,,16:44,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,Ambulance Only,,Transported to Hospital,No,,355 BOLTON ST,Marlborough,,,Marlborough PD,,16:57,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,SUSPICIOUS ACTIVITY,,Services,No,,406 LINCOLN ST,Marlborough,,,Marlborough PD,,17:10,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,Motor Vehicle Accident I I Services,,,No,,ROUTE 495 N,Marlborough,,,Marlborough PD,,18:10,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,Trespassing,,Report,Yes,,406 LINCOLN ST,Marlborough,,,Marlborough PD,,18:23,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,Threats,,Report,Yes,,260 EAST MAIN ST,Marlborough,,,Marlborough PD,,18:37,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,260 EAST MAIN ST,Marlborough,,,Marlborough PD,,18:42,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,Medical,,Transported to Hospital,No,,260 EAST MAIN ST,Marlborough,,,Marlborough PD,,18:43,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,911 Hangup/Call,,Services Rendered- PD,No,,25 FAIRMOUNT ST,Marlborough,,,Marlborough PD,,19:04,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,SUSPICIOUS ACTIVITY,,Report,Yes,,14 AVALON DR,Marlborough,,,Marlborough PD,,19:06,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,Medical,,Transported to Hospital,No,,34 VICTORIA LN,Marlborough,,,Marlborough PD,,19:11,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,Ambulance Assist,,Services Rendered- PD,No,,34 VICTORIA LN,Marlborough,,,Marlborough PD,,19:13,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,SUSPICIOUS ACTIVITY,,Report,Yes,,SEASONS MARKET - 342 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,19:33,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,"ALARM, BURGLAR",,No Action Required,No,,214 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,19:50,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,Ambulance Only,,Transported to Hospital,No,,SEASONS MARKET - 342 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,19:54,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,SUSPICIOUS ACTIVITY,,Services,No,,2 KEVORK AVE,Marlborough,,,Marlborough PD,,20:06,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,ASSIST OTHER AGENCY,,Services,No,,157 UNION ST,Marlborough,,,Marlborough PD,,20:09,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,DISTURBANCE,,Report,Yes,,503 BIGELOW ST,Marlborough,,,Marlborough PD,,21:09,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,Well being check,,Services Rendered- PD,No,,451 BERLIN RD,Marlborough,,,Marlborough PD,,23:50,,,05/11/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,Ambulance Assist,,Report,Yes,,111 BROADMEADOW RD Apt. #9,Marlborough,,,Marlborough PD,,01:21,,,05/12/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,Medical,,Services Rendered- FD,No,,111 BROADMEADOW RD Apt. #9,Marlborough,,,Marlborough PD,,01:24,,,05/12/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,MVA PROPERTY DAMAGE ONLY,,Arrest(s) Made,Yes,20-183-AR,590 LINCOLN ST @ 5 WINTER AVE,Marlborough,,,Marlborough PD,,03:05,,,05/12/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,3
+,,Motor Vehicle Accident I I Services,,,No,,590 LINCOLN ST @ 5 WINTER AVE,Marlborough,,,Marlborough PD,,03:07,,,05/12/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,4
+,,SUSPICIOUS ACTIVITY,,Building,No,,87 ASHLEY LN,Marlborough,,,Marlborough PD,,03:57,,,05/12/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,4
+,,Ambulance Assist,,Services Rendered- PD,No,,121 NORTHBORO ROAD EAST Apt. #141A,Marlborough,,,Marlborough PD,,05:43,,,05/12/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,4
+,,Medical,,Services Rendered- FD,No,,121 NORTHBORO ROAD EAST Apt. #141,Marlborough,,,Marlborough PD,,05:44,,,05/12/2020,Call_Log_May_11_2020_to_May_12_2020.pdf,4

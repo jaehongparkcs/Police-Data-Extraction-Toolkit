@@ -1,0 +1,41 @@
+Dispatch Call ID Number,Dispatch Code,Call Description,Priority Level of Call,Call Disposition,Crime Incident Report Written,Crime Incident ID,Address Street,Address City,Address Zip,Geographic Coordinates,Police Division,Police Beat,Time of Call,Time of Dispatch,Time of Arrival,Date of Call,Source PDF File,Source Page
+,,Suspicious M/V,,Services Rendered- PD,No,,146 MAPLE ST,Marlborough,,,Marlborough PD,,07:01,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,Medical,,Medical Assistance Rendered,No,,99 PLEASANT ST Apt. #204,Marlborough,,,Marlborough PD,,07:38,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,Ambulance Assist,,Services Rendered- PD,No,,99 PLEASANT ST Apt. #204,Marlborough,,,Marlborough PD,,07:38,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,Ambulance Only,,Medical Assistance Rendered,No,,157 UNION ST,Marlborough,,,Marlborough PD,,08:06,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,Ambulance Assist,,Services Rendered- PD,No,,99 PLEASANT ST Apt. #102,Marlborough,,,Marlborough PD,,08:23,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,Medical,,Medical Assistance Rendered,No,,99 PLEASANT ST,Marlborough,,,Marlborough PD,,08:23,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,ASSIST OTHER AGENCY,,Services,No,,99 GRANGER BLVD,Marlborough,,,Marlborough PD,,10:11,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,DISTURBANCE,,Report,Yes,,49 PHELPS ST,Marlborough,,,Marlborough PD,,11:36,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,Ambulance Assist,,Services Rendered- PD,No,,240 MAIN ST Apt. #504,Marlborough,,,Marlborough PD,,12:01,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,Medical,,Medical Assistance Rendered,No,,240 MAIN ST Apt. #506,Marlborough,,,Marlborough PD,,12:02,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,SUSPICIOUS ACTIVITY,,Services,No,,114 EAST MAIN ST,Marlborough,,,Marlborough PD,,12:24,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,Ambulance Assist,,Services Rendered- PD,No,,240 MAIN ST Apt. #411,Marlborough,,,Marlborough PD,,14:29,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,Medical,,Medical Assistance Rendered,No,,240 MAIN ST Apt. #411,Marlborough,,,Marlborough PD,,14:29,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,Ambulance Assist,,Services Rendered- PD,No,,11 ESTABROOK AVE Apt. #2,Marlborough,,,Marlborough PD,,14:39,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,Medical,,Medical Assistance Rendered,No,,11 ESTABROOK AVE Apt. #2,Marlborough,,,Marlborough PD,,14:40,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,Animal Complaint,,Services Rendered- PD,No,,103 LANGELIER LN,Marlborough,,,Marlborough PD,,15:18,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,Animal Complaint,,Services Rendered- PD,No,,1000 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,15:19,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,1
+,,Ambulance Only,,Medical Assistance Rendered,No,,[HUD] 312 MAIN ST,Marlborough,,,Marlborough PD,,15:40,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,158 BRACKEN DR,Marlborough,,,Marlborough PD,,15:46,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,DISABLED MV,,Services Rendered- PD,No,,27 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,16:03,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,MISSING PERSON,,Report,Yes,,4 AVALON DR Apt. #4,Marlborough,,,Marlborough PD,,16:14,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,Eratic Operator,,Unfounded,No,,BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,16:27,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,DISTURBANCE,,Report,Yes,,175 MAPLE ST Apt. #113,Marlborough,,,Marlborough PD,,16:40,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,BUILDING CHECK,,Building Checked/Secured,No,,370 STEARNS RD,Marlborough,,,Marlborough PD,,17:22,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,MOTOR VEHICLE STOP,,Citation/Warning,No,,458 FARM RD,Marlborough,,,Marlborough PD,,17:33,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,DISTURBANCE,,Report,Yes,,400 BOLTON ST,Marlborough,,,Marlborough PD,,17:38,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,ASSIST CITIZEN,,Report,Yes,,355 BOLTON ST,Marlborough,,,Marlborough PD,,18:08,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,Ambulance Assist,,Services Rendered- PD,No,,99 PLEASANT ST Apt. #217,Marlborough,,,Marlborough PD,,18:24,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,Medical,,Medical Assistance Rendered,No,,99 PLEASANT ST Apt. #217,Marlborough,,,Marlborough PD,,18:24,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,Suspicious M/V,,Services Rendered- PD,No,,18 DIANA DR,Marlborough,,,Marlborough PD,,18:56,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,Parking Violation,,Services Rendered- PD,No,,587 LINCOLN ST @ 1 WINTER ST,Marlborough,,,Marlborough PD,,18:56,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,ASSIST CITIZEN,,Services Rendered- PD,No,,16 VERSAILLES ST Apt. #1,Marlborough,,,Marlborough PD,,20:01,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,MVA PROPERTY DAMAGE ONLY,,Report,Yes,,416 BOSTON POST ROAD EAST Apt. #12,Marlborough,,,Marlborough PD,,20:05,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,ESCORT/TRANSPORT,,Services Rendered- PD,No,,111 PROSPECT ST,Marlborough,,,Marlborough PD,,21:50,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,2
+,,MOTOR VEHICLE STOP,,Citation/Warning,No,,2 BOSTON POST ROAD EAST,Marlborough,,,Marlborough PD,,22:09,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,3
+,,DISTURBANCE,,Report,Yes,,24 GRANT CT,Marlborough,,,Marlborough PD,,22:23,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,3
+,,ASSIST CITIZEN,,Report,Yes,,165 AMES ST Apt. #3304,Marlborough,,,Marlborough PD,,22:50,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,3
+,,"ALARM, BURGLAR",,Building Checked/Secured,No,,UHAUL - 270 WEST MAIN ST,Marlborough,,,Marlborough PD,,23:57,,,03/01/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,3
+,,MOTOR VEHICLE STOP,,Citation/Warning,No,,319 EAST MAIN ST,Marlborough,,,Marlborough PD,,03:50,,,03/02/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,3
+,,Parking Violation,,Unfounded,No,,45 LIBERTY ST,Marlborough,,,Marlborough PD,,06:23,,,03/02/2020,Call_Log_March_1_2020_to_March_2_2020.pdf,3
