@@ -204,15 +204,32 @@ A general-purpose parser for any **text-layer tabular PDF** (no OCR required). I
 | Cleveland, OH | Incident | Borderless — columns inferred from header + word positions |
 | Oceanside, CA | Arrest | Bordered — cell grid read directly from table lines |
 | Bainbridge Island, WA | Incident | Borderless — tightly-packed columns |
+| Alameda, CA | Arrest details | Borderless — multi-line records (each arrest wraps across 2–4 lines) |
 
 Any other clean, text-layer tabular PDF should also work; see *Reliability & Review Flags* below.
 
 ### Two-Tier Extraction Strategy
 
 1. **Rect-based** — if the PDF has real table cell borders (lines/rectangles), those are used as exact column and row boundaries. Pixel-perfect. (Oceanside.)
-2. **Word-position** — if there are no borders, columns are detected from header word positions using adaptive gap analysis, with a space-glyph signal to keep overflowing/wrapping text in the correct cell. (Cleveland, Bainbridge.)
+2. **Word-position** — if there are no borders, columns are detected from header word positions using adaptive gap analysis, with a space-glyph signal to keep overflowing/wrapping text in the correct cell. (Cleveland, Bainbridge, Alameda.)
 
 The strategy is chosen automatically per file.
+
+### Single-line vs. Multi-line Records
+
+Most tabular PDFs put one record per physical line. Some — like Alameda's arrest-details export — wrap a single record across several lines, where only the first line carries the record ID and the following lines hold overflow text (a long status, a multi-word summary, an officer's surname) with the ID column left blank:
+
+```text
+2022-902  Mar-17  FIELD RELEASE -  MINOR IN         1618 - BOUCHET  GONZALEZ, JOEL...
+                  CITE / OR        POSSESSION OF    LLOYD
+                  (WARRANT)        OPEN CONTAINER
+```
+
+All three lines above are one arrest. The parser detects this pattern automatically — it merges continuation lines (blank ID column) back into the record above them, joining each field's text — and does so across page breaks. The detection is conservative: it only activates when a meaningful share of rows have a blank first column *and* the populated first-column values look like record keys (IDs). Single-line formats (Cleveland, Oceanside, Bainbridge) are recognized as such and pass through unchanged.
+
+### Two-line Headers
+
+Some headers wrap onto a second physical line (e.g. an "Arrest Number" column whose header prints "Arrest" over "Number"). The parser folds the second header line into the header rather than emitting it as a spurious data row, and it correctly recovers the first data row on continuation pages that repeat no header.
 
 ### Usage
 
@@ -263,9 +280,9 @@ A row is flagged for review when any of these are detected:
 * Garbled / scrambled text — checked against an English dictionary via `wordfreq` (e.g. `ORRR CANOTN SEUNST`)
 * Clusters of tiny non-word fragments paired with non-dictionary content
 
-Flag thresholds are relative to what each column normally contains in the same file, so the system adapts to new departments rather than assuming a fixed format.
+Flag thresholds are relative to what each column normally contains in the same file, so the system adapts to new departments rather than assuming a fixed format. Columns that hold **proper names** (people, places) are detected automatically and exempted from the dictionary-based garble check, since names are legitimately not dictionary words — this avoids false-flagging every unusual surname in a name column.
 
-**Recommended workflow:** run the parser, open `<filename>_REVIEW.csv`, and verify or fix only those rows (or filter `_needs_review = YES` in the main CSV). On the tested samples this reduced manual review to a handful of rows: 2 of 370 for Cleveland, 0 for Oceanside, 0 for Bainbridge.
+**Recommended workflow:** run the parser, open `<filename>_REVIEW.csv`, and verify or fix only those rows (or filter `_needs_review = YES` in the main CSV). On the tested samples this reduces manual review to a handful of rows: 3 of 460 for Cleveland, 0 for Oceanside, 0 for Bainbridge, and 5 of 901 for Alameda — and those flagged rows are mostly genuine overlap artifacts in the source PDF.
 
 **Caveat:** the flagger catches *structural* anomalies (misplaced, garbled, or overlapping text). It cannot catch an error where a wrong value still looks plausible and lands in a reasonable-looking column. For a brand-new department, the first run still deserves a manual spot-check beyond just the flagged rows.
 
@@ -278,6 +295,7 @@ The tabular parser does not impose a fixed schema — it outputs whatever column
 | Cleveland, OH | Case Number, Address, Date & Time, Offense Description, Case Disposition, PD District |
 | Oceanside, CA | Incident Type, Incident Number, Incident Date, Violation Type, Violation Section, Violation Description, Location |
 | Bainbridge Island, WA | call_id, actdate, acttime, streetnbr, street, geox, geoy, naturecode |
+| Alameda, CA | Arrest Number, Arrest Date, Status, Summary, Arrest Officer, Arrestee, DOB, Current Cell, Arrest Reason |
 
 ---
 
@@ -293,4 +311,5 @@ The tabular parser does not impose a fixed schema — it outputs whatever column
 * **Large file crashes / out of memory** — Use `--no-master` to skip the combined CSV, or `--pages N` to limit processing. Each file still gets its own CSV even if another file crashes.
 * **OCR address errors in Brea CSV** — Scanned PDFs produce OCR noise, especially on redacted (blacked-out) fields. The parser filters most garbage but some garbled addresses are expected. Entries with unreadable timestamps/dates are dropped rather than concatenated into adjacent rows.
 * **Too many / too few review flags on a new department** — Flag thresholds adapt to each file's own data. If a legitimate value type is being flagged (e.g. an unusual abbreviation), it can be added to the common-words set in `flag_rows()`; if real errors are being missed, the first-run manual spot-check is the safety net.
+* **Tabular parser: record count looks doubled, or rows have a blank first column** — This is a multi-line-record PDF where each record wraps across several lines. The parser normally merges these automatically; if it doesn't, the first-column values may not look enough like record IDs for auto-detection to trigger. Check that the ID column is consistently populated on the first line of each record.
 * **Output folders are safe to re-run** — All parsers ignore PDFs already inside `results_*` directories.

@@ -198,18 +198,25 @@ def parse_page_words(page, col_info=None):
         if not columns:
             return [], None
         col_info = (header_y, columns)
+        data_cutoff = header_y + 3
     else:
         header_y, columns = col_info
-        # Check for repeated header on this page
+        # Check for repeated header on this page.  If found, filter rows
+        # below it; if NOT found, this is a continuation page whose data
+        # starts at the very top — filter nothing (cutoff = -1), so the
+        # first data row (often at the same Y a header would occupy on
+        # page 1) is not mistakenly dropped.
         y_groups = defaultdict(list)
         for w in words:
             y_groups[round(w["top"])].append(w)
         first_word = columns[0][0].split()[0]
         last_word = columns[-1][0].split()[-1]
+        data_cutoff = -1  # no header on this page by default
         for y in sorted(y_groups.keys())[:5]:
             texts = {w["text"] for w in y_groups[y]}
             if first_word in texts and last_word in texts:
                 header_y = y
+                data_cutoff = header_y + 3
                 new_cols = _detect_columns(words, header_y)
                 if new_cols:
                     columns = new_cols
@@ -227,8 +234,47 @@ def parse_page_words(page, col_info=None):
             x_right = page.width + 50
         col_ranges.append((name, x_left, x_right))
 
+    # Header tokens (individual words from every column name).  A header
+    # can span two physical lines (e.g. "Arrest\nNumber"), so the second
+    # line leaks in as a spurious data row.  We use this set to drop any
+    # data row whose entire content is made of header words.
+    header_tokens = set()
+    for name, _, _ in columns:
+        for tok in name.split():
+            header_tokens.add(tok.lower())
+
+    # Detect a second header line: some headers wrap (e.g. "Arrest" on
+    # line 1, "Number" on line 2).  The continuation sits a small gap
+    # below the header and contains only header-like words (no dates,
+    # case numbers, or many values).  If present, fold its words into
+    # the header token set so it isn't mistaken for a data row.  We look
+    # only just below the header, well above where data begins.
+    if data_cutoff > 0:
+        rows_below = defaultdict(list)
+        for w in words:
+            # Strictly below the header row (guard against sub-pixel Y of
+            # the header line itself), within a small band above data.
+            if round(w["top"]) > header_y + 3 and w["top"] <= header_y + 20:
+                rows_below[round(w["top"])].append(w)
+        for y in sorted(rows_below.keys()):
+            ws_line = rows_below[y]
+            line_text = " ".join(w["text"] for w in ws_line)
+            # A data row has a date, a case-number-like token, or many
+            # words; a header continuation is a few plain alpha words.
+            looks_like_data = (
+                re.search(r"\d{1,2}[/\-]\d", line_text)
+                or re.search(r"\b\d{4,}\b", line_text)
+                or len(ws_line) > 4
+            )
+            if looks_like_data:
+                break  # reached real data; stop
+            for w in ws_line:
+                for tok in w["text"].split():
+                    header_tokens.add(tok.lower())
+            data_cutoff = y + 3  # push cutoff past this header line
+
     # Extract data
-    data_words = [w for w in words if w["top"] > header_y + 3]
+    data_words = [w for w in words if w["top"] > data_cutoff]
     row_ys = defaultdict(list)
     for w in data_words:
         row_ys[round(w["top"])].append(w)
@@ -240,7 +286,7 @@ def parse_page_words(page, col_info=None):
     # We record the right edge (x1) of every space char, grouped by Y.
     space_x_by_y = defaultdict(list)
     for c in page.chars:
-        if c.get("text") == " " and c["top"] > header_y + 3:
+        if c.get("text") == " " and c["top"] > data_cutoff:
             space_x_by_y[round(c["top"])].append((c["x0"], c["x1"]))
 
     def _has_space_between(y, prev_x1, next_x0):
@@ -352,43 +398,153 @@ def parse_page_words(page, col_info=None):
 
         final = {name: " ".join(parts) for name, parts in row.items()}
 
-        # Post-fix for wrapped offense text that landed in the last
-        # column: if the last column (typically PD District) holds a
-        # lone digit followed by alphabetic words (e.g. "4 PREMISES"),
-        # the digit is the real value and the words are wrapped text
-        # from the widest text column — move them back there.
-        if len(col_ranges) >= 2:
-            last_name = col_ranges[-1][0]
-            last_val = final.get(last_name, "")
-            m = re.match(r"^(\d)\s+([A-Za-z].*)$", last_val)
-            if m:
-                final[last_name] = m.group(1)
-                # Append wrapped words to the longest text column (the
-                # one most likely to wrap — usually the description).
-                text_cols = sorted(
-                    col_ranges[:-1],
-                    key=lambda c: len(final.get(c[0], "")),
-                    reverse=True,
-                )
-                if text_cols:
-                    tgt = text_cols[0][0]
-                    final[tgt] = (final[tgt] + " " + m.group(2)).strip()
-            elif (last_val and not any(ch.isdigit() for ch in last_val)
-                  and len(col_ranges) >= 3):
-                # The last column (PD District) holds only text — that's
-                # a disposition code (e.g. "CMP") that landed in the
-                # wrong column because PD is empty.  Move it to the
-                # second-to-last column (Case Disposition) if empty.
-                disp_name = col_ranges[-2][0]
-                if not final.get(disp_name, "").strip():
-                    final[disp_name] = last_val
-                    final[last_name] = ""
-
         values = [v for v in final.values() if v.strip()]
-        if values and not any(re.match(r"^Page\s+\d+", v) for v in values):
-            rows.append(final)
+        # Skip page-number footers.
+        if not values or any(re.match(r"^Page\s+\d+", v) for v in values):
+            continue
+        # Skip multi-line header fragments: a row whose every word is a
+        # header token (e.g. the second line "Number" of an
+        # "Arrest\nNumber" header) is not real data.
+        all_words = " ".join(values).split()
+        if all_words and all(w.lower() in header_tokens for w in all_words):
+            continue
+        rows.append(final)
 
+    # Last-column repair pass (for tables where the final column is a
+    # short numeric/code field, e.g. Cleveland's "PD District").  Long
+    # wrapped text can overflow into it, or a text disposition can land
+    # there when the numeric value is blank.  These repairs are applied
+    # ONLY when the last column is genuinely numeric-dominant across the
+    # file, so tables whose last column is normally text (e.g. an arrest
+    # log's "Arrest Reason" = MISDEMEANOR/FELONY) are left untouched.
+    if len(col_ranges) >= 3:
+        last_name = col_ranges[-1][0]
+        nonempty = [str(r.get(last_name, "")).strip() for r in rows]
+        nonempty = [v for v in nonempty if v]
+        if nonempty:
+            numeric_frac = sum(
+                1 for v in nonempty if re.fullmatch(r"\d{1,3}", v)
+            ) / len(nonempty)
+            if numeric_frac >= 0.6:
+                for final in rows:
+                    last_val = final.get(last_name, "")
+                    m = re.match(r"^(\d)\s+([A-Za-z].*)$", last_val)
+                    if m:
+                        # "4 PREMISES" → digit stays, wrapped words go to
+                        # the longest text column (usually description).
+                        final[last_name] = m.group(1)
+                        text_cols = sorted(
+                            col_ranges[:-1],
+                            key=lambda c: len(final.get(c[0], "")),
+                            reverse=True,
+                        )
+                        if text_cols:
+                            tgt = text_cols[0][0]
+                            final[tgt] = (final[tgt] + " " + m.group(2)).strip()
+                    elif last_val and not any(ch.isdigit() for ch in last_val):
+                        # Text-only value in a numeric column (e.g. "CMP")
+                        # → move to the second-to-last column if it's empty.
+                        disp_name = col_ranges[-2][0]
+                        if not final.get(disp_name, "").strip():
+                            final[disp_name] = last_val
+                            final[last_name] = ""
+
+    # Note: multi-line record merging is done globally in process_pdf
+    # (after all pages are collected) so records that span a page break
+    # are merged correctly.  We return the raw per-line rows here.
     return rows, col_info
+
+
+# ══════════════════════════════════════════════════════════════════════════
+#  MULTI-LINE RECORD MERGING
+# ══════════════════════════════════════════════════════════════════════════
+
+def _merge_multiline_records(rows, first_col=None):
+    """Merge continuation lines into their parent record.
+
+    Some tabular PDFs wrap a single logical record across several
+    physical lines: only the first line carries the record's key (an ID
+    in the first column), and following lines hold overflow text in the
+    other columns with the first column empty.  Example (arrest log):
+
+        2022-902  Mar-17  FIELD RELEASE -  MINOR IN         1618 - BOUCHET
+                          CITE / OR        POSSESSION OF    LLOYD
+                          (WARRANT)        OPEN CONTAINER
+
+    All three physical lines are one record.  This function detects that
+    pattern and merges continuation lines (empty first column) upward
+    into the preceding keyed line, appending each field's text.
+
+    Auto-detection: the merge only runs when BOTH
+      (a) the first column is normally populated with a consistent
+          key-like value (an ID pattern), AND
+      (b) a meaningful fraction of rows have an EMPTY first column
+          (the continuation lines).
+    Single-line formats (Cleveland, Oceanside, Bainbridge) have a
+    populated first column on every row, so (b) is false and the rows
+    pass through unchanged.
+    """
+    if not rows:
+        return rows
+
+    if first_col is None:
+        first_col = list(rows[0].keys())[0]
+
+    # Count rows whose first column is empty vs populated
+    total = len(rows)
+    empty_first = sum(1 for r in rows if not str(r.get(first_col, "")).strip())
+
+    # If almost no rows have an empty first column, this is a normal
+    # single-line table — leave it completely untouched.
+    if empty_first < max(3, total * 0.08):
+        return rows
+
+    # Confirm the first column looks like a record key on the populated
+    # rows (mostly a consistent ID-ish token, not free text).  This
+    # guards against accidentally merging a table that merely has some
+    # blank cells in its first column.
+    populated = [str(r.get(first_col, "")).strip()
+                 for r in rows if str(r.get(first_col, "")).strip()]
+    if not populated:
+        return rows
+    # Key-like = alphanumeric with digits, no spaces (e.g. "2022-903",
+    # "P170001769", "AR-1234").  Require most populated first-col values
+    # to match, so free-text first columns don't trigger merging.
+    keyish = sum(1 for v in populated
+                 if re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9\-_/]*", v)
+                 and re.search(r"\d", v))
+    if keyish < len(populated) * 0.7:
+        return rows
+
+    # Merge: walk rows, starting a new record on each populated-first-col
+    # row and appending continuation lines' fields to it.
+    merged = []
+    current = None
+    for r in rows:
+        key = str(r.get(first_col, "")).strip()
+        if key:
+            # New record
+            if current is not None:
+                merged.append(current)
+            current = dict(r)
+        else:
+            # Continuation line — append each non-empty field to the
+            # current record, joined with a space.
+            if current is None:
+                # Orphan continuation with no parent — keep as its own
+                # row rather than dropping data.
+                current = dict(r)
+                continue
+            for col, val in r.items():
+                val = str(val).strip()
+                if not val:
+                    continue
+                existing = str(current.get(col, "")).strip()
+                current[col] = (existing + " " + val).strip() if existing else val
+    if current is not None:
+        merged.append(current)
+
+    return merged
 
 
 # ══════════════════════════════════════════════════════════════════════════
@@ -418,12 +574,33 @@ def _profile_columns(rows):
         lengths = sorted(len(v) for v in nonempty)
         numeric = sum(1 for v in nonempty
                       if re.fullmatch(r"[\d\s,./:\-]+", v))
+
+        # Detect "name-like" columns: ones containing proper nouns
+        # (people's names), which are legitimately non-dictionary words.
+        # Even though many names ARE dictionary words (common surnames /
+        # first names), a column of names reliably carries a meaningful
+        # share of non-dictionary tokens, whereas a clean prose/code
+        # column carries almost none.  So a modest non-word share marks
+        # the column as name-like and exempts it from the garble check.
+        name_like = False
+        if _WORDFREQ is not None:
+            sample_toks = []
+            for v in nonempty[:80]:
+                for t in re.findall(r"[A-Za-z]{3,}", v):
+                    sample_toks.append(t)
+            if len(sample_toks) >= 10:
+                nonword = sum(1 for t in sample_toks
+                              if _WORDFREQ(t.lower(), "en") == 0.0)
+                if nonword >= len(sample_toks) * 0.08:
+                    name_like = True
+
         profile[col] = {
             "lengths": lengths,
             "median_len": lengths[len(lengths) // 2],
             "max_len": lengths[-1],
             "numeric_frac": numeric / len(nonempty),
             "fill_frac": len(nonempty) / len(vals),
+            "name_like": name_like,
         }
     return profile
 
@@ -542,10 +719,14 @@ def flag_rows(rows):
                 reasons.append(f"{col!r} garbled text (embedded symbol)")
                 continue
 
-            # Signal B: dictionary check on multi-letter tokens
+            # Signal B: dictionary check on multi-letter tokens.  Skip
+            #   columns that hold proper names (people, places) — those
+            #   are legitimately non-dictionary and would false-positive
+            #   on every row.
             letter_toks = [re.sub(r"[^A-Za-z]", "", t) for t in val.split()]
             letter_toks = [t for t in letter_toks if len(t) >= 3]
-            if len(letter_toks) >= 3 and _WORDFREQ is not None:
+            if (len(letter_toks) >= 3 and _WORDFREQ is not None
+                    and not profile.get(col, {}).get("name_like")):
                 nonwords = sum(
                     1 for t in letter_toks
                     if _WORDFREQ(t.lower(), "en") == 0.0
@@ -652,6 +833,11 @@ def process_pdf(pdf_path: Path, max_pages: int = 0):
             print(f"  [Columns] {header_names}")
         elif col_info:
             print(f"  [Columns] {[c[0] for c in col_info[1]]}")
+
+    # Merge multi-line records across the whole document (handles
+    # records that wrap across a page break).  Auto-detects whether the
+    # format is multi-line; single-line tables pass through unchanged.
+    all_rows = _merge_multiline_records(all_rows)
 
     print(f"  [Done] {len(all_rows)} rows")
     return all_rows
