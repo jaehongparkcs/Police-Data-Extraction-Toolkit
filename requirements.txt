@@ -1,3 +1,19 @@
+# ═══════════════════════════════════════════════════════════════════════
+# Python dependencies for the Police Data Extraction Toolkit
+# ═══════════════════════════════════════════════════════════════════════
+#
+# Install with:   pip install -r requirements.txt
+#
+# These cover the PDF parsers (batch_parse_*.py) AND the LLM correction
+# tool (llm_fix_flagged_rows.py).  The LLM tool talks to a local model
+# server over plain HTTP using the Python standard library, so it needs
+# NO extra pip packages beyond pdfplumber + pandas, which are already here.
+#
+# The local LLM itself (Ollama + model weights) is NOT a pip dependency.
+# See the "Local LLM setup" section in README.md for how to install
+# Ollama and pull the models (e.g. `ollama pull qwen3.5:7b`).
+# ═══════════════════════════════════════════════════════════════════════
+
 # Core dependencies for PDF extraction and data manipulation
 pdfplumber==0.11.10
 pandas==2.3.3
@@ -5,7 +21,7 @@ cffi==2.1.0
 charset-normalizer==3.4.9
 cryptography==50.0.0
 numpy==2.2.6
-packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1777103621/work
+packaging>=24.0
 pdfminer.six==20260107
 pillow==12.3.0
 pycparser==3.0
@@ -16,4 +32,6 @@ pytz==2026.3.post1
 six==1.17.0
 typing_extensions==4.16.0
 tzdata==2026.3
+
+# Review-flagging dictionary check (used by the tabular parser + LLM tool)
 wordfreq==3.1.1

@@ -459,6 +459,46 @@ def parse_page_words(page, col_info=None):
 #  MULTI-LINE RECORD MERGING
 # ══════════════════════════════════════════════════════════════════════════
 
+def _deinterleave_pass(rows):
+    """Repair address/date pixel collisions across the whole table.
+
+    Auto-detects which column holds addresses and which holds dates (by
+    header name, falling back to content), then applies the shared
+    deterministic de-interleave.  Only verifiably-clean recoveries are
+    written; anything tangled is left for the review flagger.  If the
+    de-interleave module isn't importable, rows pass through unchanged.
+    """
+    if not rows:
+        return rows
+    try:
+        from deinterleave import fix_row
+    except Exception:
+        return rows
+
+    cols = list(rows[0].keys())
+
+    # Find the address column and date column by header name.
+    def _find(patterns):
+        for c in cols:
+            cl = c.lower()
+            if any(p in cl for p in patterns):
+                return c
+        return None
+
+    addr_col = _find(["address", "location", "street"])
+    date_col = _find(["date", "time", "occurred"])
+    if not addr_col or not date_col:
+        return rows  # not an address/date table; nothing to do
+
+    for row in rows:
+        fx = fix_row(row, addr_col=addr_col, date_col=date_col)
+        if fx["date"]:
+            row[date_col] = fx["date"]
+        if fx["address"]:
+            row[addr_col] = fx["address"]
+    return rows
+
+
 def _merge_multiline_records(rows, first_col=None):
     """Merge continuation lines into their parent record.
 
@@ -605,17 +645,25 @@ def _profile_columns(rows):
     return profile
 
 
-def flag_rows(rows):
+def flag_rows(rows, profile=None):
     """Return a list of (row_index, [reasons]) for suspicious rows.
 
     Uses the column profile learned from the data plus a few structural
     checks.  Nothing here is department-specific — thresholds are
     relative to what each column normally contains.
+
+    `profile` may be a precomputed column profile (from _profile_columns
+    over the FULL table).  Passing it lets callers validate a small slice
+    of rows against the whole-table norms without recomputing the profile
+    each call — essential when checking corrected rows one at a time over
+    a large file.  When None (default), the profile is computed from
+    `rows`, preserving the original behaviour.
     """
     if not rows:
         return []
 
-    profile = _profile_columns(rows)
+    if profile is None:
+        profile = _profile_columns(rows)
     cols = list(rows[0].keys())
     flags = []
 
@@ -838,6 +886,12 @@ def process_pdf(pdf_path: Path, max_pages: int = 0):
     # records that wrap across a page break).  Auto-detects whether the
     # format is multi-line; single-line tables pass through unchanged.
     all_rows = _merge_multiline_records(all_rows)
+
+    # Deterministic de-interleave post-pass: repair address/date pixel
+    # collisions (e.g. "3A/V6E/2022" -> "AVE" + "3/6/2022") so this
+    # defect never reaches the CSV.  Only writes verifiably-clean values;
+    # deeply-tangled cases are left for the review flagger to catch.
+    all_rows = _deinterleave_pass(all_rows)
 
     print(f"  [Done] {len(all_rows)} rows")
     return all_rows
