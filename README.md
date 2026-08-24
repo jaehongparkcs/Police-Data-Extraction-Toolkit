@@ -401,7 +401,7 @@ Leave `ollama serve` running in its own terminal while the corrector runs. If it
 4. Filter or audit by the `_corrected_by` column at any time to see which values came from the parser, the deterministic fixer, or the LLM.
 
 
-
+### Troubleshooting
 * **`ModuleNotFoundError: No module named 'pdfplumber'`** — Activate the conda environment first: `conda activate arrest_parser`
 * **`FileNotFoundError: No such file or directory: 'pdftotext'`** — Install poppler (`brew install poppler`) or ignore this; the dispatch parser falls back to pdfplumber automatically.
 * **`TesseractNotFoundError`** — Install Tesseract (`brew install tesseract`). Only needed for Brea PDFs.

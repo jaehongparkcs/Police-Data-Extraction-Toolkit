@@ -88,6 +88,11 @@ from batch_parse_tabular_pdfs import (
     _detect_columns,
 )
 
+try:
+    from wordfreq import zipf_frequency as _WORDFREQ
+except Exception:  # wordfreq optional
+    _WORDFREQ = None
+
 REVIEW_COLS = ("_needs_review", "_review_reason")
 
 
@@ -486,6 +491,14 @@ def _attempt_rows(df, data_cols, col_x_starts, pdf, tier, targets, key_col,
                 print(f"\n  row {i + 1} (p{page_no}): still flagged "
                       f"({'; '.join(row_flags[0][1])})")
             return False
+        # Strict output gate: reject residual garble / invalid dates that
+        # the structural check misses (e.g. "AE DM OF TEOLRO VNEYHICLE").
+        ok, why = _output_is_clean(corrected, data_cols)
+        if not ok:
+            if verbose:
+                print(f"\n  row {i + 1} (p{page_no}): rejected by output "
+                      f"gate — {why}")
+            return False
         for c in data_cols:
             df.at[i, c] = corrected[c]
         df.at[i, "_needs_review"] = ""
@@ -536,6 +549,63 @@ def _attempt_rows(df, data_cols, col_x_starts, pdf, tier, targets, key_col,
     if save_cb:
         save_cb()  # flush at end of tier
     return accepted, still
+
+
+def _field_still_garbled(value):
+    """True if a text value still contains scrambled word-salad.
+
+    This is the check the structural validator misses: a value like
+    "AE DM OF TEOLRO VNEYHICLE" has the right character types and length,
+    so flag_rows accepts it — but its words aren't real words.  We run the
+    same dictionary test the parser's flagger uses, but directly on the
+    LLM's OUTPUT and with a stricter threshold (this is a final gate on a
+    value we're about to WRITE, so we'd rather reject a borderline case and
+    leave the row flagged than persist garbage).
+    """
+    if _WORDFREQ is None:
+        return False  # can't check without the dictionary
+    v = str(value)
+    # Embedded interleave symbol between letters (e.g. "P*RCIHVAILREGGEED")
+    if re.search(r"[A-Za-z]\*[A-Za-z]", v):
+        return True
+    # Dictionary check on multi-letter tokens.  Use a 2-token floor (not 3),
+    # so short garbled dispositions like "TEOLRO VNEYHICLE" are caught.
+    toks = [re.sub(r"[^A-Za-z]", "", t) for t in v.split()]
+    toks = [t for t in toks if len(t) >= 3]
+    if len(toks) >= 2:
+        nonwords = sum(1 for t in toks if _WORDFREQ(t.lower(), "en") == 0.0)
+        if nonwords >= len(toks) * 0.6:
+            return True
+    return False
+
+
+def _looks_like_date_col(col_name):
+    cl = col_name.lower()
+    return any(k in cl for k in ("date", "time", "occurred"))
+
+
+def _output_is_clean(corrected, data_cols):
+    """Strict gate on an LLM correction, beyond structural validation.
+
+    Rejects a correction if ANY field:
+      - is a date column whose value isn't a real M/D/YYYY date, or
+      - still contains scrambled/garbled word-salad.
+    Returns (ok: bool, reason: str).  This is what stops confident-but-wrong
+    LLM output (corrupted dates, un-descrambled text) from being written.
+    """
+    for col in data_cols:
+        val = str(corrected.get(col, "")).strip()
+        if not val:
+            continue
+        if _looks_like_date_col(col):
+            # Allow an optional 'at HH:MM'; the date part must be real.
+            if not re.fullmatch(
+                    r"\d{1,2}/\d{1,2}/\d{4}(\s+at\s+\d{1,2}:\d{2})?", val):
+                return False, f"{col!r} not a valid date ({val!r})"
+        else:
+            if _field_still_garbled(val):
+                return False, f"{col!r} still garbled ({val[:30]!r})"
+    return True, ""
 
 
 def correct_csv(csv_path, pdf_path, tiers, concurrency=1, limit=0,
