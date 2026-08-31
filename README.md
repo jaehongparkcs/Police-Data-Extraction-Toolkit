@@ -1,11 +1,13 @@
 # Police Data Extraction Toolkit
 
-Automated Python tools for parsing police department PDF logs into structured CSV datasets. Includes three parsers plus a two-stage correction pipeline for the flagged rows:
+Automated Python tools for parsing police department records into structured CSV datasets. The toolkit ingests three source formats — text-layer PDFs, tabular HTML exports, and scanned images (TIFF/JPEG/PNG via OCR) — and runs them through a shared review-flagging and correction pipeline so the output is consistent regardless of input.
 
 1. **Arrest Log Parser** — extracts individual arrest charge records from Porterville, CA and Torrance, CA media arrest summaries.
 2. **Dispatch Log Parser** — extracts calls-for-service / dispatch records from Marlborough, MA and Brea, CA press logs.
-3. **Universal Tabular Parser** — extracts rows from any text-layer tabular PDF (no OCR), auto-detecting columns from the document itself. Tested on Cleveland, OH (incident), Oceanside, CA (arrest), Bainbridge Island, WA (incident), and Alameda, CA (arrest). Includes an automatic review-flagging system that marks suspicious rows for manual checking, and a built-in deterministic repair for the most common PDF defect (see *Correcting Flagged Rows* below).
-4. **Correction pipeline** — for rows the parser flags, a deterministic fixer repairs the mechanical defects safely and fast, and an optional LLM pass attempts the irregular residue. Deterministic first, LLM only for what's left.
+3. **Universal Tabular Parser** — extracts rows from any text-layer tabular PDF (no OCR), auto-detecting columns from the document itself. Tested on Cleveland, OH (incident), Oceanside, CA (arrest), Bainbridge Island, WA (incident), Alameda, CA (arrest), Corona, CA (calls-for-service), and Sparks, NV (calls-for-service). Handles per-page layout drift, shattered/merged headers, and very large documents (streams multi-tens-of-thousands of pages without exhausting memory). Includes automatic review-flagging and a built-in deterministic repair for the most common PDF defect (see *Correcting Flagged Rows*).
+4. **HTML Parser** — extracts rows from tabular HTML report exports (Incidents, Crimes) using explicit table cell boundaries — no column inference needed. See *HTML Parser*.
+5. **Scanned/OCR Parser** — extracts rows from scanned image reports with no text layer, by OCR-ing each page into positioned words and feeding them through the same column-detection and flagging pipeline the PDF parser uses. See *Scanned (OCR) Parser*.
+6. **Correction pipeline** — for rows the parser flags, a deterministic fixer repairs the mechanical defects safely and fast, and an optional LLM pass attempts the irregular residue. Deterministic first, LLM only for what's left.
 
 ---
 
@@ -17,10 +19,13 @@ arrest-data-conversion/
 ├── batch_parse_arrest_logs.py          # Arrest log extraction script
 ├── batch_parse_dispatch_logs.py        # Dispatch / calls-for-service extraction script
 ├── batch_parse_tabular_pdfs.py         # Universal tabular PDF extraction script
+├── batch_parse_html.py                 # Tabular HTML report extraction script
+├── batch_parse_scanned.py              # Scanned image (TIFF/JPEG/PNG) OCR extraction script
 ├── deinterleave.py                     # Shared deterministic de-interleave engine
 ├── fix_flagged_rows.py                 # Deterministic corrector for existing CSVs
 ├── llm_fix_flagged_rows.py             # Optional LLM corrector for the irregular residue
 ├── requirements.txt                    # Python package dependencies
+├── .gitignore                          # Keeps source PDFs and oversized CSVs out of git
 ├── README.md
 │
 ├── Input_Porterville_Logs/             # Porterville arrest PDFs
@@ -30,6 +35,8 @@ arrest-data-conversion/
 ├── Input_Cleveland_Logs/               # Cleveland incident PDFs (tabular parser)
 ├── Input_Oceanside_Logs/               # Oceanside arrest PDFs (tabular parser)
 ├── Input_Bainbridge_Island_Logs/       # Bainbridge Island incident PDFs (tabular parser)
+├── Input_<City>_HTML/                  # Tabular HTML reports (HTML parser)
+├── Input_<City>_Scans/                 # Scanned TIFF/JPEG/PNG reports (OCR parser)
 │
 ├── results_Porterville_CA/             # Generated Porterville arrest CSVs
 ├── results_Torrance_CA/                # Generated Torrance arrest CSVs
@@ -60,7 +67,7 @@ conda activate arrest_parser
 pip install -r requirements.txt
 ```
 
-### 3. Install Tesseract (for Brea OCR)
+### 3. Install Tesseract (for Brea dispatch OCR and the scanned/OCR parser)
 
 Tesseract is only needed if processing scanned PDFs (Brea calls-for-service). All other departments have text layers and do not require it.
 
@@ -94,9 +101,12 @@ pandas>=2.0.0
 pytesseract>=0.3.10
 Pillow>=10.0.0
 wordfreq>=3.1.1
+lxml>=5.0.0
 ```
 
 `wordfreq` powers the review-flagging system in the tabular parser (dictionary check for garbled text). It pulls in `ftfy`, `langcodes`, `regex`, `msgpack`, and `wcwidth` automatically. If `wordfreq` is not installed, the tabular parser still runs — it just skips the dictionary-based garbled-text check and relies on the other structural checks.
+
+`lxml` is the HTML-parsing backend `pandas.read_html` uses for the HTML parser; without it, `read_html` raises an ImportError. `beautifulsoup4` also works as a fallback if lxml can't be installed. The scanned/OCR parser uses `pytesseract` + `Pillow` (already listed) plus the Tesseract binary — no new pip packages.
 
 The correction tools (`fix_flagged_rows.py`, `deinterleave.py`, `llm_fix_flagged_rows.py`) add **no new pip dependencies** — they use only `pandas`, `pdfplumber`, and the Python standard library. The LLM corrector talks to a local Ollama server over HTTP; Ollama and its models are installed separately (see *Local LLM setup*), not via pip.
 
@@ -211,15 +221,31 @@ A general-purpose parser for any **text-layer tabular PDF** (no OCR required). I
 | Oceanside, CA | Arrest | Bordered — cell grid read directly from table lines |
 | Bainbridge Island, WA | Incident | Borderless — tightly-packed columns |
 | Alameda, CA | Arrest details | Borderless — multi-line records (each arrest wraps across 2–4 lines) |
+| Corona, CA | Calls for service | Borderless — per-page layout drift, fused priority/location, wrapped date column |
+| Sparks, NV | Calls for service | Borderless — shattered header, ~28k pages (streamed), fused columns |
 
 Any other clean, text-layer tabular PDF should also work; see *Reliability & Review Flags* below.
 
 ### Two-Tier Extraction Strategy
 
 1. **Rect-based** — if the PDF has real table cell borders (lines/rectangles), those are used as exact column and row boundaries. Pixel-perfect. (Oceanside.)
-2. **Word-position** — if there are no borders, columns are detected from header word positions using adaptive gap analysis, with a space-glyph signal to keep overflowing/wrapping text in the correct cell. (Cleveland, Bainbridge, Alameda.)
+2. **Word-position** — if there are no borders, columns are detected from header word positions using adaptive gap analysis, with a space-glyph signal to keep overflowing/wrapping text in the correct cell. (Cleveland, Bainbridge, Alameda, Corona, Sparks.)
 
 The strategy is chosen automatically per file.
+
+### Handling messy real-world layouts
+
+Real exports are rarely clean. The word-position path includes several automatic repairs, each guarded so it only activates when its specific problem is present — formats that don't have the problem are untouched:
+
+* **Data-cluster column alignment.** Headers don't always sit directly above their data (some reports right-shift or offset the header row), and the layout can even drift page to page within one document. The parser finds the x-positions where many rows *start* a word — the true column left-edges — and aligns the header columns to those, matching by left-to-right order rather than absolute position. This is what lets a single document with different per-page layouts parse correctly.
+* **Shattered-header repair.** Some PDFs render a column name with spurious spaces inside it (`C ALL _ NO` for `CALL_NO`, `U NIT` for `UNIT`). The parser rejoins header fragments that touch or overlap before detecting columns, so the header isn't mistaken for many tiny columns.
+* **Fused priority/location split.** In some calls-for-service formats a single-digit priority column is printed with no gap before the location (`41359 W SIXTH ST` = priority `4` + `1359 W SIXTH ST`); the parser peels the leading digit back into its own column.
+* **Datetime/code de-fusing.** When a short code column (a Typ `l`/`f`/`lf`) gets swept into an adjacent date/time value (`16:16:26 f 09/01/19`), it is pulled back into its own column, learning the code vocabulary from the data.
+* **Address/date de-interleave.** The most common defect — a street suffix printed in the same pixels as the date (`3A/V6E/2022` = `AVE` + `3/6/2022`) — is repaired deterministically (see *Correcting Flagged Rows*).
+
+### Very large documents (streaming)
+
+Documents above a page threshold (default 10,000 pages) are processed in page-chunks and written to CSV incrementally, so peak memory stays flat regardless of page count — a 28,000-page export producing ~1.4M rows runs without exhausting RAM. A small overlap is carried between chunks so a multi-line record that wraps across a chunk boundary still merges correctly. Smaller documents take the in-memory path and produce byte-for-byte identical output. Streamed files are written directly to their per-file CSV and omitted from the in-memory MASTER (too large to combine); the chunk size is configurable with `--chunk-size`.
 
 ### Single-line vs. Multi-line Records
 
@@ -260,6 +286,7 @@ python batch_parse_tabular_pdfs.py "Bainbridge Island" WA --pages 5
 | --- | --- |
 | `--pages N` | Process only the first N pages of each PDF (useful for testing) |
 | `--no-master` | Skip generating the combined MASTER CSV (saves memory on large runs) |
+| `--chunk-size N` | Documents with more than N pages are streamed to CSV in N-page chunks to bound memory (default 10000). Smaller documents are unaffected. |
 
 ### Output Files
 
@@ -304,6 +331,58 @@ The tabular parser does not impose a fixed schema — it outputs whatever column
 | Oceanside, CA | Incident Type, Incident Number, Incident Date, Violation Type, Violation Section, Violation Description, Location |
 | Bainbridge Island, WA | call_id, actdate, acttime, streetnbr, street, geox, geoy, naturecode |
 | Alameda, CA | Arrest Number, Arrest Date, Status, Summary, Arrest Officer, Arrestee, DOB, Current Cell, Arrest Reason |
+
+---
+
+## HTML Parser
+
+For police records exported as **tabular HTML** (e.g. Incidents and Crimes reports from a records-management system). Because HTML tables carry explicit cell boundaries (`<td>`), there is no column collision, de-interleaving, or clustering to do — the hard problems of the scanned/text-layer PDFs simply don't arise. `pandas.read_html` does the extraction; the parser cleans up the report scaffolding around it and runs the same flagger.
+
+### What it handles
+
+* **Auto-detects the header row.** These exports stack a title row or two on top (a report name, a date range), so the parser finds the real header by locating the first row whose cells are all distinct column names — it adapts to different report types (a 7-column Incidents export and an 8-column Crimes export) with no per-file configuration.
+* **Drops blank spacer rows and footers.** The exports interleave a blank `<tr>` between every record and end with a print-timestamp row; these are removed so the row count reflects real records.
+* **UTF-16 encoding** is auto-detected from the byte-order mark.
+
+### Usage
+
+```bash
+conda activate arrest_parser
+
+# Reads Input_<City>_HTML/, writes results_<City>_<State>_HTML/
+python batch_parse_html.py <City> <State>
+```
+
+Output mirrors the tabular parser: `<file>.csv` (with `_needs_review` / `_review_reason` columns), `<file>_REVIEW.csv`, and a combined `MASTER_<City>_<State>.csv`. Accepts `.htm`/`.html` files.
+
+---
+
+## Scanned (OCR) Parser
+
+For **scanned image reports with no text layer** — multi-page TIFFs, JPEGs, or PNGs (e.g. an "Arrest Report by Address" scan). There is no text to read directly, so each page is OCR'd with Tesseract into positioned words, which are then fed through the **same** column-detection, alignment, multi-line-merge, and flagging pipeline the text-layer PDF parser uses. Most of the PDF logic is reused rather than reimplemented.
+
+### How it works
+
+1. **OCR to positioned words.** Tesseract returns each word with a bounding box and a confidence score. Word tops are snapped onto shared row baselines first, because OCR baselines jitter by a few pixels within a visual row (enough to split a header or scatter a row otherwise).
+2. **Reuse the PDF pipeline.** The OCR words are wrapped in a lightweight object that mimics the small slice of the pdfplumber page interface the parser touches, so header detection, cluster alignment, the multi-line merge, and the flagger all apply unchanged.
+3. **Scan-specific cleanup.** Two post-steps that live only in this parser (so they can't affect the PDF departments): rejoining a two-word header that OCR split into two columns (`Call`+`Type` → `Call Type`, `Arrest`+`Date` → `Arrest Date`), and dropping page boilerplate that OCR captured as rows (`Report Printed on …`, `Page 33 of 496`, the title block). Boilerplate is removed only when the key column is empty *and* the row matches a boilerplate pattern, so a real record is never dropped.
+
+### OCR is probabilistic — flagging matters here
+
+Unlike the deterministic PDF defects, OCR errors can't be reliably reversed (`WARRANT` misread as `WARANT`, `ASSAULT A` split as `ASSAU LTA`). The parser therefore flags aggressively: any row containing a low-confidence word (Tesseract confidence below ~60) or an OCR-split pattern is marked for review, on top of the structural flags. The philosophy matches the rest of the toolkit — surface uncertainty rather than silently emit a wrong value. Expect a higher flag rate on scans than on clean PDFs, and expect some residual per-row column-boundary wobble on wide, name-heavy columns.
+
+### Usage
+
+```bash
+conda activate arrest_parser
+
+# Reads Input_<City>_Scans/, writes results_<City>_<State>_Scans/
+python batch_parse_scanned.py <City> <State>
+```
+
+Accepts `.tif`/`.tiff`/`.jpg`/`.jpeg`/`.png` (content, not extension, is what matters — a JPEG with a stripped extension still works). Multi-page TIFFs are processed page by page. Output mirrors the other parsers.
+
+> **Performance note.** OCR is compute-heavy — roughly 2–3 seconds per 300-DPI page. A 496-page TIF is a 15–25 minute run; keep the machine awake (`caffeinate -i` on macOS) for large batches.
 
 ---
 
@@ -418,4 +497,9 @@ Leave `ollama serve` running in its own terminal while the corrector runs. If it
 * **LLM corrector: `address already in use` on `ollama serve`** — Ollama is already running (often the menu-bar app supervising it). Either use the running server as-is, or quit the app and set the parallel variables with `launchctl setenv` before relaunching. The corrector works against the already-running server regardless.
 * **LLM corrector is slow / requests seem to queue** — Ollama serializes requests unless started with `OLLAMA_NUM_PARALLEL`. Set it to at least your `--concurrency` value. For single-digit flag counts the difference is negligible; it matters only on large batches.
 * **LLM correction wrote a wrong-looking value** — Every LLM-written cell is tagged in `_corrected_by`. Filter on it to audit or revert. Always sample with `--limit` before a full run; the deterministic pass should handle the bulk first.
+* **HTML parser: `lxml not found` / read_html error** — Install the HTML backend: `pip install lxml` (or `beautifulsoup4`). `pandas.read_html` can't parse HTML without one.
+* **HTML parser: row count is half the raw table** — Expected. These exports put a blank spacer row between every record; the parser drops them, so the count reflects real records.
+* **Scanned parser is slow** — OCR runs ~2–3 sec per 300-DPI page, so large multi-page TIFFs take many minutes. This is inherent to OCR, not a bug. Keep the machine awake for long runs.
+* **Scanned parser: garbled cells (`WARANT`, split names)** — OCR misreads. These can't be deterministically fixed and are flagged for review. Cleaner scans OCR better; nothing in the pipeline will silently "correct" them to a wrong guess.
+* **Large streamed CSV rejected by GitHub (`exceeds 100 MB`)** — A single result CSV over 100 MB (e.g. the Sparks calls-for-service export, ~131 MB) can't be pushed to GitHub. It's regenerable from the source PDF, so it's kept out of git via `.gitignore`. Untrack an already-committed one with `git rm --cached "<path>"` then re-commit; share the file via Google Drive or another channel, or use Git LFS if it must live in the repo.
 * **Output folders are safe to re-run** — All parsers ignore PDFs already inside `results_*` directories.

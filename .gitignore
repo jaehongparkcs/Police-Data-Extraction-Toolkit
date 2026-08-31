@@ -46,3 +46,6 @@ ollama/
 # ─── Logs & scratch ───
 *.log
 server.log
+
+# ─── CSVs too large for git ───
+Incident No._  #202406403  Date 3_15_2024.csv
