@@ -1,0 +1,14 @@
+_needs_review,_review_reason,Incident ORI,Incident Number,Incident Date And Time,Incident Type,Incident Address,Incident Address Latitude,Incident Address Longitude
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00023268,07/02/2021 15:34:13,Assist Motorist,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00023284,07/02/2021 17:04:38,Motor Vehicle Crash,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00023287,07/02/2021 17:04:38,Motor Vehicle Crash,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00026480,07/23/2021 21:16:32,Welfare Check,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00026522,07/24/2021 02:46:37,ALS Incdient,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00027195,07/29/2021 11:41:01,Flim Flam,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00027749,08/02/2021 23:13:58,Traffic Stop,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00027789,08/03/2021 10:56:45,Person with firearm,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00027813,08/03/2021 12:26:53,Stalking,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00030813,08/24/2021 08:08:41,Lost/Recovered Property,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00032412,09/03/2021 18:22:02,Criminal Mischief,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00032661,09/05/2021 15:58:31,Suspicious Person,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00033281,09/10/2021 15:53:42,Traffic Stop,0,41.415732149,-75.665217953

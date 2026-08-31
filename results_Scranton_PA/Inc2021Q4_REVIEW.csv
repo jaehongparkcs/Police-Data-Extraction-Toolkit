@@ -1,0 +1,6 @@
+_needs_review,_review_reason,Incident ORI,Incident Number,Incident Date And Time,Incident Type,Incident Address,Incident Address Latitude,Incident Address Longitude
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00037908,10/15/2021 18:53:40,Investigation of Situation,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00041179,11/10/2021 04:02:21,Welfare Check,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00043609,11/30/2021 17:52:05,Traffic Stop,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00043631,11/30/2021 21:04:19,Welfare Check,0,41.415732149,-75.665217953
+YES,'Incident Address' garbled/scrambled text,PA0350400,2021-00043778,12/02/2021 09:28:29,Parking Complaint,CAPOUSE AVE / RICHMONT ST,41.433054208,-75.64437238

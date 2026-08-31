@@ -1,0 +1,8 @@
+_needs_review,_review_reason,Incident ORI,Incident Number,Incident Date And Time,Incident Type,Incident Address,Incident Address Latitude,Incident Address Longitude
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00016804,05/19/2021 06:24:12,Motor Vehicle Crash,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00016877,05/19/2021 16:04:07,Welfare Check,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00016922,05/19/2021 21:12:12,Shooting,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00017569,05/23/2021 20:05:41,Suicide/Attempt,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00018211,05/27/2021 15:03:37,Animal Incident,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00018684,05/31/2021 01:02:31,Hit and Run Accident,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2021-00022174,06/25/2021 04:20:25,Other unspecified incident,30,,

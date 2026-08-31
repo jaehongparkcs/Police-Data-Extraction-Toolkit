@@ -32,6 +32,7 @@ pytz==2026.3.post1
 six==1.17.0
 typing_extensions==4.16.0
 tzdata==2026.3
+lxml==6.0.2
 
 # Review-flagging dictionary check (used by the tabular parser + LLM tool)
 wordfreq==3.1.1

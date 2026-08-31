@@ -1,0 +1,14 @@
+_needs_review,_review_reason,Incident ORI,Incident Number,Incident Date And Time,Incident Type,Incident Address,Incident Address Latitude,Incident Address Longitude
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00010357,04/02/2022 14:40:23,Welfare Check,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00010837,04/06/2022 12:59:03,Welfare Check,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00011276,04/09/2022 16:30:56,Traffic Stop,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00011630,04/12/2022 06:55:28,Motor Vehicle Crash,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00012648,04/19/2022 16:17:11,Theft,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00012657,04/19/2022 17:04:18,Theft,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00012950,04/21/2022 19:27:02,Investigation of Situation,0,41.415732149,-75.665217953
+YES,'Incident Address' garbled/scrambled text,PA0350400,2022-00013431,04/25/2022 14:07:02,Abandoned Vehicle,1013 FERDINAD ST BRAYERS AUTO,,
+YES,'Incident Address' garbled/scrambled text,PA0350400,2022-00014999,05/08/2022 11:14:45,Drunk/Drinking,GLINKO ST / QUINAN ALY,41.4140538397555,-75.7056694076545
+YES,'Incident Address' garbled/scrambled text,PA0350400,2022-00015010,05/08/2022 13:15:39,Investigation of Situation,GLINKO ST / QUINAN ALY,41.4140538397555,-75.7056694076545
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00017058,05/22/2022 17:24:20,ALS Incdient,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00019350,06/06/2022 21:11:13,Fight,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00020299,06/13/2022 19:15:54,ATV,0,41.415732149,-75.665217953

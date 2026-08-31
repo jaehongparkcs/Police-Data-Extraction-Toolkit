@@ -1,0 +1,12 @@
+_needs_review,_review_reason,Incident ORI,Incident Number,Incident Date And Time,Incident Type,Incident Address,Incident Address Latitude,Incident Address Longitude
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00037458,10/14/2022 10:11:11,Investigation of Situation,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00039808,11/02/2022 07:35:07,Dog Complaint,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00041166,11/13/2022 21:02:23,Investigation of Situation,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00041623,11/17/2022 20:32:45,Suspicious Vehicle,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00041832,11/19/2022 16:08:52,Drugs,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00041835,11/19/2022 16:19:56,Drugs,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00042597,11/27/2022 12:04:45,Dog Complaint,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00044457,12/14/2022 15:44:49,Disorderly Conduct,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00044523,12/15/2022 08:42:03,ACC,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00046062,12/30/2022 18:52:33,Loitering,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00046096,12/31/2022 02:05:54,Welfare Check,0,41.39968,-75.65174

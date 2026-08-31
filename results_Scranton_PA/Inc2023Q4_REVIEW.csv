@@ -1,0 +1,40 @@
+_needs_review,_review_reason,Incident ORI,Incident Number,Incident Date And Time,Incident Type,Incident Address,Incident Address Latitude,Incident Address Longitude
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00036840,10/01/2023 01:52:16,Loitering,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00036880,10/01/2023 12:18:50,Emotionally/Mentally Dist Person,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00037001,10/02/2023 11:52:16,Investigation of Situation,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00037272,10/04/2023 12:15:57,BLDC,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00037274,10/04/2023 12:43:17,Investigation of Situation,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00037359,10/04/2023 23:15:18,Investigation of Situation,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00037895,10/08/2023 17:28:31,Welfare Check,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00037935,10/09/2023 01:46:51,Investigation of Situation,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00037987,10/09/2023 12:55:38,BLDC,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00038141,10/10/2023 14:25:16,Welfare Check,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00038477,10/12/2023 17:40:40,Disorderly Conduct,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00038703,10/13/2023 23:26:56,Investigation of Situation,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00038838,10/15/2023 02:41:09,Suspicious Person,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00039474,10/19/2023 18:10:44,Warrant Service,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00039530,10/20/2023 03:56:29,Suspicious Person,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00039571,10/20/2023 11:15:27,Special Duty,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00039852,10/22/2023 11:35:16,BLDC,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00039930,10/23/2023 07:17:34,BLDC,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00039975,10/23/2023 12:56:31,BLDC,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00040634,10/27/2023 18:40:29,Drugs,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00040755,10/28/2023 16:52:37,BLDC,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00040828,10/29/2023 04:57:50,Welfare Check,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00041331,11/01/2023 23:38:29,Non-Structure Fire,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00041704,11/04/2023 15:19:37,Traffic Stop,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00041872,11/06/2023 00:35:11,Suspicious Person,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00042262,11/09/2023 00:04:29,Neighbor Dispute,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00043485,11/19/2023 01:03:23,Suspicious Vehicle,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00043613,11/20/2023 11:40:44,ACCI,0,41.459316,-75.665628
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00043648,11/20/2023 15:47:58,Assist Motorist,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00044620,11/29/2023 15:44:57,Drugs,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00044682,11/29/2023 23:58:36,BLDC,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00044797,11/30/2023 15:27:38,Investigation of Situation,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00045209,12/04/2023 12:24:09,BLDC,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00045280,12/04/2023 23:34:23,Special Duty,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00045407,12/05/2023 23:15:56,Investigation of Situation,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00045995,12/10/2023 23:18:17,BLDC,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00046105,12/11/2023 23:20:19,Special Duty,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00047754,12/25/2023 16:19:19,Investigation of Situation,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00047780,12/25/2023 22:55:36,Investigation of Situation,0,41.415732149,-75.665217953

@@ -1,0 +1,192 @@
+row_number,reasons,CallID,When Reported,Typ,Nature,P,Location,Cty
+47,'Location' garbled/scrambled text,19C093180,07:05:38 10/01/19,l,Alarm Call,2,4493 SIGNATURE DR;HIGGINS RESD,COR
+48,'Nature' garbled text (embedded symbol),19C093181,07:06:30 10/01/19,f,ZZFaint/Uncons,1,2160 WHITMAN WAY,COR
+54,'Location' garbled/scrambled text,19C093188,07:37:26 10/01/19,f,ZZMedical Alert,1,4205 RIVIERA DR;WOODS RESD,COR
+64,'Location' garbled/scrambled text,19C093200,08:26:18 10/01/19,l,Alarm Call,2,839 PHEASANT ST;ORTIZ RESD,COR
+376,'Location' garbled/scrambled text,19C093615,09:52:23 10/02/19,l,Alarm Call,2,2325 PATRIOT WAY;LAWSON RESD,COR
+422,'Location' garbled/scrambled text,19C093684,13:38:57 10/02/19,f,ZZResdntal Alr,1,1684 SUMAC PL;COLLINS RESD,COR
+696,'Nature' garbled text (embedded symbol),19C094058,12:09:47 10/03/19,f,ZZFaint/Uncons,1,775 TRADEMARK CIR; #101; ABILITY COUNTS COR INC,
+702,'Nature' garbled text (embedded symbol),19C094065,12:31:21 10/03/19,f,ZZFaint/Uncons,1,1884 LUCY LN,COR
+720,'Nature' garbled text (embedded symbol),19C094091,13:46:37 10/03/19,f,ZZFaint/Uncons,1,275 TELLER ST # 100; 24 HOUR FITNESS,COR
+731,'Nature' garbled text (embedded symbol),19C094106,14:42:25 10/03/19,f,ZZFaint/Uncons,1,1235 QUARRY ST; HAND AIR EXPRESS,COR
+978,'Location' garbled/scrambled text,19C094449,11:05:03 10/04/19,f,ZZFwy Acc w/inj,1,91 EB SERFAS CLUB 6TH STMAPLE,COR
+986,'Nature' garbled text (embedded symbol),19C094457,11:47:23 10/04/19,f,ZZFaint/Uncons,1,2250 S MAIN ST; #105; QUEST DIAGNOSTICS,COR
+1270,'Location' garbled/scrambled text,19C094853,08:48:57 10/05/19,l,Fraud Past,4,1429 CHALGROVE DR;LL CONT,COR
+1382,'Nature' garbled text (embedded symbol),19C095017,17:29:43 10/05/19,f,ZZFaint/Uncons,1,2345 MESQUITE LN,COR
+1566,'Location' garbled/scrambled text,19C095244,08:28:52 10/06/19,l,Alarm Call,2,1711 LIND TERRACE;DIAZ RESD,COR
+1700,'Nature' garbled text (embedded symbol),19C095430,19:48:06 10/06/19,f,ZZFaint/Uncons,1,2300 S MAIN ST # 168; VALENCIA TERRACE,COR
+1876,'Nature' garbled text (embedded symbol),19C095667,11:43:05 10/07/19,f,ZZFaint/Uncons,1,135 N MCKINLEY ST; INLAND EMPIRE ADULT DAY HEALTH CARE CTR,COR
+2153,'Location' garbled/scrambled text,19C096031,09:16:11 10/08/19,l,Alarm Call,2,507 S VICENTIA AVE;THRIFT STORE,COR
+2167,'Location' garbled/scrambled text,19C096051,09:52:40 10/08/19,f,ZZResdntal Alr,1,2425 VIA ALICANTE;TANG RESD,COR
+2264,'Location' garbled/scrambled text,19C096170,15:04:30 10/08/19,l,Alarm Call,2,4290 HAVENRIDGE DR; COLEMAN RESD,COR
+2531,'Location' garbled/scrambled text,19C096562,14:44:12 10/09/19,l,Welfare Check,2,3111 BIGHORN DR;MALETA RESD,COR
+2686,'Nature' garbled text (embedded symbol),19C096778,05:14:00 10/10/19,lf,ZZFaint/Uncons,1,710 CANTERBURY CIR,COR
+2741,'Location' garbled/scrambled text,19C096848,08:47:02 10/10/19,l,Alarm Call,2,1060 OTHELLO LN;BARNES RESD,COR
+2766,'Location' garbled/scrambled text,19C096886,10:15:06 10/10/19,l,Alarm Call,2,553 SHENANDOAH RD;ANAYA RESD,COR
+2776,'Location' garbled/scrambled text,19C096900,10:41:01 10/10/19,l,Alarm Call,2,1792 NOAH DR;ESPERANZA RESD,COR
+2782,'Location' garbled/scrambled text,19C096908,11:02:54 10/10/19,l,Alarm Call,2,1668 TAYLOR AVE;KINSER RESD,COR
+2783,'Nature' garbled text (embedded symbol),19C096909,11:06:56 10/10/19,f,ZZFaint/Uncons,1,260 E ONTARIO AVE # 101,COR
+2828,'Location' garbled/scrambled text,19C096968,13:10:16 10/10/19,l,Alarm Call,2,838 HEARST WAY;ABELAR RESD,COR
+3171,'Nature' garbled text (embedded symbol),19C097402,17:37:56 10/11/19,f,ZZFaint/Uncons,1,1935 COMPTON AVE; CENTENNIAL ANIMAL HOSPITAL INC,COR
+3251,'Location' garbled/scrambled text,19C097517,23:11:55 10/11/19,l,Alarm Call,2,2425 GARRETSON AVE;BAIG RESD,COR
+3296,'Nature' garbled text (embedded symbol),19C097577,04:30:04 10/12/19,f,ZZFaint/Uncons,1,1400 CIRCLE CITY DR;#342 BED A ; CORONA COR CARE CENTER LLC,
+3404,'Nature' garbled text (embedded symbol),19C097710,14:50:39 10/12/19,f,ZZFaint/Uncons,1,632 W TENTH ST,COR
+3625,'Location' garbled/scrambled text,19C097985,10:23:02 10/13/19,l,Alarm Call,2,562 MONDALE ST;NGUYEN RESD,COR
+3641,'Location' garbled/scrambled text,19C098005,11:32:24 10/13/19,l,Alarm Call,2,1584 ALDERWOOD CIR;HORVATH RESD,COR
+3658,'Location' garbled/scrambled text,19C098033,13:31:05 10/13/19,l,Alarm Call,2,140 HILLSHIRE CIR;MEALLY RESD,COR
+4061,'Location' garbled/scrambled text,19C098583,06:41:43 10/15/19,l,Alarm Call,2,520 WHEELER CIR;GATES RESD,COR
+4072,'Nature' garbled text (embedded symbol),19C098599,08:31:49 10/15/19,f,ZZFaint/Uncons,1,1210 HIGHCLIFF CIR,COR
+4182,'Nature' garbled text (embedded symbol),19C098741,15:25:38 10/15/19,f,ZZFaint/Uncons,1,2365 MILLCREEK PL; HILLS APARTMENTS,COR
+4218,'Nature' garbled text (embedded symbol),19C098789,17:34:13 10/15/19,f,ZZFaint/Uncons,1,2005 KELLOGG AVE; BROOKDALE,COR
+4243,'Location' garbled/scrambled text,19C098829,19:18:32 10/15/19,l,Patrol Info,4,60 SUMMERWOOD CT; SUMMERWOOD VILLAGE,COR
+4571,'Nature' garbled text (embedded symbol),19C099241,22:05:19 10/16/19,f,ZZFaint/Uncons,1,315 S MAIN ST; WIENERSCHNITZEL,COR
+4922,'Nature' garbled text (embedded symbol),19C099756,02:48:35 10/18/19,f,ZZFaint/Uncons,1,846 CAROLINA CIR,COR
+4956,'Location' garbled/scrambled text,19C099803,08:13:35 10/18/19,l,Alarm Call,2,225 ENCORE WAY;CUESTA RESD,COR
+5035,'Location' garbled/scrambled text,19C099901,13:32:50 10/18/19,l,Alarm Call,2,983 CLEVELAND WAY;NGUYEN RESD,COR
+5102,'Location' garbled/scrambled text,19C099991,17:33:43 10/18/19,l,Alarm Call,2,609 CORONA AVE;NELSON RESD,COR
+5278,'Nature' garbled text (embedded symbol),19C100220,10:06:58 10/19/19,f,ZZFaint/Uncons,1,4714 GREEN RIVER RD ; BRANDONS DINER,COR
+5441,'Location' garbled/scrambled text,19C100424,18:17:50 10/19/19,l,Alarm Call,2,1477 DAVRIL CIR; CTHRU SUNROOMS,COR
+5454,'Nature' garbled text (embedded symbol),19C100440,19:12:45 10/19/19,f,ZZFaint/Uncons,1,696 WELLESLEY DR,COR
+5675,'Location' garbled/scrambled text,19C100710,09:26:39 10/20/19,l,Alarm Call,2,456 BRISTOL WAY;CAMPBELL RESD,COR
+5678,'Nature' garbled text (embedded symbol),19C100716,09:38:55 10/20/19,f,ZZFaint/Uncons,1,3261 HUNTFIELD ST,COR
+5719,'Nature' garbled text (embedded symbol),19C100770,13:10:43 10/20/19,f,ZZFaint/Uncons,1,1390 W SIXTH ST,COR
+5768,'Location' garbled/scrambled text,19C100836,16:52:36 10/20/19,l,Alarm Call,2,3270 STERLING DR;HANHN RESD,COR
+6083,'Nature' garbled text (embedded symbol),19C101294,18:23:40 10/21/19,lf,ZZFaint/Uncons,1,619 E SIXTH ST; ARTS LIQUOR,COR
+6202,'Location' garbled/scrambled text,19C101471,10:13:30 10/22/19,l,Surveillance,4,60 SUMMERWOOD CT; SUMMERWOOD VILLAGE,COR
+6650,'Location' garbled/scrambled text,19C102095,16:13:08 10/23/19,l,Traffic Stop,4,RIMPAU AVE & TANFORD LN,COR
+6685,'Location' garbled/scrambled text,19C102144,18:15:34 10/23/19,l,Patrol Info,4,60 SUMMERWOOD CT; SUMMERWOOD VILLAGE,COR
+6788,'Location' garbled/scrambled text,19C102304,06:42:09 10/24/19,l,Alarm Call,2,2568 GILBERT AVE;BULANDOS RESD,COR
+6832,'Location' garbled/scrambled text,19C102367,09:18:37 10/24/19,l,Alarm Call,2,2351 ADONIS PL;GOMEZ RESD,COR
+6838,'Location' garbled/scrambled text,19C102375,09:32:48 10/24/19,l,Surveillance,4,60 SUMMERWOOD CT; SUMMERWOOD VILLAGE,COR
+6852,'Location' garbled/scrambled text,19C102400,10:32:55 10/24/19,l,Disturb Peace P,4,488 TOWERGROVE DR;LL CONT,COR
+6872,'Nature' garbled text (embedded symbol),19C102428,11:44:13 10/24/19,f,ZZFaint/Uncons,1,900 S MAIN ST # 207; LAB CORP; LAB COPR,COR
+6878,'Location' garbled/scrambled text,19C102436,12:04:18 10/24/19,l,Alarm Call,2,1751 KIRKWOOD DR;ZAMBRANO RESD,COR
+6905,'Location' garbled/scrambled text,19C102479,13:47:47 10/24/19,l,Alarm Call,2,562 MONDALE ST;NGUYEN RESD,COR
+7162,'Location' garbled/scrambled text,19C102827,10:25:02 10/25/19,l,Alarm Call,2,562 MONDALE ST;NGUYEN RESD,COR
+7177,'Location' fragmented text (overlap?),19C102851,11:24:39 10/25/19,l,Ill Parked Veh,4,760 WASHBURN AVE; K B TEJURA MD,COR
+7300,'Nature' garbled text (embedded symbol),19C103009,17:46:47 10/25/19,f,ZZFaint/Uncons,1,401 S LINCOLN AVE # A; CLINICA MEDICA,COR
+7388,'Nature' garbled text (embedded symbol),19C103134,23:10:59 10/25/19,f,ZZFaint/Uncons,1,1920 FRONTAGE RD; MIGUELS SONORA STYLE AND CANTINA,COR
+7539,'Location' garbled/scrambled text,19C103338,14:03:43 10/26/19,l,Alarm Call,2,521 PRINCELAND CT; ICSN INC,COR
+7659,'Location' garbled/scrambled text,19C103527,21:36:06 10/26/19,l,Shots Heard,3,2865 OLIVEWOOD CIR; ISPEAK,COR
+7660,'Location' garbled/scrambled text,19C103528,21:41:51 10/26/19,l,Public Service,3,2241 MARYSA KATHRIN ST;NOTIFICATION,COR
+7777,'Location' garbled/scrambled text,19C103700,09:11:34 10/27/19,l,Alarm Call,2,235 RADIO RD;PLYGEM/ CERTAINTEED;GLASSBREAK,COR
+7781,'Location' garbled/scrambled text,19C103708,09:35:12 10/27/19,f,ZZFwy Sick,1,91 EB SERFAS CLUB 6TH STMAPLE,COR
+7790,'Location' garbled/scrambled text,19C103720,10:29:09 10/27/19,l,Z-Animal Svcs,4,507 S VICENTIA AVE;SETTLEMENT HOUSE,COR
+7847,'Nature' garbled text (embedded symbol),19C103816,15:46:04 10/27/19,f,ZZFaint/Uncons,1,370 N MCKINLEY ST; TEXAS ROADHOUSE,COR
+7853,'Nature' garbled text (embedded symbol),19C103824,16:16:54 10/27/19,f,ZZFaint/Uncons,1,910 S BELLE AVE # 212,COR
+7868,'Nature' garbled text (embedded symbol),19C103845,17:12:03 10/27/19,f,ZZFaint/Uncons,1,750 S LINCOLN AVE # 105; LITTLE CAESARS PIZZA,COR
+8227,'Location' garbled/scrambled text,19C104366,06:45:59 10/29/19,l,Alarm Call,2,2806 GARRETSON AVE;DIPALO RESD,COR
+8358,'Location' garbled/scrambled text,19C104550,13:46:52 10/29/19,l,Alarm Call,2,4057 INVERNESS DR;ORTEGA RESD,COR
+8605,'Location' garbled/scrambled text,19C104919,11:35:22 10/30/19,l,Alarm Call,2,2834 SHAQUILE ST;SHAW RESD,COR
+8637,'Nature' garbled text (embedded symbol),19C104963,13:26:08 10/30/19,lf,ZZFaint/Uncons,1,1307 W SIXTH ST; SERENITY CLUB,COR
+8674,'Nature' garbled text (embedded symbol),19C105010,14:56:26 10/30/19,f,ZZFaint/Uncons,1,601 BUNDY WAY,COR
+8696,'Location' garbled/scrambled text,19C105046,16:02:22 10/30/19,f,ZZResdntal Alr,1,4243 SHOALCREEK DR;PATHE RESD,COR
+8826,'Location' garbled/scrambled text,19C105239,06:18:51 10/31/19,l,Alarm Call,2,2390 BOUGANVILLEA CIR;GARREON R ESD,COR
+8832,'Location' garbled/scrambled text,19C105247,06:39:12 10/31/19,l,Alarm Call,2,1215 S VICTORIA AVE;NIXON RESD,COR
+8959,'Nature' garbled text (embedded symbol),19C105413,14:02:03 10/31/19,f,ZZFaint/Uncons,1,1247 DORIS LN # 101,COR
+8966,'Nature' garbled text (embedded symbol),19C105422,14:30:00 10/31/19,f,ZZFaint/Uncons,1,3426 MOONLIGHT LN,COR
+9171,'Nature' garbled text (embedded symbol),19C105690,08:53:35 11/01/19,f,ZZFaint/Uncons,1,2220 E TREEMONT PL # 107,COR
+9497,'Nature' garbled text (embedded symbol),19C105690,08:53:35 11/01/19,f,ZZFaint/Uncons,1,2220 E TREEMONT PL # 107,COR
+9761,'Location' garbled/scrambled text,19C106075,00:20:42 11/02/19,l,Patrol Info,4,91 EB SERFAS CLUB 6TH STMAPLE,COR
+10189,'Location' garbled/scrambled text,19C106673,17:12:16 11/03/19,l,Alarm Call,2,375 KLUG CIR;CAPPUCCINE BUSN,COR
+10346,'Nature' garbled text (embedded symbol),19C106896,11:02:05 11/04/19,f,ZZFaint/Uncons,1,602 W SIXTH ST; CLINICA MI PUEBLO,COR
+10388,'Location' garbled/scrambled text,19C106976,14:15:43 11/04/19,l,Alarm Call,2,2578 MACBETH AVE;CARSON RESD,COR
+10427,'Nature' garbled text (embedded symbol),19C107048,17:28:44 11/04/19,f,ZZFaint/Uncons,1,2854 MELLOR ST,COR
+10510,'Nature' garbled text (embedded symbol),19C107158,04:38:49 11/05/19,f,ZZFaint/Uncons,1,503 RIVER RD # A,COR
+10590,'Nature' garbled text (embedded symbol),19C107282,11:06:56 11/05/19,f,ZZFaint/Uncons,1,275 TELLER ST # 100; 24 HOUR FITNESS,COR
+10640,'Location' garbled/scrambled text,19C107356,13:52:21 11/05/19,l,Alarm Call,2,2503 VIA PALENCIA;VAID RESD,COR
+10659,'Nature' garbled text (embedded symbol),19C107398,14:59:34 11/05/19,f,ZZFaint/Uncons,1,175 E NINTH ST; CORONA ADVANCED IMAGING CENTER,COR
+10660,'Nature' garbled text (embedded symbol),19C107399,15:00:31 11/05/19,f,ZZFaint/Uncons,1,986 W FIFTH ST # 2,COR
+10795,'Nature' garbled text (embedded symbol),19C107617,06:53:15 11/06/19,f,ZZFaint/Uncons,1,4380 BUTLER NATIONAL RD,COR
+10802,'Location' garbled/scrambled text,19C107627,07:19:14 11/06/19,l,Alarm Call,2,1307 W SIXTH ST;#108;PHS COUNCILING,COR
+10885,'Location' garbled/scrambled text,19C107732,13:11:50 11/06/19,l,Susp Vehicle,3,BOLLERO PL & N VICENTIA AVE,COR
+10978,'Nature' garbled text (embedded symbol),19C107879,20:52:34 11/06/19,f,ZZFaint/Uncons,1,1511 RIMPAU AVE ; HANS SUSHI,COR
+11007,'Nature' garbled text (embedded symbol),19C107921,01:19:37 11/07/19,f,ZZFaint/Uncons,1,839 RIVER RD;#206,COR
+11107,'Location' garbled/scrambled text,19C108060,10:25:51 11/07/19,l,Additional Info,4,1205 S MAIN ST; TMSO INC;LOBBY,COR
+11203,'Location' garbled/scrambled text,19C108216,17:56:34 11/07/19,l,Alarm Call,2,2813 CORAL ST;GUARDIANA RESD,COR
+11312,'Nature' garbled text (embedded symbol),19C108366,08:19:21 11/08/19,f,ZZFaint/Uncons,1,2800 RIDGELINE DR; PRADO VIEW ELEMENTARY SCHOOL,COR
+11472,'Location' garbled/scrambled text,19C108588,17:32:48 11/08/19,l,Dist/Verbal,2,2250 E TREEMONT PL;DEERWOOD APTS,COR
+11483,'Nature' garbled text (embedded symbol),19C108604,18:23:47 11/08/19,f,ZZFaint/Uncons,1,2724 WRANGLER CIR,COR
+11657,'Location' garbled/scrambled text,19C108846,12:04:28 11/09/19,l,Alarm Call,2,2806 GARRETSON AVE;ZAPALO RESD,COR
+11673,'Location' garbled/scrambled text,19C108872,13:21:34 11/09/19,l,Alarm Call,2,1176 MILLBROOK RD ;CARIKER RESD,COR
+11682,'Nature' garbled text (embedded symbol),19C108887,14:14:50 11/09/19,f,ZZFaint/Uncons,1,1886 BUTTERFIELD DR; BUTTERFIELD PARK,COR
+11692,'Location' garbled/scrambled text,19C108900,14:53:35 11/09/19,l,Alarm Call,2,767 OCHEE CIR;BOLTON RESD,COR
+11752,'Nature' garbled text (embedded symbol),19C108976,18:49:37 11/09/19,f,ZZFaint/Uncons,1,2489 CALIFORNIA AVE; MEMORY CARE RESTROOM; ESTANCIA DEL SOL,COR
+11763,'Nature' garbled text (embedded symbol),19C108991,19:48:06 11/09/19,f,ZZFaint/Uncons,1,995 POMONA RD # 33,COR
+11926,'Nature' garbled text (embedded symbol),19C109201,09:40:40 11/10/19,f,ZZFaint/Uncons,1,801 FORD ST,COR
+11930,'Nature' garbled text (embedded symbol),19C109206,10:01:33 11/10/19,f,ZZFaint/Uncons,1,505 W GRAND BLVD # 208,COR
+11935,'Nature' garbled text (embedded symbol); 'Location' garbled/scrambled text,19C109212,10:15:01 11/10/19,f,ZZFaint/Uncons,1,1530 W SIXTH ST # 107; EL CHIVITO BIRRIERIA,COR
+12052,'Nature' garbled text (embedded symbol),19C109366,19:06:11 11/10/19,f,ZZFaint/Uncons,1,1095 TRANQUIL LN,COR
+12073,'Nature' garbled text (embedded symbol),19C109394,20:38:47 11/10/19,f,ZZFaint/Uncons,1,275 TELLER ST # 130; SHOGUN,COR
+12108,'Nature' garbled text (embedded symbol),19C109438,23:49:09 11/10/19,f,ZZFaint/Uncons,1,2600 S MAIN ST; CORONA POST ACUTE; 161,COR
+12139,'Nature' garbled text (embedded symbol),19C109480,04:33:36 11/11/19,f,ZZFaint/Uncons,1,934 QUEENSDALE AVE,COR
+12182,'Nature' garbled text (embedded symbol),19C109553,10:06:33 11/11/19,f,ZZFaint/Uncons,1,760 S WASHBURN AVE;CITRUS MEDICAL CENTER,COR
+12325,'Nature' garbled text (embedded symbol),19C109781,23:29:44 11/11/19,f,ZZFaint/Uncons,1,2600 S MAIN ST; #178A; CORONA POST ACUTE,COR
+12529,'Nature' garbled text (embedded symbol),19C110107,16:01:16 11/12/19,f,ZZFaint/Uncons,1,2731 BLUE SPRINGS DR; STAYBRIDGE HOTEL,COR
+12611,'Location' garbled/scrambled text,19C110249,22:17:26 11/12/19,f,ZZResdntal Alr,1,595 VIEWTOP LN; CASTILLANO RESD,COR
+12710,'Nature' garbled text (embedded symbol),19C110393,09:15:57 11/13/19,f,ZZFaint/Uncons,1,2055 KELLOGG AVE; KAISER FOUNDATION HEALTH PLAN INC,COR
+12745,'Nature' garbled text (embedded symbol),19C110447,11:41:39 11/13/19,f,ZZFaint/Uncons,1,803 MAGNOLIA AVE; CASA GRANDE,COR
+12790,'Location' garbled/scrambled text,19C110526,13:42:04 11/13/19,l,Vandalism Past,4,N VICENTIA AVE & BOLLERO PL,COR
+12896,'Nature' garbled text (embedded symbol),19C110678,21:31:33 11/13/19,f,ZZFaint/Uncons,1,255 GREENGATE ST,COR
+12966,'Location' garbled/scrambled text,19C110777,07:10:01 11/14/19,l,Traffic Stop,4,RIMPAU AVE & TANFORD LN,COR
+12996,'Location' garbled/scrambled text,19C110825,08:44:37 11/14/19,l,Alarm Call,2,1430 BURNETT CIR;RODRIGUEZ RESD,COR
+13123,'Location' garbled/scrambled text,19C111035,16:07:14 11/14/19,l,Alarm Call,2,1150 ZIRCON ST;SALAHUDDIN RESD,COR
+13207,'Nature' garbled text (embedded symbol),19C111153,21:11:06 11/14/19,f,ZZFaint/Uncons,1,387 MAGNOLIA AVE; #101,COR
+13393,'Nature' garbled text (embedded symbol),19C111413,15:15:56 11/15/19,f,ZZFaint/Uncons,1,4343 ALTIVO LN,COR
+13410,'Nature' garbled text (embedded symbol),19C111437,15:51:00 11/15/19,f,ZZFaint/Uncons,1,150 W PARKRIDGE AVE; RODRIGOS,COR
+13584,'Nature' garbled text (embedded symbol),19C111670,07:57:26 11/16/19,f,ZZFaint/Uncons,1,2399 S VICENTIA AVE,COR
+13596,'Location' garbled/scrambled text,19C111688,09:08:53 11/16/19,l,Alarm Call,2,1477 TUDOR CIR;LACOUR RESD,COR
+13718,'Location' garbled/scrambled text,19C111852,17:22:15 11/16/19,l,Alarm Call,2,4104 CAMERON WAY;ROSIO RESD,COR
+13922,'Location' garbled/scrambled text,19C112119,07:56:42 11/17/19,l,Citizen Contact,3,1460 SHADOWGLEN WAY;LL CONT,COR
+13926,'Location' garbled/scrambled text,19C112123,08:13:29 11/17/19,l,Alarm Call,2,1252 W SIXTH ST;#107;CARNITAS ZARGOZA,COR
+13985,'Location' garbled/scrambled text,19C112198,12:11:46 11/17/19,l,Alarm Call,2,1331 DYER WAY;BARBA RESD,COR
+14069,'Nature' garbled text (embedded symbol),19C112324,17:34:50 11/17/19,f,ZZFaint/Uncons,1,3526 STATE ST; THOMPSON ENTERPRISES,COR
+14281,'Nature' garbled text (embedded symbol),19C112643,12:29:58 11/18/19,f,ZZFaint/Uncons,1,2250 S MAIN ST; #107,COR
+14406,'Nature' garbled text (embedded symbol),19C112869,21:52:41 11/18/19,f,ZZFaint/Uncons,1,569 FAIRBANKS ST,COR
+14529,'Nature' garbled text (embedded symbol),19C113091,12:07:25 11/19/19,f,ZZFaint/Uncons,1,1400 CIRCLE CITY DR; CORONA CARE CENTER LLC; #2,COR
+14570,'Nature' garbled text (embedded symbol),19C113163,14:38:05 11/19/19,f,ZZFaint/Uncons,1,2764 RIDGELINE DR # 107,COR
+14621,'Location' garbled/scrambled text,19C113235,17:15:04 11/19/19,l,Alarm Call,2,2998 LA VISTA AVE;CORINDDI RESD,COR
+14658,'Location' garbled/scrambled text,19C113301,20:38:33 11/19/19,f,ZZCommrcal Alrm,1,429 WYNOLA CT ; FOATE RESD,COR
+14797,'Nature' garbled text (embedded symbol),19C113514,10:37:05 11/20/19,f,ZZFaint/Uncons,1,2925 ARGYLE CIR,COR
+14799,'Location' garbled/scrambled text,19C113516,10:39:17 11/20/19,l,Alarm Call,2,3725 OCALA CIR;FOX RESD,COR
+14803,'Location' garbled/scrambled text,19C113520,10:41:06 11/20/19,l,Alarm Call,2,4204 CASTLEPEAK DR;ALI RESD,COR
+14814,'Nature' garbled text (embedded symbol),19C113532,11:31:25 11/20/19,f,ZZFaint/Uncons,1,353 MEYER CIR; CORE MARK DISTRIBUTORS,COR
+14815,'Location' garbled/scrambled text,19C113533,11:35:20 11/20/19,l,Alarm Call,2,3031 ARMSTRONGS DR;ASIS RESD,COR
+14871,'Nature' garbled text (embedded symbol),19C113604,14:29:38 11/20/19,f,ZZFaint/Uncons,1,2168 PARKSIDE DR # 407,COR
+14877,'Nature' garbled text (embedded symbol),19C113611,15:04:36 11/20/19,f,ZZFaint/Uncons,1,3020 ALPS RD,COR
+15056,'Location' garbled/scrambled text,19C113858,08:15:07 11/21/19,l,Alarm Call,2,1463 EARL ST;PADRON RESD,COR
+15083,'Location' garbled/scrambled text,19C113907,10:21:11 11/21/19,l,Alarm Call,2,949 AUBURNDALE ST;RATKE RESD,COR
+15089,'Location' garbled/scrambled text,19C113918,11:04:02 11/21/19,l,Alarm Call,2,1997 EUREKA ST;CHADWICK RESD,COR
+15147,'Location' garbled/scrambled text,19C114010,14:51:29 11/21/19,l,Alarm Call,2,3324 RURAL CIR;BEGA RESD,COR
+15178,'Nature' garbled text (embedded symbol),19C114064,17:45:48 11/21/19,f,ZZFaint/Uncons,1,619 E SIXTH ST; ARTS LIQUOR,COR
+15181,'Nature' garbled text (embedded symbol),19C114071,18:15:22 11/21/19,f,ZZFaint/Uncons,1,185 N MCKINLEY ST; SELF MADE TRAINER,COR
+15289,'Nature' garbled text (embedded symbol),19C114213,04:11:49 11/22/19,f,ZZFaint/Uncons,1,916 W EIGHTH ST # #1-2,COR
+15308,'Location' garbled/scrambled text,19C114240,07:39:38 11/22/19,l,Alarm Call,2,326 E OLIVE ST;VARGAS RESD,COR
+15315,'Location' garbled/scrambled text,19C114250,07:57:37 11/22/19,l,Alarm Call,2,1109 GENTLE DR;WEEMERING RESD,COR
+15322,'Location' garbled/scrambled text,19C114261,08:47:04 11/22/19,l,Alarm Call,2,2043 ESTRADO DR;IBANEZ RESD,COR
+15364,'Location' garbled/scrambled text,19C114323,11:18:20 11/22/19,l,Alarm Call,2,1123 RAILROAD ST;MONCADA RESD,COR
+15384,'Location' garbled/scrambled text,19C114354,12:53:32 11/22/19,l,Alarm Call,2,520 HANCOCK CIR;SINGH RESD,COR
+15394,'Nature' garbled text (embedded symbol),19C114368,13:21:20 11/22/19,f,ZZFaint/Uncons,1,1183 HUNT CIR,COR
+15719,'Nature' garbled text (embedded symbol),19C114828,17:18:01 11/23/19,f,ZZFaint/Uncons,1,915 W RANCHO RD,COR
+15865,'Location' garbled/scrambled text,19C115010,06:06:11 11/24/19,l,Disturb Peace,3,621 SUNVALLEY LN;MARQUESSA APTS,COR
+15934,'Nature' garbled text (embedded symbol),19C115095,11:50:34 11/24/19,f,ZZFaint/Uncons,1,1560 E SIXTH ST,COR
+15961,'Nature' garbled text (embedded symbol),19C115128,13:31:50 11/24/19,f,ZZFaint/Uncons,1,2649 HAWK CIR,COR
+15969,'Nature' garbled text (embedded symbol),19C115139,14:17:27 11/24/19,f,ZZFaint/Uncons,1,479 N MCKINLEY ST; WALMART,COR
+15977,'Location' garbled/scrambled text,19C115148,15:06:10 11/24/19,l,Alarm Call,2,747 VIEWPOINTE LN;HARRIS RESD,COR
+16009,'Location' garbled/scrambled text,19C115189,16:42:56 11/24/19,f,ZZMedical Alert,1,1103 NEATHERLY CIR;BURMEISTER RESD,COR
+16012,'Nature' garbled text (embedded symbol),19C115193,16:51:10 11/24/19,f,ZZFaint/Uncons,1,2642 FALCON CIR,COR
+16038,'Nature' garbled text (embedded symbol),19C115227,18:28:57 11/24/19,lf,ZZFaint/Uncons,1,3697 LOGAN CIR,COR
+16182,'Nature' garbled text (embedded symbol),19C115437,09:04:39 11/25/19,f,ZZFaint/Uncons,1,4386 CROWN RANCH RD,COR
+16194,'Location' garbled/scrambled text,19C115458,09:44:01 11/25/19,l,Auto Tampr Past,4,1040 RIMPAU AVE;LL CONT,COR
+16283,'Nature' garbled text (embedded symbol),19C115585,15:00:20 11/25/19,f,ZZFaint/Uncons,1,803 MAGNOLIA AVE,COR
+16284,'Nature' garbled text (embedded symbol),19C115586,15:00:26 11/25/19,f,ZZFaint/Uncons,1,803 MAGNOLIA AVE,COR
+16511,'Location' garbled/scrambled text,19C115909,12:16:05 11/26/19,l,Alarm Call,2,1616 TAMARRON DR ; GARG RESD,COR
+16766,'Location' garbled/scrambled text,19C116275,10:54:02 11/27/19,l,Alarm Call,2,1304 VERSANTE CIR ; MINERESU RESD,COR
+16943,'Location' garbled/scrambled text,19C116541,01:35:10 11/28/19,l,Battery,1,661 STONEYBROOK DR # 20 ; OCC'D 10 AGO,COR
+16986,'Location' garbled/scrambled text,19C116616,08:45:27 11/28/19,l,Alarm Call,2,4243 SHOALCREEK DR; PATHE RESD,COR
+17050,'Nature' garbled text (embedded symbol),19C116734,13:58:50 11/28/19,f,ZZFaint/Uncons,1,3000 HAMPSHIRE CIR,COR
+17368,'Location' garbled/scrambled text,19C117164,13:55:19 11/29/19,l,Alarm Call,2,3091 GARRETSON AVE;WU RESD,COR
+17442,'Nature' garbled text (embedded symbol),19C117265,19:24:33 11/29/19,f,ZZFaint/Uncons,1,619 E SIXTH ST; ARTS LIQUOR,COR
+17618,'Location' garbled/scrambled text,19C117515,15:03:42 11/30/19,f,ZZResdntal Alr,1,912 EAGLESNEST DR;GONZALEZ RESIDENCE,COR
+17710,'Nature' garbled text (embedded symbol),19C117651,20:19:53 11/30/19,f,ZZFaint/Uncons,1,1440 AVENIDA DEL VISTA,COR
+17852,'Nature' garbled text (embedded symbol),19C117841,10:33:36 12/01/19,f,ZZFaint/Uncons,1,1270 W EIGHTH ST # J,COR

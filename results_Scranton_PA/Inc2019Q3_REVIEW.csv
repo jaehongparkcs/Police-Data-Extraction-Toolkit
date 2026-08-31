@@ -1,0 +1,4 @@
+_needs_review,_review_reason,Incident ORI,Incident Number,Incident Date And Time,Incident Type,Incident Address,Incident Address Latitude,Incident Address Longitude
+YES,'Incident Address' garbled/scrambled text,PA0350400,2019-00032084,08/17/2019 12:56:21,Cave in/Sink hole,GLINKO ST / QUINAN ALY,41.4140538397555,-75.7056694076545
+YES,"'Incident Address' expected text, has number",PA0350400,2019-00033783,08/28/2019 15:02:18,Investigation of Situation,13,,
+YES,'Incident Address' garbled/scrambled text,PA0350400,2019-00033932,08/29/2019 12:04:55,Highway/Road Hazard,CAPOUSE AVE / RICHMONT ST,41.433054208,-75.64437238

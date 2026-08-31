@@ -1,0 +1,6 @@
+_needs_review,_review_reason,Incident ORI,Incident Number,Incident Date And Time,Incident Type,Incident Address,Incident Address Latitude,Incident Address Longitude
+YES,"'Incident Address' expected text, has number",PA0350400,2020-00029114,08/27/2020 14:48:39,Suicide/Attempt,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2020-00030395,09/07/2020 10:47:00,Public Indecency,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2020-00032909,09/26/2020 21:22:18,Welfare Check,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2020-00032975,09/27/2020 13:59:51,Welfare Check,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2020-00033136,09/28/2020 20:55:40,Motor Vehicle Violation,0,41.39968,-75.65174

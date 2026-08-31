@@ -1,0 +1,5 @@
+_needs_review,_review_reason,Incident ORI,Incident Number,Incident Date And Time,Incident Type,Incident Address,Incident Address Latitude,Incident Address Longitude
+YES,"'Incident Address' expected text, has number",PA0350400,2020-00035584,10/19/2020 19:48:22,Investigation of Situation,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2020-00036680,10/29/2020 16:49:44,Traffic Stop,100,,
+YES,"'Incident Address' expected text, has number",PA0350400,2020-00037688,11/06/2020 23:40:55,Welfare Check,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2020-00041934,12/14/2020 19:58:06,Welfare Check,0,41.39968,-75.65174

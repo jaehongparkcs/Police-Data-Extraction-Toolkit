@@ -2,15 +2,15 @@
 *.pdf
 Input_*/
 
-# ─── Generated output (CSVs are regenerable from PDFs + code) ───
-results_*/
+# ─── Generated output ───
+# Per-department result CSVs ARE tracked so collaborators (e.g. advisor)
+# can access them through the repo.  Only the large aggregate master
+# files are ignored — they are regenerable and bloat the repo.
 MASTER_*.csv
-*_corrected.csv
-*_fixed.csv
-*_REVIEW.csv
 
-# If you ever want to keep a small sample CSV in the repo, force-add it:
-#   git add -f results_Sample/example.csv
+# NOTE: tracked CSVs contain individual-level police data. Keep this
+# repo PRIVATE. Data committed now stays in git history even if removed
+# later, so do not make the repo public without scrubbing history first.
 
 # ─── Python ───
 __pycache__/

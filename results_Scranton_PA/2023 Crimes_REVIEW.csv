@@ -1,0 +1,16 @@
+_needs_review,_review_reason,Case ORI,Case Number,Case Reported Date And Time,Case Occurred Incident Type,Case Address,Case Address Zip,Case Address Latitude,Case Address Longitude
+YES,"'Case Address' expected text, has number",PA0350400,2023-00014059,04/30/2023 01:04:29,Drug,0,,41.415732149,-75.665217953
+YES,"'Case Address' expected text, has number",PA0350400,2023-00014972,05/06/2023 16:28:44,Drug,0,,41.415732149,-75.665217953
+YES,"'Case Address' expected text, has number",PA0350400,2023-00015979,05/12/2023 12:04:02,Theft,0,,41.415732149,-75.665217953
+YES,"'Case Address' expected text, has number",PA0350400,2023-00017784,05/23/2023 12:21:21,Emotionally Disturbed Person,0,,41.39968,-75.65174
+YES,"'Case Address' expected text, has number",PA0350400,2023-00022070,06/19/2023 15:49:45,Rescue - Other,0,,41.39968,-75.65174
+YES,"'Case Address' expected text, has number",PA0350400,2023-00026686,07/18/2023 18:45:51,Drug,0,,41.415732149,-75.665217953
+YES,"'Case Address' expected text, has number",PA0350400,2023-00027183,07/21/2023 21:33:20,Drug,0,,41.415732149,-75.665217953
+YES,"'Case Address' expected text, has number",PA0350400,2023-00027587,07/25/2023 10:58:00,Drug,0,,41.415732149,-75.665217953
+YES,"'Case Address' expected text, has number",PA0350400,2023-00029016,08/04/2023 16:08:10,Fight,0,,41.415732149,-75.665217953
+YES,"'Case Address' expected text, has number",PA0350400,2023-00033356,09/06/2023 19:32:55,Drug,0,,41.415732149,-75.665217953
+YES,"'Case Address' expected text, has number",PA0350400,2023-00036880,10/01/2023 12:18:50,Drug,0,,41.415732149,-75.665217953
+YES,"'Case Address' expected text, has number",PA0350400,2023-00037001,10/02/2023 11:52:16,Drug,0,,41.415732149,-75.665217953
+YES,"'Case Address' expected text, has number",PA0350400,2023-00037359,10/04/2023 23:15:18,Loitering,0,,41.415732149,-75.665217953
+YES,"'Case Address' expected text, has number",PA0350400,2023-00040634,10/27/2023 18:40:29,Drug,0,,41.415732149,-75.665217953
+YES,"'Case Address' expected text, has number",PA0350400,2023-00044620,11/29/2023 15:44:57,Drug,0,,41.415732149,-75.665217953

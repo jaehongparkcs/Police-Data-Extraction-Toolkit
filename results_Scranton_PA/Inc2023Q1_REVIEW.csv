@@ -1,0 +1,10 @@
+_needs_review,_review_reason,Incident ORI,Incident Number,Incident Date And Time,Incident Type,Incident Address,Incident Address Latitude,Incident Address Longitude
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00002919,01/28/2023 18:56:08,Domestic,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00003225,01/31/2023 16:08:13,Welfare Check,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00003566,02/03/2023 15:27:51,Welfare Check,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00004239,02/09/2023 15:36:39,Assault,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00005194,02/18/2023 00:57:34,Welfare Check,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00006089,02/26/2023 01:27:38,Traffic Stop,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00006500,03/01/2023 22:11:09,Drugs,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00007624,03/11/2023 18:03:11,Suspicious Vehicle,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00008852,03/22/2023 23:37:16,Harassment,0,41.415732149,-75.665217953

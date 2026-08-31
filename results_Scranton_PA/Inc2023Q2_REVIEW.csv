@@ -1,0 +1,31 @@
+_needs_review,_review_reason,Incident ORI,Incident Number,Incident Date And Time,Incident Type,Incident Address,Incident Address Latitude,Incident Address Longitude
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00011183,04/10/2023 11:24:54,Rescue other than MVA,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00011571,04/12/2023 19:54:10,Juvenile Delinquent,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00012541,04/19/2023 16:41:51,Traffic Stop,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00012656,04/20/2023 13:09:08,Welfare Check,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00013486,04/26/2023 15:18:59,Brush Fire,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00013672,04/27/2023 18:44:57,Vagrant,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00014059,04/30/2023 01:04:29,Drugs,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00014499,05/03/2023 17:35:34,Drugs,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00014972,05/06/2023 16:28:44,Drugs,0,41.415732149,-75.665217953
+YES,'Incident Address' garbled/scrambled text,PA0350400,2023-00015494,05/10/2023 01:21:28,BLDC,"RAYMOUR & FLANIGAN, 955 VIEWMONT DR, 50",,
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00015868,05/11/2023 21:21:31,Suspicious Vehicle,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00015979,05/12/2023 12:04:02,Theft,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00016188,05/13/2023 20:19:29,Domestic,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00016788,05/17/2023 16:12:57,Loitering,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00016804,05/17/2023 17:58:34,Emotionally/Mentally Dist Person,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00016836,05/17/2023 22:42:47,Fight,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00016871,05/18/2023 01:19:13,Suspicious Person,0,41.415732149,-75.665217953
+YES,'Incident Address' garbled/scrambled text,PA0350400,2023-00017059,05/19/2023 01:15:33,BLDC,"LA TONALTECA, 46 VIEWMONT MALL, 50",,
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00017784,05/23/2023 12:21:21,Suicide/Attempt,0,41.39968,-75.65174
+YES,'Incident Address' garbled/scrambled text,PA0350400,2023-00017866,05/24/2023 00:54:09,BLDC,"LA TONALTECA, 46 VIEWMONT MALL, 50",,
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00018016,05/24/2023 23:26:25,Other unspecified incident,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00018452,05/27/2023 22:36:24,Traffic Stop,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00018459,05/27/2023 23:44:01,Investigation of Situation,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00018460,05/27/2023 23:49:52,Suspicious Vehicle,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00018653,05/29/2023 15:41:52,Harassment,0,41.415732149,-75.665217953
+YES,'Incident Address' garbled/scrambled text,PA0350400,2023-00018900,05/31/2023 02:03:28,BLDC,"LA TONALTECA, 46 VIEWMONT MALL, 50",,
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00022070,06/19/2023 15:49:45,BLS Priority,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00022599,06/22/2023 21:05:40,Welfare Check,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00023013,06/24/2023 20:11:24,Welfare Check,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2023-00023469,06/27/2023 17:36:21,Suicide/Attempt,0,41.415732149,-75.665217953

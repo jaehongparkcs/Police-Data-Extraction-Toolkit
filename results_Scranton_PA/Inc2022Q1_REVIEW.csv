@@ -1,0 +1,7 @@
+_needs_review,_review_reason,Incident ORI,Incident Number,Incident Date And Time,Incident Type,Incident Address,Incident Address Latitude,Incident Address Longitude
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00002047,01/22/2022 05:04:16,Traffic Stop,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00004545,02/12/2022 20:42:22,Traffic Stop,0,41.415732149,-75.665217953
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00004718,02/14/2022 16:12:06,Motor Vehicle Crash,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00006215,02/27/2022 20:57:19,Suicide/Attempt,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00007591,03/11/2022 15:56:18,Motor Vehicle Crash,0,41.39968,-75.65174
+YES,"'Incident Address' expected text, has number",PA0350400,2022-00008644,03/19/2022 21:30:45,Welfare Check,0,41.39968,-75.65174

@@ -20,7 +20,7 @@ Requirements:
 
 import argparse
 import re
-from collections import defaultdict
+from collections import defaultdict, Counter
 from pathlib import Path
 
 import pandas as pd
@@ -124,6 +124,29 @@ def _detect_columns(words, header_y):
     if not header_words:
         return []
 
+    # Repair shattered headers: some PDFs render a column name with spurious
+    # spaces inside it ("C ALL _ NO" for "CALL_NO", "U NIT" for "UNIT"), so
+    # the header arrives as many fragments.  Adjacent fragments that touch or
+    # overlap (gap <= ~2px) are pieces of one word — glue them back together
+    # before analysing column gaps.  Clean headers have no such near-zero
+    # gaps between separate words, so they're unaffected.
+    joined = []
+    cur = dict(header_words[0])
+    for nxt in header_words[1:]:
+        gap = nxt["x0"] - cur["x1"]
+        if gap <= 2:
+            cur = {
+                "text": cur["text"] + nxt["text"],
+                "x0": cur["x0"],
+                "x1": nxt["x1"],
+                "top": cur.get("top", header_y),
+            }
+        else:
+            joined.append(cur)
+            cur = dict(nxt)
+    joined.append(cur)
+    header_words = joined
+
     gaps = []
     for i in range(len(header_words) - 1):
         gaps.append(header_words[i + 1]["x0"] - header_words[i]["x1"])
@@ -162,6 +185,195 @@ def _detect_columns(words, header_y):
         i += 1
 
     return columns
+
+
+def _refine_column_starts(columns, words, header_y, snap_tol=22, min_frac=0.4):
+    """Refine each column's start x by snapping it to where the DATA
+    actually begins, not just where the header sits.
+
+    Some PDFs position headers offset from their left-aligned data (e.g.
+    a header centered a few px right of the values below it).  Using the
+    header x as the column edge then misassigns words.  We find the
+    x-positions where many data rows have a word starting — those recurring
+    "start stacks" are the true column left-edges — and snap each header
+    column to the nearest such cluster.
+
+    Safety: this only REFINES; it never adds or removes columns.  A column
+    snaps only when a strong cluster sits near its header AND within the
+    midpoint to its neighbours (so a snap can't cross into an adjacent
+    column).  Columns with no nearby cluster keep their header position, so
+    formats where headers already align with data (or where data doesn't
+    stack cleanly, like rect-based tables) are unchanged.
+    """
+    yg = defaultdict(list)
+    for w in words:
+        if w["top"] > header_y + 3:
+            yg[round(w["top"])].append(w)
+    n_rows = len(yg)
+    if n_rows < 5 or len(columns) < 2:
+        return columns  # not enough data to cluster reliably
+
+    # Count, per 2px bucket, how many rows have a word starting there.
+    starts = Counter()
+    for ws in yg.values():
+        seen = set()
+        for w in ws:
+            b = round(w["x0"] / 2) * 2
+            if b not in seen:
+                starts[b] += 1
+                seen.add(b)
+    thresh = max(3, n_rows * min_frac)
+    strong = {x: c for x, c in starts.items() if c >= thresh}
+    if not strong:
+        return columns  # no clear stacks (e.g. rect-based/packed tables)
+
+    hdr_starts = [xs for _, xs, _ in columns]
+    refined = []
+    prev_start = None
+    for i, (name, xs, xe) in enumerate(columns):
+        # A valid cluster for this column sits to the RIGHT of the previous
+        # column's chosen start (plus a small margin so columns stay
+        # ordered) and to the LEFT of the next column's header start (so a
+        # snap can't jump into the next column).  Using the previous
+        # *refined* start — not the header midpoint — lets a whole row of
+        # columns shift left together when the data is offset from the
+        # headers, which the midpoint rule would wrongly block.
+        lo = (prev_start + 4) if prev_start is not None else xs - snap_tol
+        hi = hdr_starts[i + 1] - 4 if i + 1 < len(columns) else xs + snap_tol
+        candidates = [
+            (abs(cx - xs), cx) for cx in strong
+            if abs(cx - xs) <= snap_tol and lo <= cx <= hi
+        ]
+        if candidates:
+            candidates.sort()
+            chosen = float(candidates[0][1])
+        else:
+            chosen = xs
+        refined.append((name, chosen, xe))
+        prev_start = chosen
+    return refined
+
+
+def _cluster_column_starts(words, top_cut, min_frac=0.4):
+    """Recurring word-start x-positions across data rows = column edges.
+
+    Counts, per 2px bucket, how many rows start a word there; keeps buckets
+    recurring in >= min_frac of rows.  Robust to tight vs wide spacing
+    because it counts start-stacks, not gaps.  Returns (edges, n_rows).
+    """
+    yg = defaultdict(list)
+    for w in words:
+        if w["top"] > top_cut:
+            yg[round(w["top"])].append(w)
+    n = len(yg)
+    if n < 5:
+        return [], n
+    starts = Counter()
+    for ws in yg.values():
+        seen = set()
+        for w in ws:
+            b = round(w["x0"] / 2) * 2
+            if b not in seen:
+                starts[b] += 1
+                seen.add(b)
+    thresh = max(3, n * min_frac)
+    strong = sorted(x for x, c in starts.items() if c >= thresh)
+    merged = []
+    for x in strong:
+        if merged and x - merged[-1] <= 4:
+            continue
+        merged.append(x)
+    return merged, n
+
+
+def _cluster_is_date_like(words, top_cut, x, tol=6):
+    """True if the words starting near x are mostly dates (M/D/YY[YY])."""
+    vals = []
+    yg = defaultdict(list)
+    for w in words:
+        if w["top"] > top_cut:
+            yg[round(w["top"])].append(w)
+    for ws in yg.values():
+        for w in ws:
+            if abs(w["x0"] - x) <= tol:
+                vals.append(w["text"])
+                break
+    if len(vals) < 3:
+        return False
+    hits = sum(1 for v in vals
+               if re.match(r"\d{1,2}/\d{1,2}/\d{2,4}", v))
+    return hits >= len(vals) * 0.6
+
+
+def _align_columns_by_order(columns, words, header_y, data_cutoff):
+    """Align the canonical column schema to THIS page's data clusters by
+    ORDER, not absolute position.
+
+    Every page of a given report has its columns in the same left-to-right
+    order, but the absolute x-positions can shift page to page (different
+    render scale/offset).  Matching by order is therefore reliable where
+    matching by position is not.
+
+    Handled shapes:
+      - exactly len(schema) clusters      → 1:1 by order.
+      - len(schema)+1 clusters AND the surplus stack (position 2) is
+        date-like → the time and date are two stacks of one When-Reported-
+        style column; fold them together.
+    Any other shape (surplus not a date, wrong count, no clusters) returns
+    None so the caller falls back to header-based refinement — this is what
+    keeps single-layout departments (whose surplus stacks are wrapped text,
+    not dates) from being mis-aligned.
+    """
+    top_cut = header_y if data_cutoff >= 0 else (
+        min((w["top"] for w in words), default=header_y) - 1)
+    clusters, n = _cluster_column_starts(words, top_cut)
+    schema = [c for c in columns]
+    nC, nS = len(clusters), len(schema)
+    if nC < 2 or nS < 2:
+        return None
+
+    if nC == nS:
+        # Sanity check: 1:1 by order is only trustworthy if each cluster
+        # lands reasonably near the header column it maps to.  When a
+        # multi-word value (e.g. a 3-word address) splits into several
+        # clusters, the count can coincidentally still equal nS but the
+        # mapping is wrong — a cluster ends up far from its header.  If the
+        # median mapping error is large, refuse (fall back to header-based
+        # refinement) rather than emit a scrambled mapping.
+        hdr_starts = [c[1] for c in schema]
+        errors = sorted(abs(clusters[i] - hdr_starts[i]) for i in range(nS))
+        median_err = errors[nS // 2]
+        # Allow a global offset (whole table shifted) but not per-column
+        # chaos: compare against the SHIFTED headers too.
+        offset = clusters[0] - hdr_starts[0]
+        shifted_err = sorted(
+            abs(clusters[i] - (hdr_starts[i] + offset)) for i in range(nS))
+        median_shifted = shifted_err[nS // 2]
+        if min(median_err, median_shifted) > 60:
+            return None
+        return [(schema[i][0], float(clusters[i]), float(clusters[i]))
+                for i in range(nS)]
+
+    if nC == nS + 1:
+        # Only accept the surplus if it's the date splitting off the time:
+        # the 3rd cluster (index 2) must be date-like, and the 2nd column
+        # of the schema is the one that carries dates/times.
+        second_name = schema[1][0].lower()
+        second_is_datey = any(k in second_name
+                              for k in ("date", "time", "reported",
+                                        "occurred", "received"))
+        if second_is_datey and _cluster_is_date_like(words, top_cut,
+                                                      clusters[2]):
+            # time (clusters[1]) and date (clusters[2]) both -> column 2;
+            # the rest map in order.
+            cols = [(schema[0][0], float(clusters[0]), float(clusters[0])),
+                    (schema[1][0], float(clusters[1]), float(clusters[1]))]
+            for name, cx in zip([s[0] for s in schema[2:]], clusters[3:]):
+                cols.append((name, float(cx), float(cx)))
+            return cols
+        return None
+
+    return None
 
 
 def parse_page_words(page, col_info=None):
@@ -223,13 +435,27 @@ def parse_page_words(page, col_info=None):
                     col_info = (header_y, columns)
                 break
 
-    # Build column ranges: each column starts at its header's x_start
-    # and ends where the next column's header starts.
+    # Determine this page's column boundaries.  First try order-based
+    # alignment to the page's own data clusters — this adapts to layouts
+    # whose absolute x-positions drift page-to-page (or gain/lose the date
+    # column) while keeping the columns matched by their left-to-right
+    # order.  It self-guards: it only returns columns when the cluster
+    # count matches the schema (or is schema+1 with a genuine date surplus),
+    # otherwise None.  On None we fall back to header positions + light
+    # refinement, so single-layout departments are unchanged.
+    aligned = _align_columns_by_order(columns, words, header_y, data_cutoff)
+    if aligned is not None:
+        columns = aligned
+    else:
+        columns = _refine_column_starts(columns, words, header_y)
+
+    # Build column ranges: each column starts at its (refined) x_start
+    # and ends where the next column's start begins.
     col_ranges = []
     for i, (name, x_start, x_end) in enumerate(columns):
         x_left = x_start - 3  # small left buffer
         if i + 1 < len(columns):
-            x_right = columns[i + 1][1] - 1  # just before next header
+            x_right = columns[i + 1][1] - 1  # just before next column start
         else:
             x_right = page.width + 50
         col_ranges.append((name, x_left, x_right))
@@ -374,7 +600,22 @@ def parse_page_words(page, col_info=None):
             has_space = _has_space_between(y, prev["x1"], w["x0"])
             gap = w["x0"] - prev["x1"]
 
-            if has_space and gap < 40:
+            # HIGHEST PRIORITY: hard x-alignment.  In a real table each
+            # column's data starts at exactly its header's x-position, so a
+            # word beginning right under a header start (within tol) belongs
+            # to THAT column.  We apply this only when the word is NOT joined
+            # to the previous word by a real space glyph — a connecting
+            # space means genuine wrapped/overflow text that should stay in
+            # the current cell (e.g. "*NO PAPERS (INSUFFICIENT ...)").  This
+            # targets the fusion case (a later-column value with its own
+            # start position butting against the previous value) without
+            # disturbing wrapped text.
+            aligned = _starts_at_col(w["x0"], tol=3)
+            if (aligned is not None and aligned != current_col
+                    and not has_space):
+                current_col = aligned
+                row[col_ranges[current_col][0]].append(w["text"])
+            elif has_space and gap < 40:
                 # A real space glyph joins this word to the previous one
                 # with normal spacing → same cell's overflow text.  Keep
                 # it in the current column regardless of X drift.
@@ -496,6 +737,216 @@ def _deinterleave_pass(rows):
             row[date_col] = fx["date"]
         if fx["address"]:
             row[addr_col] = fx["address"]
+    return rows
+
+
+def _split_priority_location_pass(rows):
+    """Split a fused priority+location column into its two fields.
+
+    In some calls-for-service formats the single-digit Priority column
+    (values 1-4) is printed with no gap before the Location, so pdfplumber
+    emits one fused token per row and the whole location lands in the
+    priority column with the location column left empty, e.g.:
+
+        P = "41359 W SIXTH ST"      Location = ""
+            ^ priority 4, location "1359 W SIXTH ST"
+
+    When we can see a priority column (short header, its values are a
+    single digit 1-4 fused to more text) directly followed by an EMPTY
+    location column, we peel the leading digit into priority and move the
+    rest into location.
+
+    Strongly guarded so it only fires on this specific shape:
+      - a column whose header is a short priority-ish name (P / Pri / Prio
+        / Priority), immediately followed by a location/address column;
+      - most of the priority column's values look like "<1-4><more>";
+      - the following location column is empty on those rows.
+    Any of these failing → the table is left untouched.
+    """
+    if not rows:
+        return rows
+    cols = list(rows[0].keys())
+    data_cols = [c for c in cols if not c.startswith("_")]
+
+    # Find a priority column immediately followed by a location column.
+    pri_col = loc_col = None
+    for i, c in enumerate(data_cols[:-1]):
+        cl = c.strip().lower()
+        if cl in ("p", "pri", "prio", "priority", "pty", "prty"):
+            nxt = data_cols[i + 1]
+            if any(k in nxt.lower() for k in ("location", "address", "street")):
+                pri_col, loc_col = c, nxt
+                break
+    if pri_col is None:
+        return rows
+
+    # Confirm the fusion shape on the data before touching anything:
+    # most priority values are "<digit 1-4><more text>", and the location
+    # column is empty on those rows.
+    fused_re = re.compile(r"^([1-4])(\S.*)$")
+    n_checked = n_fused = 0
+    for r in rows:
+        pv = str(r.get(pri_col, "")).strip()
+        if not pv:
+            continue
+        n_checked += 1
+        if fused_re.match(pv) and not str(r.get(loc_col, "")).strip():
+            n_fused += 1
+    if n_checked == 0 or n_fused < n_checked * 0.6:
+        return rows  # not this fusion pattern — leave it alone
+
+    # Apply the split only on rows matching the fused shape with empty loc.
+    for r in rows:
+        pv = str(r.get(pri_col, "")).strip()
+        if not pv or str(r.get(loc_col, "")).strip():
+            continue
+        m = fused_re.match(pv)
+        if not m:
+            continue
+        r[pri_col] = m.group(1)
+        r[loc_col] = m.group(2).strip()
+    return rows
+
+
+def _split_merged_datetime_code_column(rows):
+    """Split a column whose HEADER merged a datetime column with a trailing
+    short-code column (e.g. header "When Reported Typ" holding values like
+    "00:01:57 l 09/01/19").
+
+    When two headers are printed with tight, even spacing, header detection
+    can merge them into one column — the geometry gives no boundary to split
+    on (see notes in _detect_columns).  But the merged column's NAME still
+    lists both, and its VALUES follow "<time> <code> <date>".  We detect
+    that shape and split it into the datetime column (time + date) and a new
+    code column, inserted right after, named from the trailing word(s) of
+    the merged header.
+
+    Guarded: fires only when the column name contains a datetime word
+    followed by a short trailing word, AND most values match
+    "<time> <code> <date>" with a consistent small code vocabulary.
+    """
+    if not rows:
+        return rows
+    cols = [c for c in rows[0].keys() if not c.startswith("_")]
+
+    # Find a merged "datetime ... <code-name>" column by its header name.
+    target = None
+    for c in cols:
+        parts = c.split()
+        if len(parts) < 2:
+            continue
+        has_dt = any(k in c.lower() for k in ("when", "date", "time",
+                                              "reported", "occurred"))
+        # trailing word short & alphabetic (a code header like "Typ")
+        if has_dt and parts[-1].isalpha() and len(parts[-1]) <= 4:
+            target = c
+            break
+    if target is None:
+        return rows
+
+    pat = re.compile(
+        r"^(\d{1,2}:\d{2}(?::\d{2})?)\s+([A-Za-z]{1,3})\s+"
+        r"(\d{1,2}/\d{1,2}/\d{2,4})$"
+    )
+    # Verify most non-empty values fit the time-code-date shape.
+    nonempty = [str(r.get(target, "")).strip() for r in rows
+                if str(r.get(target, "")).strip()]
+    if not nonempty:
+        return rows
+    matches = [pat.match(v) for v in nonempty]
+    if sum(1 for m in matches if m) < len(nonempty) * 0.6:
+        return rows
+
+    # Build the two replacement column names.
+    name_parts = target.split()
+    code_name = name_parts[-1]
+    dt_name = " ".join(name_parts[:-1])
+
+    # Rebuild each row's dict, replacing the merged column with two.
+    new_rows = []
+    for r in rows:
+        raw = str(r.get(target, "")).strip()
+        m = pat.match(raw)
+        if m:
+            dt_val = f"{m.group(1)} {m.group(3)}"
+            code_val = m.group(2)
+        else:
+            # leave unmatched values in the datetime column, code empty
+            dt_val = raw
+            code_val = ""
+        new = {}
+        for k, v in r.items():
+            if k == target:
+                new[dt_name] = dt_val
+                new[code_name] = code_val
+            else:
+                new[k] = v
+        new_rows.append(new)
+    return new_rows
+
+
+def _extract_code_stranded_in_datetime(rows):
+    """Recover a short column value that got captured inside a datetime.
+
+    On some rows a narrow single-token column (e.g. a Typ code "l"/"f"/"lf")
+    is rendered between the time and the date and ends up swept into the
+    date/time column, producing values like:
+
+        When Reported = "16:16:26 f 09/01/19"   Typ = ""
+                                  ^ Typ code stranded between time and date
+
+    When we can see a datetime-style column immediately followed by a short
+    code column, and a row shows "<time> <code> <date>" in the datetime
+    field with the code column empty, we pull the code back into its column
+    and leave a clean "<time> <date>" behind.
+
+    Guarded tightly: fires only when the middle token is one of the code
+    column's OWN observed values (learned from the rows where that column
+    is populated), so it can't misfire on unrelated text.
+    """
+    if not rows:
+        return rows
+    cols = [c for c in rows[0].keys() if not c.startswith("_")]
+
+    # Find a datetime-ish column immediately followed by a short-code column.
+    dt_col = code_col = None
+    for i, c in enumerate(cols[:-1]):
+        cl = c.lower()
+        if any(k in cl for k in ("when", "date", "time", "reported",
+                                 "occurred", "received")):
+            dt_col, code_col = c, cols[i + 1]
+            break
+    if dt_col is None:
+        return rows
+
+    # Learn the code column's vocabulary from rows where it's populated and
+    # short (a code, not free text).
+    vocab = Counter()
+    for r in rows:
+        v = str(r.get(code_col, "")).strip()
+        if 0 < len(v) <= 3 and v.isalpha():
+            vocab[v.lower()] += 1
+    if not vocab:
+        return rows
+    # Any code the column genuinely uses is valid vocabulary.  The
+    # "<time> <code> <date>" pattern is already highly specific, so a
+    # single confirmed occurrence is enough to trust the code.
+    known = set(vocab)
+
+    pat = re.compile(
+        r"^(\d{1,2}:\d{2}(?::\d{2})?)\s+([A-Za-z]{1,3})\s+"
+        r"(\d{1,2}/\d{1,2}/\d{2,4})$"
+    )
+    for r in rows:
+        if str(r.get(code_col, "")).strip():
+            continue  # code column already has a value — don't touch
+        m = pat.match(str(r.get(dt_col, "")).strip())
+        if not m:
+            continue
+        if m.group(2).lower() not in known:
+            continue
+        r[dt_col] = f"{m.group(1)} {m.group(3)}"
+        r[code_col] = m.group(2)
     return rows
 
 
@@ -634,6 +1085,21 @@ def _profile_columns(rows):
                 if nonword >= len(sample_toks) * 0.08:
                     name_like = True
 
+        # Detect "date-like" columns by CONTENT, not just header name.
+        # A column whose values are mostly dates and/or times legitimately
+        # holds timestamps, so a date/time appearing in it is NOT a leak.
+        # This covers headers like "When Reported", "Occurred", "Received"
+        # that don't contain the literal words "date"/"time".
+        date_like = False
+        date_hits = 0
+        for v in nonempty[:100]:
+            if re.search(r"\d{1,2}[/\-]\d{1,2}[/\-]\d{2,4}", v) or \
+               re.search(r"\b\d{1,2}:\d{2}(:\d{2})?\b", v):
+                date_hits += 1
+        checked = min(len(nonempty), 100)
+        if checked and date_hits >= checked * 0.7:
+            date_like = True
+
         profile[col] = {
             "lengths": lengths,
             "median_len": lengths[len(lengths) // 2],
@@ -641,6 +1107,7 @@ def _profile_columns(rows):
             "numeric_frac": numeric / len(nonempty),
             "fill_frac": len(nonempty) / len(vals),
             "name_like": name_like,
+            "date_like": date_like,
         }
     return profile
 
@@ -729,8 +1196,13 @@ def flag_rows(rows, profile=None):
 
         # 6. Cross-column leak: a non-date column that contains an
         #    embedded date+time pattern (another column's value bled in).
+        #    Skip columns that legitimately hold dates/times — either by
+        #    header name OR by content (e.g. "When Reported"), since a
+        #    timestamp there is expected data, not a leak.
         for col in cols:
             if "date" in col.lower() or "time" in col.lower():
+                continue
+            if profile.get(col, {}).get("date_like"):
                 continue
             val = str(row.get(col, "")).strip()
             if re.search(r"\bat\s+\d{1,2}:\d{2}", val) or \
@@ -826,6 +1298,144 @@ def flag_rows(rows, profile=None):
 #  DRIVER
 # ══════════════════════════════════════════════════════════════════════════
 
+def _apply_post_passes(all_rows):
+    """Run the deterministic clean-up passes over a batch of parsed rows.
+
+    Shared by the whole-document path (process_pdf) and the chunked path
+    (process_pdf_streaming) so both produce identical output.  Each pass is
+    a no-op on formats it doesn't apply to.
+    """
+    all_rows = _merge_multiline_records(all_rows)
+    all_rows = _split_merged_datetime_code_column(all_rows)
+    all_rows = _split_priority_location_pass(all_rows)
+    all_rows = _extract_code_stranded_in_datetime(all_rows)
+    all_rows = _deinterleave_pass(all_rows)
+    return all_rows
+
+
+def process_pdf_streaming(pdf_path, out_dir, chunk_size=10000):
+    """Memory-bounded processing for very large PDFs.
+
+    Parses the document in page-batches of `chunk_size`, running the post-
+    passes and writing to the CSV incrementally, so peak memory stays flat
+    regardless of page count.  A small overlap of trailing rows is carried
+    between batches so a multi-line record wrapping across a batch boundary
+    still merges correctly.
+
+    Only used for documents above the page threshold; smaller ones go
+    through process_pdf() unchanged.  Returns (csv_path, total_rows,
+    total_flagged).
+    """
+    import csv as _csv
+
+    print(f"[OPEN] {pdf_path.name} ({pdf_path.stat().st_size / 1e6:.1f} MB)")
+    csv_path = out_dir / f"{pdf_path.stem}.csv"
+    review_path = out_dir / f"{pdf_path.stem}_REVIEW.csv"
+    OVERLAP = 12  # trailing rows carried between chunks for cross-boundary merge
+
+    with pdfplumber.open(str(pdf_path)) as pdf:
+        n_pages = len(pdf.pages)
+        v_lines, h_lines = _get_table_lines(pdf.pages[0])
+        use_rects = v_lines is not None
+        print(f"  [Strategy] {'rect-based' if use_rects else 'word-position'}"
+              f"  [Streaming] {n_pages} pages in {chunk_size}-page chunks")
+
+        col_info = None
+        header_names = None
+        csv_f = review_f = None
+        writer = review_writer = None
+        total_rows = total_flagged = 0
+        carry = []           # overlap rows from previous chunk (not yet final)
+
+        for start in range(0, n_pages, chunk_size):
+            end = min(start + chunk_size, n_pages)
+            batch_rows = []
+            for page_idx in range(start, end):
+                page = pdf.pages[page_idx]
+                try:
+                    if use_rects:
+                        table = parse_page_rects(page, v_lines, h_lines)
+                        if table:
+                            if header_names is None:
+                                header_names = table[0]
+                                data = table[1:]
+                            else:
+                                data = table
+                                if data and data[0] == header_names:
+                                    data = data[1:]
+                            for row_vals in data:
+                                if any(v for v in row_vals if v and v.strip()):
+                                    batch_rows.append(
+                                        dict(zip(header_names, row_vals)))
+                    else:
+                        rows, col_info = parse_page_words(page, col_info)
+                        batch_rows.extend(rows)
+                except Exception as e:
+                    print(f"  [ERR] Page {page_idx + 1}: {e}")
+                try:
+                    page.flush_cache()          # release cached layout
+                    page.get_textmap.cache_clear()
+                except Exception:
+                    pass
+                if (page_idx + 1) % 500 == 0:
+                    print(f"  ...page {page_idx + 1}/{n_pages}")
+
+            # Run passes on carry + this batch so a record split across the
+            # boundary merges.  Then hold back the last OVERLAP rows as the
+            # next carry (they might still gain a continuation line).
+            processed = _apply_post_passes(carry + batch_rows)
+            is_last = end >= n_pages
+            if is_last:
+                emit, carry = processed, []
+            elif len(processed) > OVERLAP:
+                emit, carry = processed[:-OVERLAP], processed[-OVERLAP:]
+            else:
+                emit, carry = [], processed
+
+            if emit:
+                data_cols = [c for c in emit[0].keys()
+                             if not c.startswith("_")]
+                if writer is None:
+                    csv_f = open(csv_path, "w", newline="", encoding="utf-8")
+                    writer = _csv.DictWriter(
+                        csv_f,
+                        fieldnames=["_needs_review", "_review_reason"] + data_cols,
+                        extrasaction="ignore")
+                    writer.writeheader()
+                flags = dict(flag_rows(emit))
+                for i, row in enumerate(emit):
+                    reasons = flags.get(i)
+                    out = dict(row)
+                    out["_needs_review"] = "YES" if reasons else ""
+                    out["_review_reason"] = "; ".join(reasons) if reasons else ""
+                    writer.writerow(out)
+                    total_rows += 1
+                    if reasons:
+                        if review_writer is None:
+                            review_f = open(review_path, "w", newline="",
+                                            encoding="utf-8")
+                            review_writer = _csv.DictWriter(
+                                review_f,
+                                fieldnames=["row_number", "reasons"] + data_cols,
+                                extrasaction="ignore")
+                            review_writer.writeheader()
+                        rr = {"row_number": total_rows, "reasons": out["_review_reason"]}
+                        rr.update(row)
+                        review_writer.writerow(rr)
+                        total_flagged += 1
+                csv_f.flush()
+            print(f"  ...chunk {start // chunk_size + 1}: pages "
+                  f"{start + 1}-{end}, {total_rows} rows so far")
+
+        if csv_f:
+            csv_f.close()
+        if review_f:
+            review_f.close()
+
+    print(f"  [Done] {total_rows} rows (streamed), {total_flagged} flagged")
+    return csv_path, total_rows, total_flagged
+
+
 def process_pdf(pdf_path: Path, max_pages: int = 0):
     """Process a single tabular PDF."""
     print(f"[OPEN] {pdf_path.name} ({pdf_path.stat().st_size / 1e6:.1f} MB)")
@@ -882,16 +1492,9 @@ def process_pdf(pdf_path: Path, max_pages: int = 0):
         elif col_info:
             print(f"  [Columns] {[c[0] for c in col_info[1]]}")
 
-    # Merge multi-line records across the whole document (handles
-    # records that wrap across a page break).  Auto-detects whether the
-    # format is multi-line; single-line tables pass through unchanged.
-    all_rows = _merge_multiline_records(all_rows)
-
-    # Deterministic de-interleave post-pass: repair address/date pixel
-    # collisions (e.g. "3A/V6E/2022" -> "AVE" + "3/6/2022") so this
-    # defect never reaches the CSV.  Only writes verifiably-clean values;
-    # deeply-tangled cases are left for the review flagger to catch.
-    all_rows = _deinterleave_pass(all_rows)
+    # Deterministic clean-up passes (each a no-op on formats it doesn't
+    # apply to).  Shared with the streaming path so output is identical.
+    all_rows = _apply_post_passes(all_rows)
 
     print(f"  [Done] {len(all_rows)} rows")
     return all_rows
@@ -910,6 +1513,11 @@ def main():
     ap.add_argument("state", help="Two-letter state code (e.g. CA, OH, WA)")
     ap.add_argument("--pages", type=int, default=0,
                     help="Process only first N pages per PDF (0 = all)")
+    ap.add_argument("--chunk-size", type=int, default=10000,
+                    help="Documents with more than this many pages are "
+                         "streamed to CSV in page-chunks of this size to "
+                         "bound memory (default 10000). Smaller documents "
+                         "are unaffected.")
     ap.add_argument("--no-master", action="store_true",
                     help="Skip generating the combined MASTER CSV")
     args = ap.parse_args()
@@ -940,6 +1548,37 @@ def main():
     total_flagged = 0
 
     for pdf_path in pdfs:
+        # For very large documents, stream in page-chunks to bound memory.
+        # Small documents (the vast majority) take the unchanged in-memory
+        # path and produce byte-for-byte identical output.
+        try:
+            with pdfplumber.open(str(pdf_path)) as _probe:
+                n_pages = len(_probe.pages)
+        except Exception as e:
+            print(f"  [ERR] {pdf_path.name}: {e}")
+            failed.append(pdf_path.name)
+            continue
+
+        if args.pages == 0 and n_pages > args.chunk_size:
+            try:
+                csv_path, n_rows, n_flagged = process_pdf_streaming(
+                    pdf_path, out_dir, chunk_size=args.chunk_size)
+            except Exception as e:
+                print(f"  [ERR] {pdf_path.name}: {e}")
+                failed.append(pdf_path.name)
+                continue
+            total_flagged += n_flagged
+            flag_note = f", {n_flagged} flagged" if n_flagged else ""
+            print(f"  [CSV] {csv_path.name} ({n_rows} rows, streamed"
+                  f"{flag_note})\n")
+            succeeded.append((pdf_path.name, n_rows, n_flagged))
+            # Streamed files are too large to fold into an in-memory MASTER;
+            # note it and skip.
+            if not args.no_master:
+                print("  [note] streamed file omitted from MASTER "
+                      "(too large to combine in memory)\n")
+            continue
+
         try:
             rows = process_pdf(pdf_path, max_pages=args.pages)
         except Exception as e:
